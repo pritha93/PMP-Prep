@@ -1,0 +1,296 @@
+<title>Lodestar Exam Simulator</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Fraunces:opsz,wght@9..144,600&display=swap">
+<style>
+/* Layout: one exam column; setup screen, exam screen with header bar, results screen */
+:root{--bg:#f3f5f8;--surface:#fff;--ink:#18212e;--muted:#566275;--line:#d9dee6;--accent:#2747b8;--accent-soft:#e6ebfa;--good:#1d7a4c;--good-soft:#e2f3ea;--bad:#b4372b;--bad-soft:#f8e5e2;--warn:#9a5b00;--warn-soft:#fbefd9;
+--display:"Fraunces",Georgia,serif;--body:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11161e;--surface:#19202b;--ink:#e7ebf2;--muted:#9aa5b6;--line:#2c3543;--accent:#8ea6ff;--accent-soft:#232e4d;--good:#5fcf95;--good-soft:#173527;--bad:#f08a7e;--bad-soft:#3d1f1c;--warn:#f0b35a;--warn-soft:#3a2c14;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#11161e;--surface:#19202b;--ink:#e7ebf2;--muted:#9aa5b6;--line:#2c3543;--accent:#8ea6ff;--accent-soft:#232e4d;--good:#5fcf95;--good-soft:#173527;--bad:#f08a7e;--bad-soft:#3d1f1c;--warn:#f0b35a;--warn-soft:#3a2c14;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:780px;margin:0 auto;padding-block:26px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(28px,5vw,36px);line-height:1.1;margin:0;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)} p{margin:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;display:grid;gap:14px;min-width:0}
+.modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.mode{border:1px solid var(--line);border-radius:8px;padding:14px;display:grid;gap:8px;align-content:start;background:var(--surface)}
+.mode b{font-weight:600}
+.btn{font:inherit;font-weight:500;border-radius:8px;padding:10px 16px;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--ink);min-height:44px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.btn[disabled]{opacity:.45;cursor:default}
+.btn:focus-visible,.opt:focus-visible,.dot:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.notice{background:var(--warn-soft);color:var(--ink);border:1px solid var(--warn);border-radius:8px;padding:10px 14px;font-size:14px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px}
+.clock{font-size:18px;font-variant-numeric:tabular-nums}
+.tag{padding:3px 8px;border-radius:4px;background:var(--accent-soft);color:var(--accent);font-family:var(--mono);font-size:12px}
+.stem{font-size:17px}
+.opts{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.opt{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start;width:100%;text-align:left;font:inherit;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;cursor:pointer}
+.opt:hover:not([disabled]){border-color:var(--accent)}
+.letter{font-family:var(--mono);font-size:13px;width:26px;height:26px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;color:var(--muted)}
+.opt.sel{border-color:var(--accent);background:var(--accent-soft)}
+.opt.sel .letter{border-color:var(--accent);color:var(--accent)}
+.opt.correct{border-color:var(--good);background:var(--good-soft)}.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt[disabled]{cursor:default}
+.nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between}
+.map{display:flex;flex-wrap:wrap;gap:6px}
+.dot{width:40px;height:40px;border-radius:6px;border:1px solid var(--line);background:var(--surface);font-family:var(--mono);font-size:12px;color:var(--ink);cursor:pointer;position:relative}
+.dot.ans{background:var(--accent-soft);border-color:var(--accent)}
+.dot.flag::after{content:"";position:absolute;top:3px;right:3px;width:8px;height:8px;border-radius:50%;background:var(--warn)}
+.dot.here{outline:2px solid var(--accent);outline-offset:2px}
+.dot.ok{background:var(--good-soft);border-color:var(--good)}.dot.no{background:var(--bad-soft);border-color:var(--bad)}
+.scores{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.score{border:1px solid var(--line);border-radius:8px;padding:12px;display:grid;gap:6px}
+.val{font-family:var(--mono);font-size:22px;font-variant-numeric:tabular-nums}
+.meter{height:6px;border-radius:3px;background:var(--line);overflow:hidden}.meter span{display:block;height:100%;background:var(--accent)}
+.rev{border-top:1px solid var(--line);padding-top:12px;display:grid;gap:6px}
+.big{font-family:var(--display);font-size:40px;line-height:1}
+.plan ol{margin:0;padding-left:20px;display:grid;gap:12px}
+.plan li b{font-weight:600}.plan ul{margin:4px 0 0;padding-left:18px;color:var(--muted);font-size:14px}
+.hist{display:flex;gap:6px;flex-wrap:wrap;font-family:var(--mono);font-size:12px;color:var(--muted)}
+[hidden]{display:none!important}
+</style>
+
+<div class="wrap">
+ <header style="display:grid;gap:6px">
+  <div class="eyebrow">Milestone 2 · Question bank and mock sittings</div>
+  <h1>Lodestar Exam Simulator</h1>
+  <p class="muted" id="bankline">Loading question bank…</p>
+ </header>
+
+ <section id="setup" class="card">
+  <h2>Choose a sitting</h2>
+  <div class="modes">
+   <div class="mode"><b>Full mock sitting</b>
+    <p class="muted" style="font-size:14px">The real format: 180 questions, 230 minutes, two optional 10-minute breaks after question 60 and question 120. Questions are fixed in advance and are not adaptive. Split 42% People, 50% Process, 8% Business Environment.</p>
+    <button class="btn primary" id="startFull" type="button">Start full sitting</button></div>
+   <div class="mode"><b>Half sitting</b>
+    <p class="muted" style="font-size:14px">90 questions in 115 minutes, one break after question 45. A shorter run with the same split.</p>
+    <button class="btn" id="startHalf" type="button">Start half sitting</button></div>
+   <div class="mode"><b>Adaptive practice</b>
+    <p class="muted" style="font-size:14px">30 questions with instant feedback. Difficulty rises after a correct answer and falls after a wrong one. This is a study aid, not how the real exam works.</p>
+    <button class="btn" id="startAdapt" type="button">Start adaptive practice</button></div>
+  </div>
+  <div class="mode" id="weakmode" hidden><b>Weak-area drill</b>
+    <p class="muted" style="font-size:14px" id="weaktxt"></p>
+    <button class="btn" id="startWeak" type="button">Start weak-area drill</button></div>
+  <div class="notice" id="sizenote" hidden></div>
+  <p class="muted" style="font-size:14px">Questions use the Lodestar project case and general PMP content. Answers and explanations appear after you finish a sitting, so you cannot peek during it.</p>
+ </section>
+
+ <section id="exam" hidden>
+  <div class="bar"><span id="qpos"></span><span class="clock" id="clock" aria-live="off"></span><span id="phase" class="muted"></span><button class="btn" id="endBtn" type="button" style="min-height:36px;padding:6px 12px">End sitting</button></div>
+  <div class="card" style="margin-top:14px">
+   <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="tag" id="qdom"></span><button class="btn" id="flagBtn" type="button" style="min-height:36px;padding:6px 12px">Flag for review</button></div>
+   <p class="stem" id="qstem"></p>
+   <ul class="opts" id="qopts"></ul>
+   <p id="qfb" class="muted" hidden></p>
+   <div class="nav"><button class="btn" id="prev" type="button">Previous</button><button class="btn primary" id="next" type="button">Next</button></div>
+  </div>
+  <div class="card" style="margin-top:14px"><h2>Question map</h2><div class="map" id="map"></div><p class="muted" style="font-size:13px">Blue means answered. An orange dot means flagged.</p></div>
+ </section>
+
+ <section id="brk" class="card" hidden>
+  <h2>Break</h2><p>You have a 10-minute break. The exam clock is paused. You may skip it.</p>
+  <p class="clock" id="brkclock"></p>
+  <button class="btn primary" id="endBrk" type="button">Resume exam</button>
+ </section>
+
+ <section id="result" hidden style="display:grid;gap:14px">
+  <div class="card"><div class="eyebrow">Result</div><div class="big" id="rscore"></div><p class="muted" id="rsub"></p><div class="scores" id="rdom"></div>
+   <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn primary" id="again" type="button">New sitting</button></div></div>
+  <div class="card plan" id="plan"></div>
+  <div class="card"><h2>Review answers</h2><div class="map" id="rmap"></div><div id="rev"></div></div>
+ </section>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const FILES=["bank1.json"];
+let BANK=[];
+const TARGET={People:.42,Process:.50,"Business Environment":.08};
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function shuffleOpts(q){const idx=shuffle(q.o.map((_,i)=>i));return {...q,o:idx.map(i=>q.o[i]),c:idx.indexOf(q.c)};}
+function pick(n){
+  const out=[];const pool={};
+  Object.keys(TARGET).forEach(d=>pool[d]=shuffle(BANK.filter(q=>q.d===d)));
+  const want={};let tot=0;
+  Object.keys(TARGET).forEach(d=>{want[d]=Math.round(n*TARGET[d]);tot+=want[d];});
+  want.Process+=n-tot;
+  Object.keys(TARGET).forEach(d=>{out.push(...pool[d].splice(0,want[d]));});
+  if(out.length<n){const rest=shuffle(Object.values(pool).flat());out.push(...rest.slice(0,n-out.length));}
+  return shuffle(out).map(shuffleOpts);
+}
+async function load(){
+  try{
+    for(const f of FILES){const r=await fetch(f);BANK.push(...(await r.json()).map((q,i)=>({...q,id:f+':'+i})));}
+  }catch(e){}
+  const c={};BANK.forEach(q=>c[q.d]=(c[q.d]||0)+1);
+  $("bankline").textContent=BANK.length?`${BANK.length} questions in the bank (People ${c.People||0}, Process ${c.Process||0}, Business Environment ${c["Business Environment"]||0}). A full sitting needs 180.`:"The question bank could not be loaded.";
+  const n=$("sizenote");
+  if(BANK.length<180){n.hidden=false;n.textContent=`The bank has ${BANK.length} of the 180 questions a full sitting needs, so a full sitting would be shortened to ${BANK.length}. More batches are being added; use adaptive practice or a short run until the bank is complete.`;}
+}
+const PLAN={
+ conflict:["Conflict and team issues",["Memorise the five approaches: collaborate/problem solve first, then compromise, smooth, force, withdraw.","For each scenario ask: have I talked to the people directly yet? Escalation is rarely the first answer."]],
+ team:["Building and leading the team",["Review Tuckman stages and what a leader does in each.","Practise: talk privately first, find the cause, then agree a plan."]],
+ stakeholders:["Stakeholder engagement",["Redo the power/interest grid and engagement assessment matrix for the Lodestar stakeholder list.","Rule of thumb: understand why engagement changed, then update the plan."]],
+ leadership:["Leadership styles",["Match style to situation: directive for new, delegating for experienced, servant leadership in agile."]],
+ ethics:["Ethics and conduct",["Re-read PMI's four values: responsibility, respect, fairness, honesty. Act on reports through the proper channel and protect the reporter."]],
+ resources:["Resources and matrix negotiation",["Practise using float on non-critical work before asking for more resources; negotiate with functional managers using impact data."]],
+ agile:["Agile and hybrid delivery",["Know product owner vs project manager decision rights, velocity-based planning, retrospectives, cumulative flow diagrams."]],
+ change:["Change control",["Always: log, analyse impact, decide at the right level, update baselines, communicate."]],
+ evm:["Earned value",["Drill the formulas until automatic: CPI = EV/AC, SPI = EV/PV, EAC = BAC/CPI (typical), AC + BAC - EV (atypical), TCPI.","Redo the Lodestar week-7 numbers by hand."]],
+ schedule:["Schedule and estimating",["Redo the Lodestar activity network: critical path, float, PERT mean and standard deviation (P - O)/6."]],
+ risk:["Risk management",["Practise EMV, the five response strategies for threats and opportunities, residual vs secondary risk."]],
+ scope:["Scope and requirements",["Know validate scope (customer, accepted deliverables) vs control quality (verified deliverables); WBS rules."]],
+ procurement:["Procurement and contracts",["Compare contract types by who holds cost risk; follow the contract and use change orders."]],
+ quality:["Quality management",["Know the seven basic quality tools and when to use each (Pareto, control chart, fishbone)."]],
+ benefits:["Benefits and business value",["Trace benefits from business case to benefits management plan to post-project ownership."]],
+ compliance:["Compliance and governance",["Treat regulation as a constraint: assess impact, raise through governance, never skip a gate."]],
+ lessons:["Lessons learned and closure",["Collect lessons continuously, not just at close."]]
+};
+const LOGKEY="lodestar-sim-log-v1";
+function getLog(){try{return JSON.parse(localStorage.getItem(LOGKEY))||{sittings:[],missed:{}};}catch(e){return {sittings:[],missed:{}};}}
+function putLog(l){try{localStorage.setItem(LOGKEY,JSON.stringify(l));}catch(e){}}
+function weakTopics(l){
+  const agg={};
+  l.sittings.forEach(x=>Object.entries(x.topics).forEach(([t,[r,n]])=>{const a=agg[t]||(agg[t]=[0,0]);a[0]+=r;a[1]+=n;}));
+  return Object.entries(agg).filter(([t,[r,n]])=>n>=2).map(([t,[r,n]])=>({t,r,n,miss:1-r/n})).filter(x=>x.miss>=0.3).sort((a,b)=>b.miss*Math.sqrt(b.n)-a.miss*Math.sqrt(a.n));
+}
+let S=null,timer=null;
+function fmt(s){s=Math.max(0,Math.floor(s));const h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return `${h}:${String(m).padStart(2,"0")}:${String(x).padStart(2,"0")}`;}
+function show(id){["setup","exam","brk","result"].forEach(k=>$(k).hidden=k!==id);}
+function start(kind){
+  if(!BANK.length)return;
+  const cfg={full:{n:180,min:230,brk:[60,120]},half:{n:90,min:115,brk:[45]},adapt:{n:30,min:0,brk:[]},weak:{n:20,min:0,brk:[]}}[kind];
+  let qs;
+  if(kind==="adapt"||kind==="weak"){qs=[];S={kind,qs,ans:[],flag:[],i:0,adapt:true,level:2,used:new Set(),total:cfg.n,remaining:0,brk:[],ended:false,fin:false,weak:kind==="weak"?weakTopics(getLog()).slice(0,4).map(x=>x.t):null};nextAdaptive();}
+  else{const n=Math.min(cfg.n,BANK.length);qs=pick(n);S={kind,qs,ans:Array(n).fill(null),flag:Array(n).fill(false),i:0,adapt:false,remaining:Math.round(cfg.min*60*(n/cfg.n)),brk:cfg.brk.filter(b=>b<n),brkDone:[],ended:false};}
+  show("exam");render();
+  clearInterval(timer);
+  if(!S.adapt){timer=setInterval(tick,1000);}
+}
+function nextAdaptive(){
+  const missed=getLog().missed;
+  let pool;
+  if(S.weak&&S.weak.length){
+    pool=BANK.filter(q=>!S.used.has(q)&&S.weak.includes(q.t));
+    const m=pool.filter(q=>missed[q.id]);if(m.length)pool=m;
+  }else pool=BANK.filter(q=>!S.used.has(q)&&q.l===S.level);
+  let src=pool.length?pool:BANK.filter(q=>!S.used.has(q));
+  if(!src.length)return false;
+  const q=shuffleOpts(src[Math.floor(Math.random()*src.length)]);
+  S.used.add(BANK.find(b=>b.id===q.id));S.qs.push(q);S.ans.push(null);S.flag.push(false);return true;
+}
+function tick(){
+  if(!S||S.onBreak)return;
+  S.remaining--;
+  if(S.remaining<=0){finish();return;}
+  $("clock").textContent=fmt(S.remaining);
+}
+function render(){
+  const q=S.qs[S.i];
+  $("qpos").textContent=`Question ${S.i+1} of ${S.adapt?S.total:S.qs.length}`;
+  $("clock").textContent=S.adapt?"Practice":fmt(S.remaining);
+  $("phase").textContent=S.adapt?`Level ${S.level} of 3`:"";
+  $("qdom").textContent=q.d;
+  $("qstem").textContent=q.s;
+  const done=S.adapt&&S.ans[S.i]!==null;
+  $("qopts").innerHTML=q.o.map((o,k)=>{let c="opt";if(done){if(k===q.c)c+=" correct";else if(k===S.ans[S.i])c+=" wrong";}else if(S.ans[S.i]===k)c+=" sel";
+    return `<li><button type="button" id="o${k}" class="${c}" data-k="${k}" ${done?"disabled":""}><span class="letter">${"ABCD"[k]}</span><span>${esc(o)}</span></button></li>`;}).join("");
+  $("qopts").querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>pickAns(+b.dataset.k)));
+  $("qfb").hidden=!done;if(done)$("qfb").textContent=(S.ans[S.i]===q.c?"Correct. ":"Not quite. ")+q.e;
+  $("flagBtn").hidden=S.adapt;
+  $("flagBtn").textContent=S.flag[S.i]?"Remove flag":"Flag for review";
+  $("prev").disabled=S.i===0||S.adapt;
+  $("next").textContent=S.adapt?(S.i+1>=S.total?"Finish":"Next question"):(S.i===S.qs.length-1?"Review and finish":"Next");
+  $("next").disabled=S.adapt&&S.ans[S.i]===null;
+  $("map").parentElement.hidden=S.adapt;
+  $("map").innerHTML=S.qs.map((_,i)=>{let c="dot";if(S.ans[i]!==null)c+=" ans";if(S.flag[i])c+=" flag";if(i===S.i)c+=" here";return `<button type="button" id="d${i}" class="${c}" data-i="${i}" aria-label="Question ${i+1}">${i+1}</button>`;}).join("");
+  $("map").querySelectorAll(".dot").forEach(b=>b.addEventListener("click",()=>{S.i=+b.dataset.i;render();}));
+}
+function pickAns(k){
+  if(S.adapt){
+    if(S.ans[S.i]!==null)return;
+    S.ans[S.i]=k;const ok=k===S.qs[S.i].c;S.level=Math.max(1,Math.min(3,S.level+(ok?1:-1)));render();return;
+  }
+  S.ans[S.i]=k;render();
+}
+$("flagBtn").addEventListener("click",()=>{S.flag[S.i]=!S.flag[S.i];render();});
+$("prev").addEventListener("click",()=>{if(S.i>0){S.i--;render();}});
+$("next").addEventListener("click",()=>{
+  if(S.adapt){
+    if(S.i+1>=S.total||!nextAdaptive()){finish();return;}
+    S.i++;render();return;
+  }
+  const nxt=S.i+1;
+  if(S.brk.includes(nxt)&&!S.brkDone.includes(nxt)){S.brkDone.push(nxt);S.i=nxt;startBreak();return;}
+  if(S.i===S.qs.length-1){if(confirm0())finish();return;}
+  S.i++;render();
+});
+function confirm0(){
+  const un=S.ans.filter(a=>a===null).length;const fl=S.flag.filter(Boolean).length;
+  if(un||fl){return window.__sure===true?true:(window.__sure=true,$("qpos").textContent=`${un} unanswered, ${fl} flagged. Press Review and finish again to submit.`,false);}
+  return true;
+}
+let bt=null;
+function startBreak(){S.onBreak=true;let left=600;show("brk");$("brkclock").textContent=fmt(left);clearInterval(bt);bt=setInterval(()=>{left--;$("brkclock").textContent=fmt(left);if(left<=0)endBreak();},1000);}
+function endBreak(){clearInterval(bt);S.onBreak=false;show("exam");window.__sure=false;render();}
+$("endBrk").addEventListener("click",endBreak);
+$("endBtn").addEventListener("click",()=>{if(window.__endArm){finish();}else{window.__endArm=true;$("endBtn").textContent="Press again to submit";setTimeout(()=>{window.__endArm=false;$("endBtn").textContent="End sitting";},4000);}});
+function finish(){
+  clearInterval(timer);clearInterval(bt);
+  const ansN=S.ans.map((a,i)=>a!==null?i:-1).filter(i=>i>=0);
+  const n=S.qs.length;const right=S.qs.filter((q,i)=>S.ans[i]===q.c).length;
+  const answered=S.ans.filter(a=>a!==null).length;
+  show("result");
+  $("rscore").textContent=`${right} / ${S.adapt?answered:n}`;
+  $("rsub").textContent=`${S.adapt?answered:n?Math.round(100*right/(S.adapt?Math.max(1,answered):n)):0}% correct. ${S.adapt?"":(n-answered)+" unanswered. "}This is practice scoring: the real exam reports only proficiency levels per domain.`;
+  const doms=["People","Process","Business Environment"];
+  $("rdom").innerHTML=doms.map(d=>{const idx=S.qs.map((q,i)=>q.d===d?i:-1).filter(i=>i>=0);const r=idx.filter(i=>S.ans[i]===S.qs[i].c).length;const pct=idx.length?Math.round(100*r/idx.length):0;
+    const lab=idx.length?(pct>=75?"Above target":pct>=60?"Target":"Below target"):"No questions";
+    return `<div class="score"><span class="muted">${d}</span><span class="val">${r} / ${idx.length}</span><div class="meter"><span style="width:${pct}%"></span></div><span class="muted" style="font-size:13px">${lab}</span></div>`;}).join("");
+  $("rmap").innerHTML=S.qs.map((q,i)=>`<button type="button" id="r${i}" class="dot ${S.ans[i]===q.c?"ok":"no"}" data-i="${i}" aria-label="Review question ${i+1}">${i+1}</button>`).join("");
+  $("rmap").querySelectorAll(".dot").forEach(b=>b.addEventListener("click",()=>review(+b.dataset.i)));
+  record();renderPlan();
+  $("rev").innerHTML="";review(S.qs.findIndex((q,i)=>S.ans[i]!==q.c)>=0?S.qs.findIndex((q,i)=>S.ans[i]!==q.c):0);
+}
+function record(){
+  const l=getLog();const topics={};
+  S.qs.forEach((q,i)=>{if(S.ans[i]===null)return;const a=topics[q.t]||(topics[q.t]=[0,0]);a[1]++;const ok=S.ans[i]===q.c;if(ok){a[0]++;if(l.missed[q.id]){l.missed[q.id]--;if(l.missed[q.id]<=0)delete l.missed[q.id];}}else l.missed[q.id]=(l.missed[q.id]||0)+1;});
+  if(Object.keys(topics).length){l.sittings.push({at:new Date().toISOString().slice(0,10),kind:S.kind,topics});l.sittings=l.sittings.slice(-30);}
+  putLog(l);
+}
+function renderPlan(){
+  const l=getLog();const w=weakTopics(l);const el=$("plan");
+  const missedN=Object.keys(l.missed).length;
+  let h=`<h2>Your study plan</h2>`;
+  if(!w.length){h+=`<p class="muted">No weak area stands out yet. A topic appears here once you have answered at least two of its questions and missed 30% or more. Sit more questions to build the picture.</p>`;}
+  else{
+    h+=`<p class="muted">Ranked from your answers across ${l.sittings.length} sitting(s). Each missed question comes back first in the weak-area drill until you get it right.</p><ol>`;
+    w.slice(0,5).forEach(x=>{const p=PLAN[x.t]||[x.t,[]];h+=`<li><b>${esc(p[0])}</b> <span class="muted">(${x.r} of ${x.n} right)</span><ul>${p[1].map(a=>`<li>${esc(a)}</li>`).join("")}</ul></li>`;});
+    h+=`</ol>`;
+  }
+  h+=`<div class="hist">${l.sittings.slice(-8).map(x=>{const r=Object.values(x.topics).reduce((a,b)=>a+b[0],0),n=Object.values(x.topics).reduce((a,b)=>a+b[1],0);return `<span>${x.at} ${x.kind}: ${r}/${n}</span>`;}).join("")}</div>`;
+  h+=`<div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn primary" id="drillNow" type="button" ${missedN||w.length?"":"disabled"}>Drill my weak areas (${missedN} missed to retry)</button></div>`;
+  el.innerHTML=h;$("drillNow").addEventListener("click",()=>start("weak"));
+}
+function setupWeak(){
+  const l=getLog();const w=weakTopics(l);const m=Object.keys(l.missed).length;
+  $("weakmode").hidden=!(w.length||m);
+  if(w.length||m)$("weaktxt").textContent=`20 questions drawn from your weakest topics (${w.slice(0,3).map(x=>(PLAN[x.t]||[x.t])[0]).join(", ")||"missed questions"}), retrying ${m} missed question(s) first.`;
+}
+function review(i){
+  const q=S.qs[i];
+  $("rev").innerHTML=`<div class="rev"><div><span class="tag">${q.d}</span> <span class="muted">Question ${i+1}</span></div><p class="stem">${esc(q.s)}</p><ul class="opts">${q.o.map((o,k)=>{let c="opt";if(k===q.c)c+=" correct";else if(k===S.ans[i])c+=" wrong";return `<li><div class="${c}" style="cursor:default"><span class="letter">${"ABCD"[k]}</span><span>${esc(o)}</span></div></li>`;}).join("")}</ul><p>${S.ans[i]===null?"You did not answer this one. ":""}${esc(q.e)}</p></div>`;
+}
+$("again").addEventListener("click",()=>{S=null;window.__sure=false;setupWeak();show("setup");});
+$("startWeak").addEventListener("click",()=>start("weak"));
+$("startFull").addEventListener("click",()=>start("full"));
+$("startHalf").addEventListener("click",()=>start("half"));
+$("startAdapt").addEventListener("click",()=>start("adapt"));
+load().then(setupWeak);
+</script>
