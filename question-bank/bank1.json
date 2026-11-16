@@ -4,10 +4,10 @@
 "l": 2,
 "s": "Two Lodestar engineers disagree on an adapter design and the argument is slowing the iteration. Each has valid points. What should the project manager do FIRST?",
 "o": [
-"Make the decision to keep the work moving",
+"Ask them to settle it on their own and report back",
 "Bring them together to discuss the issues and look for a solution both can accept",
 "Ask their functional manager to decide",
-"Ask them to settle it on their own and report back"
+"Make the decision to keep the work moving"
 ],
 "c": 1,
 "e": "Collaborating and problem solving is the preferred conflict approach. Forcing, withdrawing or escalating come only if that fails.",
@@ -18,10 +18,10 @@
 "l": 1,
 "s": "A new team member from a functional department is unsure what is expected of them. Which document BEST clarifies this?",
 "o": [
-"Risk register",
+"Quality management plan",
 "Responsibility assignment matrix",
-"Stakeholder register",
-"Quality management plan"
+"Risk register",
+"Stakeholder register"
 ],
 "c": 1,
 "e": "A RACI-style matrix assigns who does what, is accountable, consulted and informed.",
@@ -46,12 +46,12 @@
 "l": 2,
 "s": "A team member keeps missing deadlines. You have not yet spoken to them. What should you do?",
 "o": [
-"Reassign the work and tell the functional manager",
-"Have a private conversation to find the cause and agree a plan",
 "Raise it in the retrospective",
-"Add a risk to the register"
+"Reassign the work and tell the functional manager",
+"Add a risk to the register",
+"Have a private conversation to find the cause and agree a plan"
 ],
-"c": 1,
+"c": 3,
 "e": "Talk privately first. Understand the root cause before escalating or changing assignments.",
 "t": "team"
 },
@@ -60,12 +60,12 @@
 "l": 3,
 "s": "In an agile team, the product owner and the project manager disagree on whether the team should take on an urgent item mid-iteration. As a servant leader, what do you do?",
 "o": [
-"Overrule the product owner because you own the schedule",
 "Help the team assess the effect of the item on the iteration goal and let the product owner decide priority with that information",
+"Overrule the product owner because you own the schedule",
 "Tell the team to refuse any mid-iteration change",
 "Escalate to the steering committee"
 ],
-"c": 1,
+"c": 0,
 "e": "Backlog priority belongs to the product owner. The PM or servant leader makes impact visible and protects the team.",
 "t": "agile"
 },
@@ -74,12 +74,12 @@
 "l": 2,
 "s": "Your virtual team spans four time zones and decisions are being delayed. What is the BEST action?",
 "o": [
-"Require everyone to attend a daily call at one time",
-"Agree team working agreements: overlap hours, decision rules and an asynchronous channel",
 "Move all decisions to you",
-"Reduce the team to one time zone"
+"Reduce the team to one time zone",
+"Agree team working agreements: overlap hours, decision rules and an asynchronous channel",
+"Require everyone to attend a daily call at one time"
 ],
-"c": 1,
+"c": 2,
 "e": "Working agreements built with the team address delays without imposing a single schedule.",
 "t": "team"
 },
@@ -88,12 +88,12 @@
 "l": 3,
 "s": "A team member tells you privately that another member is making discriminatory remarks. What is your FIRST responsibility?",
 "o": [
-"Wait to see whether it happens again",
 "Follow the organisation's code of conduct and escalate through the proper channel while protecting the reporter",
-"Confront the member publicly",
-"Add it to the issue log and move on"
+"Wait to see whether it happens again",
+"Add it to the issue log and move on",
+"Confront the member publicly"
 ],
-"c": 1,
+"c": 0,
 "e": "PMI's code requires fairness and respect. Act promptly through the defined process and protect confidentiality.",
 "t": "ethics"
 },
@@ -102,12 +102,12 @@
 "l": 1,
 "s": "Which leadership style BEST fits an experienced, self-organising team?",
 "o": [
-"Directive",
-"Delegating",
 "Transactional only",
-"Autocratic"
+"Autocratic",
+"Directive",
+"Delegating"
 ],
-"c": 1,
+"c": 3,
 "e": "Experienced, self-directed teams respond best to delegating and servant-style leadership.",
 "t": "leadership"
 },
@@ -116,12 +116,12 @@
 "l": 2,
 "s": "During a retrospective, the team says the project manager's status meetings waste time. What should you do?",
 "o": [
-"Defend them, since they are part of the plan",
-"Thank them, review what information is needed and by whom, and adjust the meetings",
 "Cancel all status meetings",
-"Ask the sponsor whether the meetings are needed"
+"Ask the sponsor whether the meetings are needed",
+"Thank them, review what information is needed and by whom, and adjust the meetings",
+"Defend them, since they are part of the plan"
 ],
-"c": 1,
+"c": 2,
 "e": "Retrospectives exist to improve how the team works. Adapt the process using the feedback.",
 "t": "team"
 },
@@ -144,12 +144,12 @@
 "l": 2,
 "s": "A team is in the storming stage. Which action fits BEST?",
 "o": [
+"Disband the team",
 "Give detailed instructions and close supervision only",
 "Facilitate conflict resolution, clarify roles and reinforce shared goals",
-"Disband the team",
 "Wait for the stage to pass"
 ],
-"c": 1,
+"c": 2,
 "e": "In storming, a leader helps manage conflict and clarify roles to move the team towards norming.",
 "t": "team"
 },
@@ -158,12 +158,12 @@
 "l": 3,
 "s": "You are told your most effective team member is being pulled to another project by their functional manager next week. The work is on your critical path. What is the BEST first step?",
 "o": [
-"Accept it and re-plan",
 "Negotiate with the functional manager, showing the impact, and agree options such as a handover or a later start",
-"Threaten to escalate immediately",
-"Quietly shift the work to another team"
+"Quietly shift the work to another team",
+"Accept it and re-plan",
+"Threaten to escalate immediately"
 ],
-"c": 1,
+"c": 0,
 "e": "In a matrix you negotiate for resources using impact data before escalating.",
 "t": "resources"
 },
@@ -172,12 +172,12 @@
 "l": 2,
 "s": "A stakeholder repeatedly attends demos and gives vague feedback. What technique BEST draws out useful input?",
 "o": [
-"Send a written survey after every demo",
 "Ask targeted questions and have them try the increment with defined scenarios",
-"Stop inviting them",
-"Ask the sponsor to coach them"
+"Send a written survey after every demo",
+"Ask the sponsor to coach them",
+"Stop inviting them"
 ],
-"c": 1,
+"c": 0,
 "e": "Structured, scenario-based feedback is more useful than open-ended invitations.",
 "t": "stakeholders"
 },
@@ -187,11 +187,11 @@
 "s": "A change request arrives that would add two weeks and $40,000. The PM has authority up to $10,000 for contingency draws. What is the FIRST step?",
 "o": [
 "Approve it because the customer needs it",
-"Evaluate the impact on scope, schedule, cost, quality and risk before it goes to the change control board",
 "Reject it because it exceeds your authority",
+"Evaluate the impact on scope, schedule, cost, quality and risk before it goes to the change control board",
 "Add it to the backlog without comment"
 ],
-"c": 1,
+"c": 2,
 "e": "Impact analysis comes first. The change control board then decides.",
 "t": "change"
 },
@@ -200,12 +200,12 @@
 "l": 2,
 "s": "CPI is 0.88 and SPI is 1.05. Which is the BEST interpretation?",
 "o": [
-"Over budget and ahead of schedule",
-"Under budget and behind schedule",
 "Over budget and behind schedule",
-"Under budget and ahead of schedule"
+"Under budget and behind schedule",
+"Under budget and ahead of schedule",
+"Over budget and ahead of schedule"
 ],
-"c": 0,
+"c": 3,
 "e": "CPI below 1 means over budget. SPI above 1 means ahead of schedule.",
 "t": "evm"
 },
@@ -214,12 +214,12 @@
 "l": 3,
 "s": "BAC is $500,000, EV $200,000, AC $250,000. Management expects future work at the budgeted rate. What is the EAC?",
 "o": [
-"$550,000",
 "$600,000",
+"$500,000",
 "$625,000",
-"$500,000"
+"$550,000"
 ],
-"c": 0,
+"c": 3,
 "e": "Atypical variance: EAC = AC + (BAC \u2212 EV) = 250,000 + 300,000 = $550,000.",
 "t": "evm"
 },
@@ -228,12 +228,12 @@
 "l": 3,
 "s": "An activity has optimistic 4 days, most likely 6 days and pessimistic 14 days. What is its PERT estimate and standard deviation?",
 "o": [
-"7 days; 1.67 days",
 "6 days; 3.33 days",
-"8 days; 1.67 days",
-"7 days; 3.33 days"
+"7 days; 3.33 days",
+"7 days; 1.67 days",
+"8 days; 1.67 days"
 ],
-"c": 0,
+"c": 2,
 "e": "PERT = (4 + 4\u00d76 + 14)/6 = 7. SD = (14 \u2212 4)/6 = 1.67.",
 "t": "schedule"
 },
@@ -256,12 +256,12 @@
 "l": 3,
 "s": "A risk has been mitigated, but a new risk appears because of the mitigation. What is it called?",
 "o": [
-"Residual risk",
 "Secondary risk",
-"Trigger",
-"Contingent risk"
+"Residual risk",
+"Contingent risk",
+"Trigger"
 ],
-"c": 1,
+"c": 0,
 "e": "A secondary risk is created by implementing a risk response.",
 "t": "risk"
 },
@@ -270,12 +270,12 @@
 "l": 2,
 "s": "Which is the output of Validate Scope?",
 "o": [
+"Quality metrics",
 "Accepted deliverables",
 "Verified deliverables",
-"Work performance data",
-"Quality metrics"
+"Work performance data"
 ],
-"c": 0,
+"c": 1,
 "e": "Validate Scope is done with the customer and produces accepted deliverables. Verified deliverables come from quality control.",
 "t": "scope"
 },
@@ -286,8 +286,8 @@
 "o": [
 "Add overtime next sprint",
 "Use the actual velocity for planning and examine in the retrospective why commitments are too high",
-"Reduce the story point value",
-"Ask for more team members"
+"Ask for more team members",
+"Reduce the story point value"
 ],
 "c": 1,
 "e": "Plan from observed velocity and use retrospectives to find root causes.",
@@ -299,8 +299,8 @@
 "s": "Which contract type places the MOST cost risk on the seller?",
 "o": [
 "Firm fixed price",
-"Cost plus fixed fee",
 "Time and materials",
+"Cost plus fixed fee",
 "Fixed price with economic price adjustment"
 ],
 "c": 0,
@@ -312,12 +312,12 @@
 "l": 3,
 "s": "You find a defect in a deliverable that was already accepted by the customer. What do you do?",
 "o": [
-"Ignore it since it was accepted",
 "Assess it, inform the customer, and handle the correction through change control",
+"Ignore it since it was accepted",
 "Fix it quietly",
 "Wait to see if the customer notices"
 ],
-"c": 1,
+"c": 0,
 "e": "Ethics and process: be transparent and follow change control for the correction.",
 "t": "quality"
 },
@@ -340,12 +340,12 @@
 "l": 3,
 "s": "Activity A (3 days) precedes B (5 days) and C (4 days), and both precede D (2 days). What is the critical path duration and float on C?",
 "o": [
-"10 days; 1 day",
-"9 days; 0 days",
 "10 days; 0 days",
-"11 days; 2 days"
+"10 days; 1 day",
+"11 days; 2 days",
+"9 days; 0 days"
 ],
-"c": 0,
+"c": 1,
 "e": "A\u2013B\u2013D = 3+5+2 = 10 days. A\u2013C\u2013D = 9 days, so C has 1 day of float.",
 "t": "schedule"
 },
@@ -354,12 +354,12 @@
 "l": 2,
 "s": "Which tool BEST shows how work is flowing and where bottlenecks appear in an agile team?",
 "o": [
-"Cumulative flow diagram",
+"Control chart of defect cost",
 "Pareto chart",
 "Stakeholder map",
-"Control chart of defect cost"
+"Cumulative flow diagram"
 ],
-"c": 0,
+"c": 3,
 "e": "A cumulative flow diagram shows work in each state and reveals bottlenecks.",
 "t": "agile"
 },
@@ -368,12 +368,12 @@
 "l": 3,
 "s": "The project is in execution and the sponsor asks to see the benefits the project will realise. Where are these recorded?",
 "o": [
-"Benefits management plan",
-"Risk register",
 "Quality plan",
-"Procurement plan"
+"Procurement plan",
+"Benefits management plan",
+"Risk register"
 ],
-"c": 0,
+"c": 2,
 "e": "The benefits management plan describes how and when benefits are delivered and measured.",
 "t": "benefits"
 },
@@ -383,11 +383,11 @@
 "s": "A vendor delivers late because of its own staffing problem. The contract has a late-delivery clause. What do you do?",
 "o": [
 "Waive the clause to keep the relationship",
-"Follow the contract and apply the clause through procurement",
 "Cancel the contract",
+"Follow the contract and apply the clause through procurement",
 "Hire another vendor"
 ],
-"c": 1,
+"c": 2,
 "e": "Administer the contract as written; changes go through formal procurement channels.",
 "t": "procurement"
 },
@@ -396,12 +396,12 @@
 "l": 3,
 "s": "Lessons learned meetings are usually held:",
 "o": [
-"Only at project close",
-"Throughout the project, at gates and iterations, as well as at close",
 "Only when failures occur",
-"Only by the PMO"
+"Only by the PMO",
+"Only at project close",
+"Throughout the project, at gates and iterations, as well as at close"
 ],
-"c": 1,
+"c": 3,
 "e": "Lessons learned is continuous so later phases benefit.",
 "t": "lessons"
 },
@@ -410,12 +410,12 @@
 "l": 2,
 "s": "A new regulation could affect your project's deliverable midway through. What should you do FIRST?",
 "o": [
-"Ignore it until it is final",
 "Assess its impact on scope, schedule, cost and compliance and raise it through governance",
 "Stop the project",
+"Ignore it until it is final",
 "Tell the customer to handle it"
 ],
-"c": 1,
+"c": 0,
 "e": "Compliance affects the project. Assess impact, then use change control and governance.",
 "t": "compliance"
 },
@@ -424,12 +424,12 @@
 "l": 3,
 "s": "After launch, benefits are not being realised as in the business case. Who is ultimately responsible for ensuring they are realised?",
 "o": [
-"Project manager",
-"Sponsor or benefit owner",
+"Vendor",
 "Team members",
-"Vendor"
+"Project manager",
+"Sponsor or benefit owner"
 ],
-"c": 1,
+"c": 3,
 "e": "Benefit realisation continues after close and belongs to the sponsor or business owner.",
 "t": "benefits"
 }
