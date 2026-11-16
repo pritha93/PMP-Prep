@@ -64,10 +64,10 @@ h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0}
   <h2>Choose a sitting</h2>
   <div class="modes">
    <div class="mode"><b>Full mock sitting</b>
-    <p class="muted" style="font-size:14px">The real format: 180 questions, 230 minutes, two optional 10-minute breaks after question 60 and question 120. Questions are fixed in advance and are not adaptive. Split 42% People, 50% Process, 8% Business Environment.</p>
+    <p class="muted" style="font-size:14px">The real format: 180 questions (170 scored, 10 unscored pretest in the real exam), 240 minutes, two 10-minute breaks. Break positions here are approximate: after question 60 and 120. Questions are fixed and not adaptive. Split 33% People, 41% Process, 26% Business Environment, per the July 2026 outline.</p>
     <button class="btn primary" id="startFull" type="button">Start full sitting</button></div>
    <div class="mode"><b>Half sitting</b>
-    <p class="muted" style="font-size:14px">90 questions in 115 minutes, one break after question 45. A shorter run with the same split.</p>
+    <p class="muted" style="font-size:14px">90 questions in 120 minutes, one break after question 45. A shorter run with the same split.</p>
     <button class="btn" id="startHalf" type="button">Start half sitting</button></div>
    <div class="mode"><b>Adaptive practice</b>
     <p class="muted" style="font-size:14px">30 questions with instant feedback. Difficulty rises after a correct answer and falls after a wrong one. This is a study aid, not how the real exam works.</p>
@@ -109,9 +109,9 @@ h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0}
 <script>
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const FILES=["bank1.json","bank2.json"];
+const FILES=["bank1.json","bank2.json","bank3.json"];
 let BANK=[];
-const TARGET={People:.42,Process:.50,"Business Environment":.08};
+const TARGET={People:.33,Process:.41,"Business Environment":.26};
 function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 function shuffleOpts(q){const idx=shuffle(q.o.map((_,i)=>i));return {...q,o:idx.map(i=>q.o[i]),c:idx.indexOf(q.c)};}
 function pick(n){
@@ -165,7 +165,7 @@ function fmt(s){s=Math.max(0,Math.floor(s));const h=Math.floor(s/3600),m=Math.fl
 function show(id){["setup","exam","brk","result"].forEach(k=>$(k).hidden=k!==id);}
 function start(kind){
   if(!BANK.length)return;
-  const cfg={full:{n:180,min:230,brk:[60,120]},half:{n:90,min:115,brk:[45]},adapt:{n:30,min:0,brk:[]},weak:{n:20,min:0,brk:[]}}[kind];
+  const cfg={full:{n:180,min:240,brk:[60,120]},half:{n:90,min:120,brk:[45]},adapt:{n:30,min:0,brk:[]},weak:{n:20,min:0,brk:[]}}[kind];
   let qs;
   if(kind==="adapt"||kind==="weak"){qs=[];S={kind,qs,ans:[],flag:[],i:0,adapt:true,level:2,used:new Set(),total:cfg.n,remaining:0,brk:[],ended:false,fin:false,weak:kind==="weak"?weakTopics(getLog()).slice(0,4).map(x=>x.t):null};nextAdaptive();}
   else{const n=Math.min(cfg.n,BANK.length);qs=pick(n);S={kind,qs,ans:Array(n).fill(null),flag:Array(n).fill(false),i:0,adapt:false,remaining:Math.round(cfg.min*60*(n/cfg.n)),brk:cfg.brk.filter(b=>b<n),brkDone:[],ended:false};}

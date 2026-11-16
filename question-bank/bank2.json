@@ -196,7 +196,7 @@
 "e": "SV = EV \u2212 PV = \u2212$10,000. SPI is the ratio 0.90."
 },
 {
-"d": "Process",
+"d": "Business Environment",
 "l": 3,
 "t": "risk",
 "s": "A threat is accepted passively. Where should it appear?",
@@ -210,7 +210,7 @@
 "e": "Accepted risks stay in the register, and active acceptance may establish a contingency reserve."
 },
 {
-"d": "Process",
+"d": "Business Environment",
 "l": 2,
 "t": "risk",
 "s": "The project team decides to buy insurance against a facility failure. Which response strategy is this?",
@@ -322,7 +322,7 @@
 "e": "Protecting the iteration commitment gives stability while keeping flexibility between iterations."
 },
 {
-"d": "Process",
+"d": "Business Environment",
 "l": 2,
 "t": "change",
 "s": "A change was approved by the change control board. What is the next step?",
@@ -336,7 +336,7 @@
 "e": "Approved changes require updates to the affected baselines and communication."
 },
 {
-"d": "Process",
+"d": "Business Environment",
 "l": 3,
 "t": "change",
 "s": "You realise a team member already implemented a change that was never approved. What do you do?",

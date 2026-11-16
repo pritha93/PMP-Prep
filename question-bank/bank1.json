@@ -182,7 +182,7 @@
 "t": "stakeholders"
 },
 {
-"d": "Process",
+"d": "Business Environment",
 "l": 2,
 "s": "A change request arrives that would add two weeks and $40,000. The PM has authority up to $10,000 for contingency draws. What is the FIRST step?",
 "o": [
@@ -238,7 +238,7 @@
 "t": "schedule"
 },
 {
-"d": "Process",
+"d": "Business Environment",
 "l": 2,
 "s": "A risk has a 30% chance of costing $50,000 and the response costs $20,000. What is the expected monetary value of the risk?",
 "o": [
@@ -252,7 +252,7 @@
 "t": "risk"
 },
 {
-"d": "Process",
+"d": "Business Environment",
 "l": 3,
 "s": "A risk has been mitigated, but a new risk appears because of the mitigation. What is it called?",
 "o": [
