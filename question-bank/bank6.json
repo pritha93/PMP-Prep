@@ -1,0 +1,422 @@
+[
+{
+"d": "People",
+"l": 3,
+"t": "expectations",
+"s": "The sponsor expects a pilot release in March based on a conversation with the CEO. The approved schedule shows April. Neither date has been formally challenged. What should the project manager do FIRST?",
+"o": [
+"Plan to meet March quietly, since the sponsor expects it",
+"Ask the team to start overtime now to keep the option open",
+"Remind the sponsor that the approved schedule says April",
+"Confirm with the sponsor where the March expectation came from, compare it with the baseline, and agree the date or the change needed"
+],
+"c": 3,
+"e": "Find the source of the misaligned expectation and reconcile it with the baseline. Quoting the baseline alone dismisses the sponsor, and overtime pre-commits cost without a decision."
+},
+{
+"d": "People",
+"l": 3,
+"t": "expectations",
+"s": "Two key stakeholders each believe the product will support their own department's workflow best, and each has been told 'yes' by different team members. The workflows are incompatible. What is the BEST action?",
+"o": [
+"Build for the department with more budget influence",
+"Bring the stakeholders together with the product owner, surface the conflict in priorities, and agree a decision tied to business value",
+"Build both workflows in parallel",
+"Tell each that the other's workflow is out of scope"
+],
+"c": 1,
+"e": "Align expectations by making the conflict explicit and deciding on shared value. Building both or favouring power wastes money or erodes trust."
+},
+{
+"d": "People",
+"l": 3,
+"t": "expectations",
+"s": "A customer representative approves each demo but tells your account manager privately that the product is not what they hoped. What should the project manager do?",
+"o": [
+"Show more demos",
+"Meet the representative to explore the gap between the demos and their expectations, and adjust the plan or acceptance criteria through the proper process",
+"Rely on the formal approvals",
+"Ask the account manager to handle it"
+],
+"c": 1,
+"e": "Formal approval is not the same as aligned expectations. Explore the gap directly and handle any change through governance."
+},
+{
+"d": "People",
+"l": 2,
+"t": "expectations",
+"s": "Which technique BEST helps check that stakeholders understand what a deliverable will do before it is built?",
+"o": [
+"Prototype or wireframe walkthrough",
+"A risk review",
+"A longer requirements document",
+"An earned value report"
+],
+"c": 0,
+"e": "Prototypes make expectations concrete and reveal gaps early."
+},
+{
+"d": "People",
+"l": 3,
+"t": "expectations",
+"s": "At a status meeting the customer says the project is 'obviously late', though it is on schedule against the baseline. Their dates came from a sales presentation. What do you do?",
+"o": [
+"Ask the sales team to apologise",
+"Re-plan to their dates",
+"Acknowledge their view, walk through the baseline and its approval, find where the sales dates came from, and agree what is expected going forward",
+"Show the baseline and end the discussion"
+],
+"c": 2,
+"e": "Manage expectations by listening, clarifying the baseline and correcting the source of the misunderstanding."
+},
+{
+"d": "People",
+"l": 3,
+"t": "vision",
+"s": "A new project has a charter, but team members describe different goals. Two weeks in, designs are diverging. What is the BEST step?",
+"o": [
+"Wait for the divergence to resolve",
+"Run a short workshop to connect the charter's business case to the team's work and agree a shared goal statement",
+"Reissue the charter",
+"Assign each person a detailed task list"
+],
+"c": 1,
+"e": "Shared understanding is created by working it through together, not by redistributing a document."
+},
+{
+"d": "People",
+"l": 3,
+"t": "vision",
+"s": "The vision for a hybrid product was agreed with the sponsor, but the agile team feels the predictive milestones contradict it. What should you do?",
+"o": [
+"Drop the milestones",
+"Facilitate a discussion between both streams and the sponsor to reconcile milestones with the vision, and update the plan where needed",
+"Escalate to the PMO",
+"Ask the agile team to follow the milestones"
+],
+"c": 1,
+"e": "Reconcile the vision and the plan together. Drop or enforce without discussion creates resentment."
+},
+{
+"d": "People",
+"l": 2,
+"t": "vision",
+"s": "Which artifact BEST expresses a product's vision for an agile team?",
+"o": [
+"A vision statement or roadmap goal linked to the value the product should deliver",
+"A backlog ordered by estimated effort",
+"The team charter",
+"A release burndown chart"
+],
+"c": 0,
+"e": "A product vision and roadmap goal gives the team a shared direction."
+},
+{
+"d": "People",
+"l": 3,
+"t": "knowledge",
+"s": "A subject-matter expert who has been on the project from the start will retire in three months. They are reluctant to document. What is the MOST effective approach?",
+"o": [
+"Remove them from critical tasks now",
+"Order them to document everything",
+"Pair them with a successor and use interviews and recorded walkthroughs, recognising their expertise",
+"Hire a consultant"
+],
+"c": 2,
+"e": "Tacit knowledge transfers best through pairing and conversation, with respect for the expert."
+},
+{
+"d": "People",
+"l": 3,
+"t": "knowledge",
+"s": "New team members take two months to be productive because key decisions are scattered across emails and chats. What is the BEST improvement?",
+"o": [
+"Longer onboarding meetings",
+"A new tool for chat",
+"Rotate people less",
+"A single, searchable decision log and onboarding guide maintained by the team"
+],
+"c": 3,
+"e": "Make knowledge findable and keep it current with the team's ownership."
+},
+{
+"d": "People",
+"l": 3,
+"t": "knowledge",
+"s": "A vendor's staff hold all knowledge of an interface and the contract ends in four weeks. What should you do?",
+"o": [
+"Wait for the contract to end",
+"Plan knowledge transfer now, including documentation and sessions with your team, and check the contract's transition terms",
+"Extend the contract",
+"Rewrite the interface"
+],
+"c": 1,
+"e": "Plan the transition early and use the contract's terms. Extending may not be needed."
+},
+{
+"d": "People",
+"l": 3,
+"t": "communication",
+"s": "A stakeholder group in another country says the project's updates are confusing because of idioms and jargon. What should you do?",
+"o": [
+"Send updates only in the group's language",
+"Ask them to read more carefully",
+"Adapt the communication: plain language, glossaries, and checks for understanding, agreed with the group",
+"Use more charts only"
+],
+"c": 2,
+"e": "Effective communication takes the receiver into account. Adapt style and confirm understanding."
+},
+{
+"d": "People",
+"l": 3,
+"t": "communication",
+"s": "A team member says they are overwhelmed by notifications from the project channel. What is the BEST response?",
+"o": [
+"Ask the member to mute the channel and read a weekly summary",
+"Require acknowledgement of every message",
+"Agree team norms on which channels are used for what and when to notify",
+"Move all project communication to email"
+],
+"c": 2,
+"e": "Team communication norms reduce noise without losing critical information."
+},
+{
+"d": "People",
+"l": 3,
+"t": "communication",
+"s": "Which is the MOST effective way to communicate a complex, sensitive change to an impacted group?",
+"o": [
+"A document on the shared drive",
+"A face-to-face or live conversation followed by written confirmation",
+"A short chat message",
+"A mass email"
+],
+"c": 1,
+"e": "Sensitive or complex messages are best delivered interactively and confirmed in writing."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "status",
+"s": "Your dashboard shows 90% of tasks complete but the sponsor asks why customer acceptance is behind. Tasks are counted whether or not they pass review. What is the issue and the BEST fix?",
+"o": [
+"The measure counts activity, not accepted value: change the measure to accepted deliverables or earned value tied to done criteria",
+"Report weekly",
+"The dashboard is accurate; acceptance is a separate matter",
+"Add more tasks"
+],
+"c": 0,
+"e": "Progress should reflect completed, accepted work. Counting started or unreviewed tasks overstates status."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "status",
+"s": "A project's SPI is 0.95 for three months and the team says the delay is on a task with plenty of float. How should the project manager interpret this?",
+"o": [
+"Check whether the late work is on the critical path, since SPI uses total value and may hide the critical path problem",
+"Do not worry because SPI is close to 1",
+"Re-baseline",
+"Add resources"
+],
+"c": 0,
+"e": "SPI is an overall measure. Verify impact on the critical path with schedule analysis."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "status",
+"s": "In a kanban system, work in progress has grown from 8 to 20 items while throughput is flat. What does this suggest?",
+"o": [
+"Cycle time is shortening as the team speeds up",
+"Work is piling up and flow is slowing; apply WIP limits and find the bottleneck",
+"The team needs more members to raise throughput",
+"The board needs more work added to keep people busy"
+],
+"c": 1,
+"e": "Rising WIP with flat throughput means longer cycle times. Limit WIP and address bottlenecks."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "status",
+"s": "Which is the BEST leading indicator that a release date is at risk in an agile project?",
+"o": [
+"Hours logged",
+"The number of meetings held",
+"Burn-up chart shows remaining scope growing faster than completed work",
+"Team satisfaction last month"
+],
+"c": 2,
+"e": "A burn-up that shows scope outrunning completion predicts a missed date before it happens."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "closure",
+"s": "A project is terminated early because the business case collapsed. What should the project manager still do?",
+"o": [
+"Hand the records to the PMO and release the team without a review",
+"Complete closure: document the reason, lessons learned, release resources, finalise contracts and archive records",
+"Wait for a new sponsor before doing any closure work",
+"Skip lessons learned because the project failed"
+],
+"c": 1,
+"e": "Closure activities apply even when a project is terminated early."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "closure",
+"s": "At closure, a vendor invoice is disputed and the vendor's work is complete. What should you do?",
+"o": [
+"Cancel the contract",
+"Resolve it per the contract's dispute process and close the procurement formally, recording the outcome",
+"Pay in full",
+"Close the project and ignore it"
+],
+"c": 1,
+"e": "Procurement closure requires resolving claims through the contract's process."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "closure",
+"s": "Which closing activity BEST helps future projects?",
+"o": [
+"Sending the final report only to the sponsor",
+"Releasing the team before the review so costs stop",
+"Capturing lessons learned with data and storing them where other projects can find them",
+"Archiving the plans without analysis"
+],
+"c": 2,
+"e": "Documented, accessible lessons improve organisational process assets."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "integrated",
+"s": "A project manager plans an integrated approach for a product with a regulatory approval gate and agile feature development. What is the BEST way to combine them?",
+"o": [
+"Run agile with no gate",
+"Plan the gate as a fixed milestone and iterate on features towards it, with compliance evidence built into the definition of done",
+"Plan the whole project predictively",
+"Do compliance at the end only"
+],
+"c": 1,
+"e": "Integrate compliance into iteration outputs while keeping the gate as a fixed milestone."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "change",
+"s": "The integrated plan changes after an approved scope change. Which should be updated?",
+"o": [
+"All affected baselines and subsidiary plans, and the change log",
+"The risk register only",
+"Only the scope baseline",
+"Nothing until the next phase"
+],
+"c": 0,
+"e": "Integrated change control keeps the plan set consistent."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "integrated",
+"s": "Your project must decide how to tailor processes for a small, low-risk project in a large organisation with heavy standards. What is the BEST approach?",
+"o": [
+"Skip the standards",
+"Ask the team to decide",
+"Tailor the standards to the project's size and risk, with approval from the process owner",
+"Apply all standards fully"
+],
+"c": 2,
+"e": "Tailor for fit while respecting organisational governance."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "value",
+"s": "After release, usage data shows that a heavily requested feature is rarely used. What should the team do?",
+"o": [
+"Review the data with the product owner, find out why, and adjust the backlog to what delivers value",
+"Add more features like it",
+"Hide the data",
+"Remove the product owner"
+],
+"c": 0,
+"e": "Value-based delivery uses evidence to change direction."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "value",
+"s": "The cost of a planned feature has risen so that its expected return is below the threshold. The feature is 20% complete. What is the BEST approach?",
+"o": [
+"Always cancel",
+"Re-evaluate on remaining cost versus remaining value and decide with the sponsor",
+"Continue since 20% is already spent",
+"Reduce quality to save cost"
+],
+"c": 1,
+"e": "Ignore sunk cost; decide on what remains."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "org change",
+"s": "Users trained on a new system revert to their old spreadsheets after two weeks. What is the BEST response?",
+"o": [
+"Increase training",
+"Find out why through user conversations, remove the barriers, and work with their managers on reinforcement",
+"Mandate the new system",
+"Withdraw the system"
+],
+"c": 1,
+"e": "Sustained change needs barrier removal and reinforcement, not just mandates or more training."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "org change",
+"s": "A reorganisation will change several roles on your project's customer side. What should you do?",
+"o": [
+"Assess the impact on stakeholders and deliverables, update the stakeholder and risk registers, and re-engage the new owners",
+"Wait until the reorganisation settles",
+"Cancel their involvement",
+"Escalate to HR"
+],
+"c": 0,
+"e": "Organisational change affects engagement and risk and should be handled actively."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "issues",
+"s": "An impediment recorded by the team is blocked on an approval that only the CFO can give. The CFO's calendar is full for a month. What should you do?",
+"o": [
+"Wait",
+"Escalate with the impact quantified and propose options, such as a delegate or an out-of-cycle review",
+"Work around the approval",
+"Approve it yourself"
+],
+"c": 1,
+"e": "Escalate with impact and options to the right decision maker."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "issues",
+"s": "Two issues are open: one blocks the critical path and has no workaround; the other annoys a stakeholder but has no schedule impact. How should you prioritise?",
+"o": [
+"Neither until the next review",
+"The stakeholder issue because of the person involved",
+"Both equally",
+"The critical path issue, while keeping the stakeholder informed about the other"
+],
+"c": 3,
+"e": "Prioritise by impact on objectives, and communicate on the rest."
+}
+]
