@@ -1,0 +1,408 @@
+[
+{
+"d": "People",
+"l": 3,
+"t": "agile",
+"s": "A scrum master reports that the product owner is unavailable for most of the iteration, so the team guesses at acceptance criteria and rework is rising. What is the BEST action for the project manager?",
+"o": [
+"Ask the team to stop guessing and wait",
+"Appoint a team member as proxy product owner",
+"Show the cost of rework to the sponsor and product owner and agree a regular availability pattern or a delegate with authority",
+"Move acceptance to the end of the project"
+],
+"c": 2,
+"e": "The fix is to restore access to a decision maker with authority. A proxy without authority changes nothing, and waiting or deferring acceptance increases risk."
+},
+{
+"d": "People",
+"l": 3,
+"t": "conflict",
+"s": "Two functional managers argue over whose department's engineer should lead a design review. Each says the other's engineer lacks the skills. What do you do FIRST?",
+"o": [
+"Bring both managers together, review the criteria the review needs, and agree who is best placed on the evidence",
+"Lead the review yourself",
+"Pick the engineer with more experience",
+"Ask the sponsor to decide"
+],
+"c": 0,
+"e": "Facilitate a decision based on agreed criteria before escalating."
+},
+{
+"d": "People",
+"l": 2,
+"t": "team",
+"s": "A team member asks for training on a tool that is not needed for the current phase but will be in two phases' time. What is the BEST response?",
+"o": [
+"Add it to the team development plan and schedule it ahead of when the skill is needed",
+"Hire someone who already knows it",
+"Decline until it is needed",
+"Let them train on their own time"
+],
+"c": 0,
+"e": "Developing skills ahead of need is part of resource planning and team development."
+},
+{
+"d": "People",
+"l": 3,
+"t": "stakeholders",
+"s": "A new executive joins the steering committee, and her expectations differ sharply from the original charter. What should you do?",
+"o": [
+"Change the plan to match her expectations",
+"Ignore her until she raises a change",
+"Meet her to understand her expectations, assess the gap against the charter and business case, and take any needed changes through governance",
+"Remind her the charter is approved"
+],
+"c": 2,
+"e": "Engage the new stakeholder, analyse the gap, and route changes through governance."
+},
+{
+"d": "People",
+"l": 3,
+"t": "leadership",
+"s": "Your team is demotivated after a long period of overtime. What is the MOST effective leadership action?",
+"o": [
+"Reduce the overload, recognise the effort, and involve the team in how to restore a sustainable pace",
+"Ask for more patience",
+"Rotate in new members",
+"Offer a one-off bonus"
+],
+"c": 0,
+"e": "Address the root cause, which is workload, and involve the team in the fix."
+},
+{
+"d": "People",
+"l": 2,
+"t": "communication",
+"s": "A stakeholder is annoyed that they hear about issues late. Which is the BEST improvement?",
+"o": [
+"Do nothing",
+"Send everything to everyone",
+"Agree with them what issues need immediate notice, through which channel, and update the communications plan",
+"Daily meetings"
+],
+"c": 2,
+"e": "Right information to the right person at the right time. Agree the triggers and channel."
+},
+{
+"d": "People",
+"l": 3,
+"t": "ethics",
+"s": "You are asked by a senior executive to remove a risk from the register because it makes the project look bad. The risk is real. What do you do?",
+"o": [
+"Remove it",
+"Keep it, explain its importance and offer to present the response plan, and escalate through governance if pressure continues",
+"Hide it in a separate file",
+"Resign"
+],
+"c": 1,
+"e": "Honesty and transparency. Do not delete valid risks; explain, offer a plan and escalate if needed."
+},
+{
+"d": "People",
+"l": 3,
+"t": "agile",
+"s": "A hybrid team's predictive subproject leader says the agile team's lack of detailed estimates makes planning impossible. What is the BEST approach?",
+"o": [
+"Run the agile team the predictive way",
+"Agree a shared approach: release-level estimates and a rolling forecast the predictive plan can use, with regular syncs",
+"Tell the leader to plan without them",
+"Require full detailed estimates from the agile team"
+],
+"c": 1,
+"e": "Tailor planning interfaces so each approach works and they integrate at agreed points."
+},
+{
+"d": "People",
+"l": 2,
+"t": "vision",
+"s": "Which activity BEST helps establish a common vision at the start of a project?",
+"o": [
+"Assigning tasks",
+"Issuing the charter by email",
+"A kickoff or visioning workshop with the team and key stakeholders",
+"Publishing the schedule"
+],
+"c": 2,
+"e": "Collaborative sessions build shared understanding better than one-way communication."
+},
+{
+"d": "People",
+"l": 3,
+"t": "expectations",
+"s": "The customer's expectations of release timing rose after a competitor's announcement. The plan does not support the earlier date. What do you do?",
+"o": [
+"Promise the earlier date to keep them happy",
+"Explain the constraints and options (scope trade-offs, added resources, risk) and agree a realistic outcome through change control",
+"Say it is impossible",
+"Ask the team to work overtime"
+],
+"c": 1,
+"e": "Manage expectations with options and facts, not promises you cannot keep."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "schedule",
+"s": "A project has two paths: A-B-D with a 14-day duration and A-C-D with 12 days. Activity B is delayed by 3 days. What is the new project duration?",
+"o": [
+"14 days",
+"17 days",
+"15 days",
+"12 days"
+],
+"c": 1,
+"e": "The path A-B-D becomes 17 days and remains the longest."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "evm",
+"s": "A project has CPI 1.05 and SPI 0.85. Which statement is MOST accurate?",
+"o": [
+"Under budget but behind schedule",
+"Over budget and ahead of schedule",
+"Over budget and behind schedule",
+"Under budget and ahead of schedule"
+],
+"c": 0,
+"e": "CPI above 1 is under budget. SPI below 1 is behind schedule."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "evm",
+"s": "BAC is $600,000, EV $300,000, AC $360,000. What is the estimate to complete (ETC) if future work will run at the current cost efficiency?",
+"o": [
+"$360,000",
+"$720,000",
+"$300,000",
+"$420,000"
+],
+"c": 0,
+"e": "CPI = 300/360 = 0.833. EAC = BAC/CPI = $720,000. ETC = EAC \u2212 AC = $360,000. $720,000 is the EAC, not the ETC."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "risk",
+"s": "A risk with a 40% probability and a $100,000 impact has a mitigation that costs $30,000 and cuts the probability to 10%. What is the net benefit of mitigation?",
+"o": [
+"$0",
+"$20,000",
+"$10,000",
+"$30,000"
+],
+"c": 0,
+"e": "EMV before = $40,000; after = $10,000, so mitigation saves $30,000. It costs $30,000, so the net benefit is $0: not worth doing on cost alone."
+},
+{
+"d": "Process",
+"l": 2,
+"t": "scope",
+"s": "Which tool decomposes the project scope into smaller manageable deliverables?",
+"o": [
+"Work breakdown structure",
+"Gantt chart",
+"Responsibility matrix",
+"Fishbone diagram"
+],
+"c": 0,
+"e": "The WBS decomposes the total scope hierarchically."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "agile",
+"s": "A team's lead time for items is 15 days but the cycle time is 4 days. What does this suggest?",
+"o": [
+"Nothing",
+"The team is slow at doing the work",
+"Quality is poor",
+"Items wait a long time before work starts, so look at the backlog queue and prioritisation"
+],
+"c": 3,
+"e": "The gap between lead time and cycle time is waiting time before work starts."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "quality",
+"s": "You must decide whether to add a quality inspection step. Which analysis BEST helps?",
+"o": [
+"Resource histogram",
+"Stakeholder analysis",
+"Cost of quality analysis comparing prevention and appraisal cost to failure cost",
+"Critical path analysis"
+],
+"c": 2,
+"e": "Cost of quality weighs the cost of conformance against the cost of non-conformance."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "procurement",
+"s": "A time-and-materials contract has no cap and the seller's hours are rising faster than progress. What is the BEST step?",
+"o": [
+"Ask the team to monitor informally",
+"Pay the invoices",
+"Review the invoices and progress with the seller, and use the contract to add a not-to-exceed limit or change the arrangement",
+"Terminate"
+],
+"c": 2,
+"e": "Administer the contract actively and seek a formal control such as a cap."
+},
+{
+"d": "Process",
+"l": 2,
+"t": "resources",
+"s": "Which tool shows who is accountable, responsible, consulted and informed for each task?",
+"o": [
+"Organisation breakdown structure",
+"RACI chart",
+"Network diagram",
+"Resource histogram"
+],
+"c": 1,
+"e": "A RACI chart is a responsibility assignment matrix."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "status",
+"s": "Status reports show progress as green for six weeks, but the team says they are struggling. What is the BEST action?",
+"o": [
+"Investigate directly: talk with the team, check actual versus planned progress, and review how status is measured",
+"Ask for more reports",
+"Trust the report",
+"Replace the status reporter"
+],
+"c": 0,
+"e": "Verify with data and direct conversation when signals conflict. Evaluate project status honestly."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "integrated",
+"s": "An approved change adds a feature that touches scope, schedule, cost and risk. What is the BEST way to keep the plans consistent?",
+"o": [
+"Add a note to the register",
+"Update the project management plan and baselines together through integrated change control",
+"Only update the schedule",
+"Update each plan separately when time allows"
+],
+"c": 1,
+"e": "Integrated change control keeps the baselines and subsidiary plans consistent."
+},
+{
+"d": "Process",
+"l": 2,
+"t": "closure",
+"s": "Which activity belongs to project closure?",
+"o": [
+"Developing the charter",
+"Creating the WBS",
+"Defining scope",
+"Releasing resources and archiving project information"
+],
+"c": 3,
+"e": "Closure includes final acceptance, lessons learned, archiving and releasing resources."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "agile",
+"s": "A team wants to add a new tool mid-iteration that would speed testing but needs a week to learn. What do you recommend?",
+"o": [
+"Adopt it now",
+"Try it as a time-boxed experiment or plan it at the next iteration boundary, agreed with the team and product owner",
+"Forbid new tools",
+"Do it in the background"
+],
+"c": 1,
+"e": "Protect the iteration commitment, then use a deliberate experiment."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "finance",
+"s": "The project is 30% complete and has spent 45% of its budget. The sponsor asks you for an updated forecast. What should you give?",
+"o": [
+"A guess",
+"The remaining unspent amount",
+"A forecast based on performance to date, with assumptions and options",
+"The original budget"
+],
+"c": 2,
+"e": "Provide an EAC with assumptions and options. CPI is below 1 here so the forecast exceeds the original."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "governance",
+"s": "The PMO changes its reporting template mid-project. Your project's governance already has agreed reports. What should you do?",
+"o": [
+"Report in both formats forever",
+"Ignore the PMO",
+"Review the new template, agree with the PMO and sponsor how to meet it, and update the communications and governance plans",
+"Ask the team to decide"
+],
+"c": 2,
+"e": "Align governance with the organisation's requirements through agreement and plan updates."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "compliance",
+"s": "An auditor finds that your team has not retained approvals for three changes. What is the BEST response?",
+"o": [
+"Ignore until the next audit",
+"Delete the changes",
+"Acknowledge the gap, recover the evidence where possible, fix the process, and report the corrective action",
+"Argue the approvals happened verbally"
+],
+"c": 2,
+"e": "Be transparent, fix the process, and keep records. Records are part of compliance."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "external",
+"s": "A supply shortage in a key component raises costs and delays delivery for all vendors. Your project depends on that component. What do you do FIRST?",
+"o": [
+"Assess the impact on schedule, cost and benefits, and take options (alternative supplier, descope, re-baseline) to the sponsor",
+"Wait for the market to recover",
+"Buy as much stock as possible",
+"Cancel the project"
+],
+"c": 0,
+"e": "External environment changes require impact assessment and a decision through governance."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "org change",
+"s": "After go-live, adoption is only 30% of the target. The system works as specified. What should you do?",
+"o": [
+"Blame users",
+"Investigate adoption barriers with users, and work with the sponsor and change owner on a remedy",
+"Close the project",
+"Declare success because it works"
+],
+"c": 1,
+"e": "Value comes from adoption. Work with the business owner to remove barriers."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "risk",
+"s": "A risk trigger occurs, but the response owner is on leave and no alternate is named. What should you do?",
+"o": [
+"Wait for the owner",
+"Ignore the trigger",
+"Invoke the response yourself or through an alternate, then update the risk plan so every response has an alternate",
+"Log it as an issue only"
+],
+"c": 2,
+"e": "Act on the trigger now, then fix the gap in the plan."
+}
+]
