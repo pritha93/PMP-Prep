@@ -1,0 +1,394 @@
+[
+{
+"d": "Process",
+"l": 3,
+"t": "procurement",
+"s": "A buyer's requirements are still evolving and the work is exploratory, but the buyer wants cost certainty. Which contract approach BEST balances this?",
+"o": [
+"Cost plus percentage of cost",
+"Fixed price with no change clause",
+"Firm fixed price for the entire scope",
+"Time and materials with a not-to-exceed ceiling and defined review points"
+],
+"c": 3,
+"e": "Evolving scope suits T&M with a cap and reviews. A firm fixed price on unclear scope pushes seller risk into inflated bids or disputes, and cost plus percentage rewards overspending."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "procurement",
+"s": "Two bidders score equally on the weighted criteria. One has a lower price but a poor record on a similar past project with your organisation. What should you do?",
+"o": [
+"Award to the lower price",
+"Ask both to lower their price",
+"Apply the documented tie-break and risk criteria, review the past performance evidence, and record the decision rationale",
+"Award to the bidder you prefer"
+],
+"c": 2,
+"e": "Follow the stated evaluation criteria and document the rationale. Preference or price alone ignores the agreed process."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "procurement",
+"s": "A seller proposes a change in the middle of a firm-fixed-price contract that reduces your cost but changes a deliverable. What is the BEST action?",
+"o": [
+"Accept verbally",
+"Reject it",
+"Let the team decide",
+"Assess the effect on scope, quality and risk, and issue a formal contract change if it is justified"
+],
+"c": 3,
+"e": "Contract changes go through formal change control, even when they save money."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "procurement",
+"s": "A vendor reports they are behind and asks to be released from a milestone penalty citing a force majeure event. What is your FIRST step?",
+"o": [
+"Review the contract's force majeure clause with legal and verify the vendor's claim",
+"Release them",
+"Apply the penalty automatically",
+"Cancel the contract"
+],
+"c": 0,
+"e": "Check the clause and the facts before acting."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "procurement",
+"s": "Three bidders interpret a procurement package in three different ways and their bids cannot be compared. Which document was MOST likely weak?",
+"o": [
+"The procurement strategy",
+"The independent cost estimate",
+"The source selection criteria",
+"The statement of work, which lacked clear scope and acceptance criteria"
+],
+"c": 3,
+"e": "The statement of work defines what the seller must deliver. If it is unclear, bidders price different things, so bids are not comparable."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "quality",
+"s": "A team uses a sample of 20 items per batch and defects are rising. The product is safety-relevant. What is the BEST step?",
+"o": [
+"Stop testing",
+"Blame suppliers",
+"Reduce sampling to save cost",
+"Assess whether the sampling plan still gives adequate confidence and increase inspection or fix the process causes"
+],
+"c": 3,
+"e": "Quality plans must match risk. Review sampling and root causes."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "quality",
+"s": "Customers report rare but severe failures that never appeared in test. Which technique BEST helps find the cause?",
+"o": [
+"Root cause analysis using the failure data, such as the five whys or a fishbone diagram",
+"A scatter diagram of load against test duration",
+"A control chart of test results",
+"A Pareto chart of defect categories"
+],
+"c": 0,
+"e": "Root cause analysis traces failures to causes. Pareto, control and scatter tools describe frequency, stability or correlation but do not find a cause for rare failures."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "quality",
+"s": "The team debates between more testing after development and building quality in earlier. Which is MOST aligned with modern practice?",
+"o": [
+"Reduce scope",
+"Rely on inspection",
+"Test at the end only",
+"Build quality in with early and continuous testing, definition of done and automation"
+],
+"c": 3,
+"e": "Preventing defects early is cheaper than finding them late."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "quality",
+"s": "A deliverable passes all internal quality checks but fails customer acceptance because it does not meet an unwritten expectation. What is the main lesson?",
+"o": [
+"Skip acceptance",
+"Quality is conformance to requirements and fitness for use; capture expectations explicitly and verify them with the customer early",
+"Customers are unreasonable",
+"Add more internal checks"
+],
+"c": 1,
+"e": "Fitness for use requires understanding the customer's real needs."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "resources",
+"s": "A project needs a specialist for three weeks, and hiring one would take two months. Which is the BEST approach?",
+"o": [
+"Check internal pools, borrow from another project through agreement, or use a short-term contractor",
+"Reduce scope",
+"Wait for the hire",
+"Ask the team to learn it"
+],
+"c": 0,
+"e": "Acquire resources through the quickest appropriate channel while following organisational rules."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "resources",
+"s": "The resource histogram shows a team member at 140% allocation for two months. What should the project manager do?",
+"o": [
+"Ask for overtime for the whole period",
+"Reduce estimates",
+"Ignore it",
+"Level the load by rescheduling, reassigning or adding resources, within float where possible"
+],
+"c": 3,
+"e": "Over-allocation must be addressed. Overtime across two months is not sustainable."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "resources",
+"s": "A team member's skills do not match their assigned task. What is the BEST first action?",
+"o": [
+"Lower the standard",
+"Ignore it",
+"Discuss with them, assess the gap, and arrange coaching, pairing or reassignment",
+"Replace them"
+],
+"c": 2,
+"e": "Understand the gap and support development before replacing."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "scope",
+"s": "Stakeholders disagree on whether a requirement belongs in release one. The sponsor is unavailable for two weeks. The team has agreed prioritisation criteria and a product owner with delegated decision authority. What is the BEST action?",
+"o": [
+"Use the agreed prioritisation criteria and the product owner's authority to decide, and record the rationale",
+"Pick yourself",
+"Include everything",
+"Delay the work"
+],
+"c": 0,
+"e": "Use established decision rights and criteria."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "scope",
+"s": "A requirement is described as 'the system must be fast'. What should the team do?",
+"o": [
+"Ask the team for their best estimate of performance",
+"Add it to the risk register as a quality risk",
+"Make it measurable, for example a response time under a defined load, and agree it with the stakeholder",
+"Benchmark a competitor and match their speed"
+],
+"c": 2,
+"e": "Requirements need measurable acceptance criteria."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "scope",
+"s": "The WBS shows a work package of 400 hours with no further breakdown. The team cannot assign it to one person or measure its progress. What is the likely problem?",
+"o": [
+"The estimate should be padded to cover the uncertainty",
+"The package is too small and should be merged with another",
+"It is level-of-effort work and needs no breakdown",
+"The package is too large to estimate, assign and track well; decompose it further"
+],
+"c": 3,
+"e": "Work packages should be small enough to estimate and control."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "schedule",
+"s": "An activity has a most likely estimate of 10 days. The team says there is a 30% chance it takes 15. Which technique helps you quantify schedule risk across many such activities?",
+"o": [
+"Pareto analysis",
+"Fishbone diagram",
+"Monte Carlo simulation",
+"Resource levelling"
+],
+"c": 2,
+"e": "Monte Carlo simulation models probabilities across the schedule."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "schedule",
+"s": "A lead of 2 days on a finish-to-start dependency means:",
+"o": [
+"The successor must wait 2 days after the predecessor finishes",
+"The predecessor is shortened by 2 days",
+"The successor can start 2 days before the predecessor finishes",
+"The path is critical"
+],
+"c": 2,
+"e": "A lead lets the successor begin before the predecessor ends. A lag adds waiting time."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "schedule",
+"s": "The team must recover schedule on critical-path activities and the sponsor will fund extra people. Which technique shortens the schedule by adding resources to those activities?",
+"o": [
+"Applying a schedule lag",
+"Fast tracking",
+"Resource levelling",
+"Crashing"
+],
+"c": 3,
+"e": "Crashing adds resources, and cost, to critical-path work. Fast tracking overlaps activities and adds rework risk; levelling can lengthen the schedule."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "finance",
+"s": "Estimates for a new project have a range of -10% to +25%. Which estimate type is this MOST likely?",
+"o": [
+"Rough order of magnitude",
+"Actual",
+"Definitive",
+"Budget estimate"
+],
+"c": 3,
+"e": "A budget estimate typically has a range of about -10% to +25%. ROM is wider (-25% to +75%), and definitive is narrow (-5% to +10%)."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "finance",
+"s": "The sponsor asks you to add a contingency to the baseline because the project is risky. What is the BEST approach?",
+"o": [
+"Base the contingency on identified risks and their expected values, with management reserve for unknowns",
+"Hide it in estimates",
+"Add a flat percentage",
+"Refuse"
+],
+"c": 0,
+"e": "Contingency is tied to identified risks; management reserve to unknown unknowns."
+},
+{
+"d": "Process",
+"l": 3,
+"t": "finance",
+"s": "Actual cost is below planned but earned value is also well below planned. What does this show?",
+"o": [
+"The estimates are accurate",
+"Less work has been done than planned; low spend is not good performance",
+"The budget is too big",
+"The project is efficient"
+],
+"c": 1,
+"e": "Lower cost alone is not a good sign if work is behind. Compare cost with earned value."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "governance",
+"s": "A project's steering committee never meets quorum. Decisions are delayed. What should you do?",
+"o": [
+"Decide yourself",
+"Wait",
+"Raise the governance gap with the sponsor and propose a revised structure or delegated decisions",
+"Cancel meetings"
+],
+"c": 2,
+"e": "Fix the governance problem at the right level."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "governance",
+"s": "The project's decision log shows two conflicting decisions from different bodies. What should you do?",
+"o": [
+"Follow the later one",
+"Clarify decision rights with governance and have the conflict resolved formally",
+"Choose the safer one",
+"Ignore both"
+],
+"c": 1,
+"e": "Governance defines who decides; resolve conflicts through it."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "compliance",
+"s": "A team wants to reuse open-source code whose license may conflict with the product's distribution model. What is the BEST step?",
+"o": [
+"Use it and check later",
+"Consult legal or compliance on the license before use",
+"Use it and remove attribution",
+"Avoid all open source"
+],
+"c": 1,
+"e": "Check legal obligations before adopting."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "compliance",
+"s": "A safety standard requires evidence of test results kept for ten years. Your project plan archives for two. What should you do?",
+"o": [
+"Update the plan and archive process to meet the ten-year requirement and tell stakeholders about the cost",
+"Raise a change request only if the auditor challenges it",
+"Ask the sponsor to waive the requirement",
+"Archive only the summary test reports for ten years"
+],
+"c": 0,
+"e": "Compliance requirements shape the plan."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "risk",
+"s": "Which response is an example of enhancing an opportunity?",
+"o": [
+"Avoiding a dependency",
+"Accepting the risk",
+"Adding resources to finish early and capture a market window",
+"Buying insurance"
+],
+"c": 2,
+"e": "Enhance increases the probability or impact of a positive risk."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "risk",
+"s": "A risk's probability rises from 10% to 50% after a supplier announcement. What should you do?",
+"o": [
+"Delete it",
+"Accept it",
+"Update the register, reassess impact and responses, and inform stakeholders",
+"Wait for the risk review"
+],
+"c": 2,
+"e": "Reassess risks when conditions change."
+},
+{
+"d": "Business Environment",
+"l": 3,
+"t": "improvement",
+"s": "A team consistently misses estimates by 30%. Which action BEST supports continuous improvement?",
+"o": [
+"Pad estimates",
+"Blame the team",
+"Ignore it",
+"Review estimate versus actual data in retrospectives and adjust the estimating approach"
+],
+"c": 3,
+"e": "Use data and retrospectives to improve."
+}
+]
