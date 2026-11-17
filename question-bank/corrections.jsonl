@@ -1,3 +1,4 @@
 {"id":"C-001","at":"2026-11-16","kind":"self-check","what":"EVM ETC question had a nonsense fourth option","rule":"2"}
 {"id":"C-002","at":"2026-11-16","kind":"self-check","what":"mitigation net-benefit question had the wrong answer marked","rule":"1"}
 {"id":"C-003","at":"2026-11-16","kind":"outline-change","what":"exam format and weights were from the old exam; fixed to July 2026","rule":"5"}
+{"id":"C-004","at":"2026-11-16","kind":"review","what":"Independent reviewer re-answered all 147 questions: no wrong answers or math errors; 3 items retagged to Business Environment (lessons learned, small change request, integrated change control). A fourth flag (benefits management plan) kept as Process because the outline places value-based delivery under Process.","rule":"5"}

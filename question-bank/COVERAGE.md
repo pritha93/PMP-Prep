@@ -15,12 +15,12 @@
 | 7 | Help ensure knowledge transfer | 2 | 41 | 39 |
 | 8 | Plan and manage communication | 3 | 41 | 38 |
 
-## Process (41%): 68 of 410
+## Process (41%): 66 of 410
 
 | # | Outline task | Have | Target | Gap |
 | --- | --- | --- | --- | --- |
-| 1 | Integrated plan and delivery | 2 | 41 | 39 |
-| 2 | Scope | 6 | 41 | 35 |
+| 1 | Integrated plan and delivery | 1 | 41 | 40 |
+| 2 | Scope | 5 | 41 | 36 |
 | 3 | Value-based delivery | 6 | 41 | 35 |
 | 4 | Resources | 4 | 41 | 37 |
 | 5 | Procurement | 6 | 41 | 35 |
@@ -30,13 +30,13 @@
 | 9 | Evaluate project status | 2 | 41 | 39 |
 | 10 | Closure | 3 | 41 | 38 |
 
-## Business Environment (26%): 36 of 260
+## Business Environment (26%): 38 of 260
 
 | # | Outline task | Have | Target | Gap |
 | --- | --- | --- | --- | --- |
 | 1 | Governance | 5 | 32 | 27 |
 | 2 | Compliance | 6 | 32 | 26 |
-| 3 | Manage and control changes | 6 | 32 | 26 |
+| 3 | Manage and control changes | 8 | 32 | 24 |
 | 4 | Impediments and issues | 2 | 32 | 30 |
 | 5 | Risk | 9 | 32 | 23 |
 | 6 | Continuous improvement | 3 | 32 | 29 |

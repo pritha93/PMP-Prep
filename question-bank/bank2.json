@@ -224,9 +224,9 @@
 "e": "Insurance transfers the financial impact to a third party."
 },
 {
-"d": "Process",
+"d": "Business Environment",
 "l": 3,
-"t": "scope",
+"t": "change",
 "s": "The customer asks for an extra report that was not in the requirements. It is small and the team could do it in a day. What do you do?",
 "o": [
 "Refuse because it is out of scope",
