@@ -1,408 +1,408 @@
 [
-{
-"d": "People",
-"l": 3,
-"t": "agile",
-"s": "A cross-functional team has been told by a senior manager to take on a new request every few days, outside the backlog. The team is losing focus. What is the BEST response from the project manager?",
-"o": [
-"Block the manager's access to the team",
-"Let the team decide which to accept",
-"Tell the team to accept every request",
-"Make the interruptions visible, bring the impact to the manager and product owner, and agree a single intake route through the backlog"
-],
-"c": 3,
-"e": "Protect the team by routing requests through the product owner and showing the cost of interruptions."
-},
-{
-"d": "People",
-"l": 3,
-"t": "conflict",
-"s": "A team member and the product owner disagree about whether a story is done. The team's definition of done is clear and the story meets it. What should happen?",
-"o": [
-"The product owner decides anyway",
-"Escalate to the sponsor",
-"Refer back to the agreed definition of done; if the product owner wants more, add it as a new story or change the definition through the team",
-"The team member overrules the product owner"
-],
-"c": 2,
-"e": "Agreed definitions resolve disputes. New expectations become backlog items or a team-agreed change to the definition."
-},
-{
-"d": "People",
-"l": 3,
-"t": "team",
-"s": "A newly formed team has strong individual performers who work in silos. Which action BEST builds team performance?",
-"o": [
-"Shared goals, pairing across skills and co-located working sessions",
-"Rotate leaders each week",
-"Individual targets",
-"More documentation"
-],
-"c": 0,
-"e": "Interdependence and shared goals build team performance."
-},
-{
-"d": "People",
-"l": 2,
-"t": "stakeholders",
-"s": "Which tool BEST shows how stakeholders' current engagement compares with the level you need?",
-"o": [
-"Power/interest grid",
-"RACI chart",
-"Salience model",
-"Stakeholder engagement assessment matrix"
-],
-"c": 3,
-"e": "The engagement assessment matrix compares current and desired engagement."
-},
-{
-"d": "People",
-"l": 3,
-"t": "communication",
-"s": "A remote team member says they only learn of decisions through hallway conversations at the head office. What is the BEST fix?",
-"o": [
-"Hold in-person meetings only",
-"Ask them to relocate",
-"Send a monthly summary",
-"Record decisions in a shared place, announce them to all, and use the same channel for everyone"
-],
-"c": 3,
-"e": "Good communication gives equal access to information regardless of location."
-},
-{
-"d": "People",
-"l": 3,
-"t": "ethics",
-"s": "You find that a report you issued last month contained a calculation error that makes progress look better than it was. The sponsor has not noticed. What do you do?",
-"o": [
-"Blame the tool",
-"Correct it, tell the sponsor promptly what changed and why, and fix how the check was missed",
-"Wait to see if it matters",
-"Fix it in the next report without comment"
-],
-"c": 1,
-"e": "Honesty and responsibility: disclose and correct promptly."
-},
-{
-"d": "People",
-"l": 3,
-"t": "leadership",
-"s": "The team lead you appointed is technically strong but intimidates others, so people hide problems. What is the BEST step?",
-"o": [
-"Add a second lead",
-"Give private feedback with examples, coach them toward a safer style, and watch team behaviour",
-"Ignore it while delivery is good",
-"Remove the lead"
-],
-"c": 1,
-"e": "Coach first. Psychological safety is critical to surface problems early."
-},
-{
-"d": "People",
-"l": 3,
-"t": "knowledge",
-"s": "Lessons from earlier phases are not being used by new team members. What would MOST improve knowledge sharing?",
-"o": [
-"A searchable repository and short briefings at onboarding and at each iteration start",
-"Assign a historian",
-"A larger lessons-learned report",
-"Annual training"
-],
-"c": 0,
-"e": "Knowledge must be accessible and reinforced at the point of use."
-},
-{
-"d": "People",
-"l": 2,
-"t": "expectations",
-"s": "A stakeholder expects a monthly report but the plan has it quarterly. What should you do?",
-"o": [
-"Send monthly without telling anyone",
-"Refuse",
-"Keep to the plan",
-"Discuss the need, and if justified update the communications plan"
-],
-"c": 3,
-"e": "Align expectations and update the plan if the need is valid."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "schedule",
-"s": "Which constraint makes the schedule MOST likely to need resource levelling?",
-"o": [
-"A fixed delivery date with ample resources",
-"A mandatory dependency",
-"A long lead time item",
-"Limited availability of a shared specialist needed on parallel activities"
-],
-"c": 3,
-"e": "Resource levelling resolves over-allocation of scarce resources."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "evm",
-"s": "EV is $250,000, PV is $300,000, AC is $275,000. What are the CV and SV?",
-"o": [
-"CV = -$50,000; SV = -$25,000",
-"CV = -$25,000; SV = -$50,000",
-"CV = $25,000; SV = $50,000",
-"CV = -$25,000; SV = $50,000"
-],
-"c": 1,
-"e": "CV = EV \u2212 AC = \u221225,000. SV = EV \u2212 PV = \u221250,000."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "scope",
-"s": "Product backlog refinement shows that a requirement, once clear, is much larger than expected. What should the team do?",
-"o": [
-"Squeeze it into the iteration",
-"Estimate it at the average size",
-"Split it into smaller stories and reprioritise with the product owner",
-"Reject it"
-],
-"c": 2,
-"e": "Large items are split so they can be delivered in a single iteration."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "procurement",
-"s": "Before issuing a request for proposal you realise the statement of work is vague. What should you do?",
-"o": [
-"Cancel the procurement",
-"Issue it and clarify during bids",
-"Ask sellers to write it",
-"Clarify the statement of work first so sellers can respond on a common basis"
-],
-"c": 3,
-"e": "A clear statement of work leads to comparable bids and fewer disputes."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "quality",
-"s": "A process is within control limits but the mean has drifted toward the specification limit. What does this tell you?",
-"o": [
-"The process is fine",
-"Increase inspection",
-"The process is stable but may soon produce defects: investigate and re-centre",
-"The limits are wrong"
-],
-"c": 2,
-"e": "Stable does not mean capable. Drift toward a specification limit needs action."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "agile",
-"s": "A team estimates in story points and reports velocity of 30. A stakeholder asks how many hours that equals. What is the BEST answer?",
-"o": [
-"Convert at an industry rate",
-"Points are relative measures of effort, not hours. Offer a forecast based on velocity and the backlog size",
-"Refuse to answer",
-"30 points equals 300 hours"
-],
-"c": 1,
-"e": "Velocity and points are not a time conversion. Forecast with velocity and remaining backlog."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "resources",
-"s": "A procured contractor lacks a skill stated in their contract. What should you do FIRST?",
-"o": [
-"Replace them immediately",
-"Ignore it",
-"Ask the team to cover",
-"Review the contract and the evidence of the gap, discuss with the contractor and the vendor, and agree corrective action"
-],
-"c": 3,
-"e": "Check the facts against the contract and work through the vendor relationship before drastic action."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "status",
-"s": "Which metric BEST shows whether work is being completed at a sustainable rate in a kanban system?",
-"o": [
-"Hours logged",
-"Backlog size",
-"Throughput",
-"Number of meetings"
-],
-"c": 2,
-"e": "Throughput is completed items per time period."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "integrated",
-"s": "A project manager must produce an integrated plan for a project with predictive hardware and an agile software stream. What is the BEST approach?",
-"o": [
-"Use one method for the whole plan",
-"Plan hardware milestones and agile releases on a common timeline with integration points and shared reporting",
-"Plan them separately",
-"Defer integration"
-],
-"c": 1,
-"e": "Tailor planning to each approach and join them at integration points."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "finance",
-"s": "A project has a $50,000 contingency reserve and a $40,000 management reserve. An unplanned event costs $30,000 and was not in the risk register. What is the BEST action?",
-"o": [
-"Because it was unidentified, request management reserve through the governance process",
-"Use contingency without approval",
-"Ask the customer to pay",
-"Cut scope silently"
-],
-"c": 0,
-"e": "Unidentified risks (unknown unknowns) draw on management reserve, which needs approval."
-},
-{
-"d": "Process",
-"l": 2,
-"t": "closure",
-"s": "Final deliverables are accepted. What should you do before releasing the team?",
-"o": [
-"Hold a lessons learned session, archive the records and complete the handover",
-"Release the team and complete the documentation later",
-"Start planning the next project",
-"Close procurement before acceptance is confirmed"
-],
-"c": 0,
-"e": "Closure requires lessons learned, archiving and transition before resources are released."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "value",
-"s": "A feature's cost has doubled. How do you decide whether to proceed?",
-"o": [
-"Ask the team",
-"Always cancel",
-"Re-assess the value against the new cost and the remaining cost, and decide with the product owner",
-"Continue since money is spent"
-],
-"c": 2,
-"e": "Sunk cost is irrelevant. Compare the remaining cost with the remaining value."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "governance",
-"s": "A sponsor leaves the organisation mid-project and no replacement is named. What should you do?",
-"o": [
-"Pause all work",
-"Continue as normal",
-"Raise it to governance quickly so a new sponsor is named and understand any pending decisions",
-"Appoint yourself"
-],
-"c": 2,
-"e": "Projects need an accountable sponsor. Escalate to governance promptly."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "compliance",
-"s": "A vendor requires access to personal data not covered by your data agreement. What should you do?",
-"o": [
-"Refuse the vendor",
-"Grant access to keep to the schedule",
-"Check the data agreement with legal and compliance and update it before access",
-"Give partial access"
-],
-"c": 2,
-"e": "Compliance and agreements come before access."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "change",
-"s": "Several small approved changes together now threaten the schedule. What is the BEST action?",
-"o": [
-"Absorb the effect silently",
-"Continue approving changes individually",
-"Review the cumulative effect, update the baselines through change control and report to the sponsor",
-"Reject all further changes"
-],
-"c": 2,
-"e": "Cumulative change needs a combined view and re-baselining via governance."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "issues",
-"s": "An issue has been open for three weeks with no owner. What should you do?",
-"o": [
-"Assign an owner and a date, escalate if it needs a decision outside your authority, and track it",
-"Wait",
-"Close it",
-"Move it to the risk register"
-],
-"c": 0,
-"e": "Issues need owners and dates, with escalation where authority is lacking."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "risk",
-"s": "A residual risk remains after a mitigation. What should you do?",
-"o": [
-"Close the register",
-"Ignore it",
-"Add another mitigation always",
-"Assess it, decide whether it is acceptable, and monitor it in the risk register"
-],
-"c": 3,
-"e": "Residual risk remains after a response and should be accepted knowingly and monitored."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "improvement",
-"s": "A lessons learned review shows that the same estimating error recurs across projects. What is the BEST way to improve?",
-"o": [
-"Warn the next team",
-"Update the organisational estimating guidance and templates using the data",
-"Ignore it",
-"Replace the estimators"
-],
-"c": 1,
-"e": "Feed lessons into organisational process assets so the improvement lasts."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "external",
-"s": "A new law will take effect in four months and affects a deliverable due in six. What is the BEST action?",
-"o": [
-"Assess impact, update the plan and risks, and bring any needed changes through governance now",
-"Wait until it takes effect",
-"Ask the customer",
-"Deliver as planned"
-],
-"c": 0,
-"e": "Anticipate known external changes and plan early."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "sustainability",
-"s": "The sponsor wants the project to meet an internal sustainability target not in the original requirements. What do you do?",
-"o": [
-"Assess impact on scope, cost and schedule, and process it as a change if approved",
-"Add it silently",
-"Reject it",
-"Ignore it"
-],
-"c": 0,
-"e": "New expectations are assessed and handled through change control."
-}
+ {
+  "d": "People",
+  "l": 3,
+  "t": "agile",
+  "s": "A cross-functional team has been told by a senior manager to take on a new request every few days, outside the backlog. The team is losing focus. What is the BEST response from the project manager?",
+  "o": [
+   "Let the team absorb each request and extend the sprint goal to fit the new work as it arrives",
+   "Show the manager the cost of interruptions and agree one intake route via the product owner",
+   "Assign one team member to handle all of the manager's requests outside the normal backlog",
+   "Ask the product owner to quietly drop lower-priority items whenever a new request appears"
+  ],
+  "c": 1,
+  "e": "Protect the team by routing requests through the product owner and showing the cost of interruptions. Absorbing or side-channelling requests keeps the disruption hidden."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "conflict",
+  "s": "A team member and the product owner disagree about whether a story is done. The team's definition of done is clear and the story meets it. What should happen?",
+  "o": [
+   "Let the product owner reopen the story until all of their added expectations are satisfied",
+   "Ask the sponsor to rule on whether the story counts as done for this particular iteration",
+   "Have the team lead decide and record the outcome as a precedent for later disputes",
+   "Hold to the agreed definition; extras become a new story or team-agreed change"
+  ],
+  "c": 3,
+  "e": "Agreed definitions resolve disputes. New expectations become backlog items or a team-agreed change to the definition."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "team",
+  "s": "A newly formed team has strong individual performers who work in silos. Which action BEST builds team performance?",
+  "o": [
+   "Tie bonuses to individual output targets",
+   "Add detailed role descriptions for each specialist",
+   "Set shared team goals and pair people across skills",
+   "Rotate the team leader each week to spread ownership"
+  ],
+  "c": 2,
+  "e": "Interdependence and shared goals build team performance."
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "t": "stakeholders",
+  "s": "Which tool BEST shows how stakeholders' current engagement compares with the level you need?",
+  "o": [
+   "Power/interest grid plotted by stakeholder",
+   "Stakeholder engagement assessment matrix",
+   "RACI chart of project responsibilities",
+   "Salience model of power and urgency"
+  ],
+  "c": 1,
+  "e": "The engagement assessment matrix compares current and desired engagement. The power/interest grid only prioritises stakeholders."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "communication",
+  "s": "A remote team member says they only learn of decisions through hallway conversations at the head office. What is the BEST fix?",
+  "o": [
+   "Have the head office team brief remote members by phone after meetings",
+   "Email remote members a monthly digest of decisions made at the office",
+   "Invite remote members to hallway-style chats by scheduling optional calls",
+   "Record decisions in a shared place and announce them on one channel"
+  ],
+  "c": 3,
+  "e": "Good communication gives equal access to information regardless of location."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "ethics",
+  "s": "You find that a report you issued last month contained a calculation error that makes progress look better than it was. The sponsor has not noticed. What do you do?",
+  "o": [
+   "Correct it, tell the sponsor promptly what changed, and fix the check",
+   "Correct it quietly in next report and note the revision only if asked",
+   "Tell the sponsor only after confirming whether it affects any decision",
+   "Ask the report author to reissue it without drawing attention to the change"
+  ],
+  "c": 0,
+  "e": "Honesty and responsibility: disclose and correct promptly."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "leadership",
+  "s": "The team lead you appointed is technically strong but intimidates others, so people hide problems. What is the BEST step?",
+  "o": [
+   "Reassign the lead's tasks to others while keeping their title",
+   "Raise it at the next retrospective naming the lead's behaviour",
+   "Wait for a formal complaint before acting on the behaviour",
+   "Give private feedback with examples and coach a safer style"
+  ],
+  "c": 3,
+  "e": "Coach first. Psychological safety is critical to surface problems early."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "knowledge",
+  "s": "Lessons from earlier phases are not being used by new team members. What would MOST improve knowledge sharing?",
+  "o": [
+   "Write a longer end-of-project lessons report for all staff to read",
+   "Searchable repository plus short briefings for each new joiner",
+   "Name one team historian to answer questions from new members",
+   "Run annual training covering lessons from all past projects"
+  ],
+  "c": 1,
+  "e": "Knowledge must be accessible and reinforced at the point of use."
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "t": "expectations",
+  "s": "A stakeholder expects a monthly report but the plan has it quarterly. What should you do?",
+  "o": [
+   "Discuss the need; if valid, update the communications plan",
+   "Send monthly reports now and tell the stakeholder later",
+   "Explain that the approved plan says quarterly and keep to it",
+   "Ask the stakeholder to read the quarterly report more closely"
+  ],
+  "c": 0,
+  "e": "Align expectations and update the plan if the need is valid."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "schedule",
+  "s": "Which constraint makes the schedule MOST likely to need resource levelling?",
+  "o": [
+   "A fixed end date with plenty of spare staff available",
+   "A mandatory dependency between two sequential tasks",
+   "Scarce shared specialist needed on parallel tasks",
+   "A long lead time on a purchased hardware component"
+  ],
+  "c": 2,
+  "e": "Resource levelling resolves over-allocation of scarce resources."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "evm",
+  "s": "EV is $250,000, PV is $300,000, AC is $275,000. What are the CV and SV?",
+  "o": [
+   "CV = -$50,000; SV = -$25,000",
+   "CV = $25,000; SV = $50,000",
+   "CV = -$25,000; SV = -$50,000",
+   "CV = -$25,000; SV = $50,000"
+  ],
+  "c": 2,
+  "e": "CV = EV − AC = −25,000. SV = EV − PV = −50,000."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "scope",
+  "s": "Product backlog refinement shows that a requirement, once clear, is much larger than expected. What should the team do?",
+  "o": [
+   "Extend the iteration length so the whole item fits in one cycle",
+   "Split it into smaller stories with the product owner",
+   "Re-estimate it at a larger point value and keep it as one item",
+   "Ask the team to work extra hours to fit it into the iteration"
+  ],
+  "c": 1,
+  "e": "Large items are split so they can be delivered in a single iteration."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "procurement",
+  "s": "Before issuing a request for proposal you realise the statement of work is vague. What should you do?",
+  "o": [
+   "Clarify the statement of work first so bids are comparable",
+   "Issue the RFP and clarify scope in the bidder conference",
+   "Ask the preferred seller to draft the statement of work",
+   "Switch to a time-and-materials contract to avoid defining scope"
+  ],
+  "c": 0,
+  "e": "A clear statement of work leads to comparable bids and fewer disputes."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "quality",
+  "s": "A process is within control limits but the mean has drifted toward the specification limit. What does this tell you?",
+  "o": [
+   "Capable, because every point is inside the control limits",
+   "Out of control, so stop production and widen the limits",
+   "Stable but drifting toward the limit: investigate and re-centre",
+   "Acceptable, so add more inspection and keep running unchanged"
+  ],
+  "c": 2,
+  "e": "Stable does not mean capable. Drift toward a specification limit needs action."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "agile",
+  "s": "A team estimates in story points and reports velocity of 30. A stakeholder asks how many hours that equals. What is the BEST answer?",
+  "o": [
+   "Say 30 points is roughly 300 hours using a ten-hour rate",
+   "Have the team log hours for a month, then convert points to hours",
+   "Explain points are relative, then forecast from velocity",
+   "Replace points with hour estimates so the stakeholder can plan"
+  ],
+  "c": 2,
+  "e": "Velocity and points are not a time conversion. Forecast with velocity and remaining backlog; a fixed hours rate or a calibration exercise misrepresents what points measure."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "resources",
+  "s": "A procured contractor lacks a skill stated in their contract. What should you do FIRST?",
+  "o": [
+   "Verify the gap against the contract and talk to the vendor",
+   "Ask the vendor to replace them straight away at its own cost",
+   "Withhold payment until the contractor completes extra training",
+   "Reassign their tasks to employees and tell the vendor later"
+  ],
+  "c": 0,
+  "e": "Check the facts against the contract and work through the vendor relationship before drastic action."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "status",
+  "s": "Which metric BEST shows whether work is being completed at a sustainable rate in a kanban system?",
+  "o": [
+   "Velocity measured in story points per sprint",
+   "Cumulative hours logged by the team each week",
+   "Size of the backlog at the end of each week",
+   "Throughput, the items finished per period"
+  ],
+  "c": 3,
+  "e": "Throughput is completed items per time period, which suits flow-based kanban. Velocity is a sprint measure and hours logged show effort, not completion."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "integrated",
+  "s": "A project manager must produce an integrated plan for a project with predictive hardware and an agile software stream. What is the BEST approach?",
+  "o": [
+   "Run each stream on its own plan and merge at final delivery",
+   "Link both streams on one timeline with integration points",
+   "Convert hardware work into sprints to use one method",
+   "Freeze hardware scope and let agile adapt without sync points"
+  ],
+  "c": 1,
+  "e": "Tailor planning to each approach and join them at integration points."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "finance",
+  "s": "A project has a $50,000 contingency reserve and a $40,000 management reserve. An unplanned event costs $30,000 and was not in the risk register. What is the BEST action?",
+  "o": [
+   "Use the contingency reserve and update the register after",
+   "Draw management reserve directly without needing sign-off",
+   "Offset the cost by trimming quality testing from the plan",
+   "Request management reserve through the governance process"
+  ],
+  "c": 3,
+  "e": "Unidentified risks (unknown unknowns) draw on management reserve, which needs approval. Contingency is for identified risks in the register."
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "t": "closure",
+  "s": "Final deliverables are accepted. What should you do before releasing the team?",
+  "o": [
+   "Release the team now and complete the archive afterwards",
+   "Start planning the next project and finish records in parallel",
+   "Run lessons learned, archive records and complete the handover",
+   "Release the team, then run lessons learned remotely by survey"
+  ],
+  "c": 2,
+  "e": "Closure requires lessons learned, archiving and transition before resources are released."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "value",
+  "s": "A feature's cost has doubled. How do you decide whether to proceed?",
+  "o": [
+   "Continue, because the money already spent is too large to waste",
+   "Compare remaining cost to remaining value with the sponsor",
+   "Cancel the feature, since cost has doubled from the estimate",
+   "Put the feature on hold until the budget can be increased again"
+  ],
+  "c": 1,
+  "e": "Sunk cost is irrelevant. Compare the remaining cost with the remaining value."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "governance",
+  "s": "A sponsor leaves the organisation mid-project and no replacement is named. What should you do?",
+  "o": [
+   "Raise it with governance so a new sponsor is named quickly",
+   "Pause all work until a replacement is named by the organisation",
+   "Carry on and make the sponsor's decisions yourself for now",
+   "Ask the project's top stakeholder to act as sponsor informally"
+  ],
+  "c": 0,
+  "e": "Projects need an accountable sponsor. Escalate to governance promptly."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "compliance",
+  "s": "A vendor requires access to personal data not covered by your data agreement. What should you do?",
+  "o": [
+   "Grant access under a verbal promise to sign the agreement later",
+   "Provide masked sample data for the vendor and skip the agreement",
+   "Check the agreement with legal and update it before access",
+   "Refuse access and replace the vendor with a new supplier"
+  ],
+  "c": 2,
+  "e": "Compliance and agreements come before access."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "change",
+  "s": "Several small approved changes together now threaten the schedule. What is the BEST action?",
+  "o": [
+   "Keep approving changes one by one and monitor the schedule",
+   "Absorb the effect using schedule float and report at closure",
+   "Freeze all new change requests until the end of the project",
+   "Assess combined impact and re-baseline via change control"
+  ],
+  "c": 3,
+  "e": "Cumulative change needs a combined view and re-baselining via governance and a report to the sponsor. Approving one by one hides the total effect."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "issues",
+  "s": "An issue has been open for three weeks with no owner. What should you do?",
+  "o": [
+   "Move it to the risk register and review it monthly",
+   "Assign an owner and a date, escalate if needed",
+   "Wait for the owner to emerge at the next status meeting",
+   "Close it as stale because three weeks passed unchanged"
+  ],
+  "c": 1,
+  "e": "Issues need owners and dates, with escalation where authority is lacking."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "risk",
+  "s": "A residual risk remains after a mitigation. What should you do?",
+  "o": [
+   "Add further mitigations until the risk falls to zero",
+   "Remove it from the register since the response was applied",
+   "Assess it, decide if it is acceptable, and monitor it",
+   "Convert it to an issue and assign it to the team lead"
+  ],
+  "c": 2,
+  "e": "Residual risk remains after a response and should be accepted knowingly and monitored."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "improvement",
+  "s": "A lessons learned review shows that the same estimating error recurs across projects. What is the BEST way to improve?",
+  "o": [
+   "Brief each new team on the error at its kickoff meeting",
+   "Update estimating guidance and templates using the data",
+   "Require a senior estimator to review every estimate",
+   "Send all estimators on a refresher course next quarter"
+  ],
+  "c": 1,
+  "e": "Feed lessons into organisational process assets so the improvement lasts. Warnings, reviews and courses depend on individuals remembering."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "external",
+  "s": "A new law will take effect in four months and affects a deliverable due in six. What is the BEST action?",
+  "o": [
+   "Assess the impact now and update the plan and risk register",
+   "Wait for the law to take effect, then adjust the deliverable",
+   "Ask the customer to confirm scope without analysing impact",
+   "Deliver as planned and treat any penalty as a later issue"
+  ],
+  "c": 0,
+  "e": "Anticipate known external changes: assess impact, update the plan and risks, and take any changes through governance early."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "sustainability",
+  "s": "The sponsor wants the project to meet an internal sustainability target not in the original requirements. What do you do?",
+  "o": [
+   "Add it to the backlog at top priority without assessment",
+   "Decline it because it was not in the original requirements",
+   "Fold it into existing tasks and update the plan later",
+   "Assess the impact and process it as a change request"
+  ],
+  "c": 3,
+  "e": "New expectations are assessed and handled through change control."
+ }
 ]

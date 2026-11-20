@@ -1,0 +1,408 @@
+[
+ {
+  "d": "People",
+  "l": 3,
+  "t": "stakeholders",
+  "s": "A regulator's liaison, who has no formal role in the project but can delay your product's approval, has not attended any review. Your stakeholder register rates them low interest. Approval is due in eight weeks. What is the BEST action?",
+  "o": [
+   "Keep them informed with the monthly newsletter and review quarterly to save time",
+   "Send them the sponsor's progress summary before each stage gate",
+   "Meet them to learn their approval criteria and raise their engagement level",
+   "Monitor them for signs of concern and respond if they object"
+  ],
+  "c": 2,
+  "e": "Power over a gate outweighs low expressed interest. Engage them early to learn the approval criteria rather than waiting for objections."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "stakeholders",
+  "s": "A supportive customer sponsor has started skipping demos, and her team now sends junior delegates who cannot make decisions. The next release needs her approval of a contested design. What should you do FIRST?",
+  "o": [
+   "Ask her what changed and agree who can decide on her behalf",
+   "Escalate to her manager to restore her time for the project",
+   "Decide using her earlier preferences and report back to her",
+   "Cut demos to quarterly so they fit her calendar better"
+  ],
+  "c": 0,
+  "e": "Understand the change before acting, then restore access to a decision maker. Going over her head or deciding for her damages the relationship."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "stakeholders",
+  "s": "Two vocal stakeholders dominate every review and drown out quieter users who will use the product daily. How should you BEST gather balanced input?",
+  "o": [
+   "Cap the vocal stakeholders' speaking time in each review",
+   "Weight decisions by seniority since the vocal pair care most to save time",
+   "Survey only the daily users and drop the group reviews",
+   "Use separate sessions, written input and voting so every group is heard"
+  ],
+  "c": 3,
+  "e": "Structured, inclusive techniques balance influence without excluding anyone."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "leadership",
+  "s": "Your team's most senior engineer dismisses ideas from junior members in design discussions, and juniors have stopped speaking. Quality of designs is dropping. What is the BEST first step?",
+  "o": [
+   "Rotate the senior engineer to another team for a quarter",
+   "Give the senior private feedback and set norms for design discussions",
+   "Coach the juniors to speak up and challenge more assertively to save time",
+   "Take design decisions yourself until the discussion improves"
+  ],
+  "c": 1,
+  "e": "Coach the behaviour and change the conditions for participation rather than removing people or taking over decisions."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "leadership",
+  "s": "You are leading a team that has just completed a stressful release and morale is low. A new release starts in a week. What is MOST appropriate?",
+  "o": [
+   "Begin the next release now while the team's momentum is high",
+   "Offer a completion bonus and set a tight date for the next release to save time",
+   "Rotate out the most exhausted members and keep the rest going",
+   "Hold a retrospective, recognise the effort, and agree a sustainable pace"
+  ],
+  "c": 3,
+  "e": "Recognition, reflection and sustainable pace restore energy. A bonus or immediate restart ignores the cause."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "leadership",
+  "s": "A functional manager keeps reassigning your team members to urgent operational work without telling you. You have no formal authority over them. What is the BEST approach?",
+  "o": [
+   "Meet the manager, share the impact data, and agree a reassignment protocol",
+   "Ask the sponsor to forbid the manager from moving the team",
+   "Escalate in writing to the PMO and copy the manager's director",
+   "Accept the changes and replan the schedule each time they occur"
+  ],
+  "c": 0,
+  "e": "In a matrix, build agreements with functional managers using impact data before escalating."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "conflict",
+  "s": "Two team members from the testing and development groups blame each other for late defects. Each has valid points and each wants you to rule in their favour. What should you do?",
+  "o": [
+   "Review both sets of data privately and rule for the stronger case now",
+   "Rotate their duties so they have less contact on late defects",
+   "Run a joint session to review the evidence and fix the process gap",
+   "Ask each to write up their view and let the sponsor decide"
+  ],
+  "c": 2,
+  "e": "Collaborative problem solving addresses the process cause. Ruling or separating the people leaves it in place."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "conflict",
+  "s": "A conflict between two team leads has become personal and others are taking sides. A direct conversation between them failed. What is the BEST next step?",
+  "o": [
+   "Give both leads a written warning and set joint deadlines",
+   "Move one lead to a different workstream to reduce contact",
+   "Let it run until the next deadline forces them to cooperate to keep things moving",
+   "Hold separate meetings, then facilitate a goal-focused talk with a mediator"
+  ],
+  "c": 3,
+  "e": "After a failed direct attempt, use a neutral facilitator and focus on goals. Reprimands or moves escalate resentment."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "communication",
+  "s": "A project spans three countries and a message sent by email about a design change was understood differently by each site. What would BEST prevent this in future?",
+  "o": [
+   "Confirm understanding by call or playback and record the decision in one place",
+   "Send each site the change in its own language with read receipts for this cycle",
+   "Ask each site to report back its understanding weekly in writing",
+   "Send follow-up emails with more detail until every site replies"
+  ],
+  "c": 0,
+  "e": "Important messages need two-way confirmation and a single source of truth."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "communication",
+  "s": "The team has grown from 6 to 18 and stand-ups now take 40 minutes. Information is no longer reaching everyone. What is the BEST response?",
+  "o": [
+   "Keep one stand-up but limit each person to thirty seconds",
+   "Split into smaller cross-functional teams with a scrum of scrums",
+   "Move stand-ups to a weekly meeting with a written summary",
+   "Replace stand-ups with a daily shared-channel digest of updates now"
+  ],
+  "c": 1,
+  "e": "Communication channels grow with team size; smaller teams plus a coordination forum control the load."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "resources",
+  "s": "A project needs a rare skill for six months, and the best available person works for another department and is shared at 50%. Their manager is willing but needs a clear request. What should you provide?",
+  "o": [
+   "A verbal agreement with the person's manager, confirmed by email later",
+   "A request to the sponsor asking them to order the manager to release them",
+   "A written request with dates, effort and impact, via the resource channel",
+   "An offer of credit in the project report and a thank-you to the manager"
+  ],
+  "c": 2,
+  "e": "Resource requests should state what, when, how much and why, and go through the established channel."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "resources",
+  "s": "The team's work is 20% behind plan because a tool the team uses is slow. A faster tool costs $15,000 and would save roughly 100 person-hours at $120 per hour. Is the purchase worth it on cost alone?",
+  "o": [
+   "No; $12,000 of labour saved is less than the $15,000 price",
+   "Yes; the hours saved are worth more than the tool's price",
+   "Yes; the 20% schedule recovery pays for the tool by itself",
+   "Not decidable until the sponsor confirms the available budget"
+  ],
+  "c": 0,
+  "e": "100 hours at $120 saves $12,000, less than $15,000. The schedule benefit might still justify it, but on cost alone it does not."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "compliance",
+  "s": "A contractor has been embedded in the team for months and now routinely directs employees. HR notes this may create a co-employment concern. What should you do?",
+  "o": [
+   "Make the contractor a formal employee to match their duties",
+   "Keep things as they are and have the contractor sign a waiver",
+   "End the contractor's engagement now and redistribute the work",
+   "Clarify the role with HR and the vendor and stop direct supervision"
+  ],
+  "c": 3,
+  "e": "Check the contract and policy with the right functions and correct the working arrangement."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "scope",
+  "s": "During a demo, the customer asks for a different layout that would not change the agreed acceptance criteria but would take the team three days. What is the BEST response?",
+  "o": [
+   "Accept it on the spot and absorb the three days into the sprint",
+   "Log it as a backlog change for the product owner to prioritise",
+   "Decline it because the criteria are already agreed and met",
+   "Add it to the team's work and tell the product owner afterwards"
+  ],
+  "c": 1,
+  "e": "Even changes that do not alter acceptance criteria compete for capacity and are prioritised by the product owner."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "scope",
+  "s": "A requirements workshop produced 200 requirements. The team believes about 40 deliver most of the value, but stakeholders insist on all. What technique BEST helps?",
+  "o": [
+   "Deliver all 200 in order of stakeholder seniority across releases to save time",
+   "Choose the 40 high-value items yourself and announce the scope",
+   "Prioritise with MoSCoW or value-versus-cost to agree a minimum first release",
+   "Ask the sponsor to cut the list to a size the budget can fund"
+  ],
+  "c": 2,
+  "e": "Collaborative prioritisation builds agreement on the minimum viable scope."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "scope",
+  "s": "At scope validation the customer rejects a deliverable that meets all of the agreed acceptance criteria because it is 'not what they pictured'. What should you do?",
+  "o": [
+   "Explore the gap together and treat new expectations as change requests",
+   "Rework it at no cost to maintain the customer relationship",
+   "Hold the customer to the signed criteria and request formal acceptance",
+   "Pass the dispute to legal and pause all further deliverables"
+  ],
+  "c": 0,
+  "e": "Hold to agreed criteria while exploring the gap. New expectations are changes."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "value",
+  "s": "The product owner wants to release a feature that tests well technically but has no analytics to measure its use. What do you recommend?",
+  "o": [
+   "Release now and schedule analytics for the following sprint",
+   "Hold the release until a full analytics platform is purchased",
+   "Rely on customer support tickets to show how the feature is used to save time",
+   "Add usage measures to the definition of done so value can be validated"
+  ],
+  "c": 3,
+  "e": "Value-based delivery needs a way to see whether value is realised."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "value",
+  "s": "A project is ahead of schedule and under budget but early user feedback shows the target customers have little interest. What is the BEST action?",
+  "o": [
+   "Keep delivering to plan and review value after release",
+   "Report the feedback to the sponsor and reconsider scope on value",
+   "Add a marketing push to raise interest in the finished product now",
+   "Hold the feedback until the next formal benefits review"
+  ],
+  "c": 1,
+  "e": "On-time and on-budget delivery of low-value work is not success."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "status",
+  "s": "Your earned value data shows CPI of 0.95 and SPI of 1.10 and the sponsor says the project is going well. What is the MOST accurate summary?",
+  "o": [
+   "Behind schedule but slightly under budget",
+   "On schedule and on budget within tolerance",
+   "Ahead of schedule but slightly over budget",
+   "Ahead of schedule and slightly under budget"
+  ],
+  "c": 2,
+  "e": "SPI above 1 means ahead. CPI below 1 means over budget. Raise the cost trend even if the schedule looks good."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "status",
+  "s": "A team reports 'nearly done' on a task for the third week in a row. What is the BEST approach?",
+  "o": [
+   "Use a definition of done with demonstrable output, and find the blocker",
+   "Wait one more week, then raise it in the status report",
+   "Move the task to a different team member for a fresh start for this cycle",
+   "Ask for daily percent-complete updates until it closes"
+  ],
+  "c": 0,
+  "e": "Percent-complete is unreliable. Use observable completion and find blockers."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "schedule",
+  "s": "Activity A (4 days) feeds B (6 days), C (3 days) and E (7 days). Activity D (5 days) cannot start until B, C and E are all finished. What is the critical path duration?",
+  "o": [
+   "15 days (A, B, D)",
+   "16 days (A, E, D)",
+   "12 days (A, C, D)",
+   "22 days (A, B, E, D)"
+  ],
+  "c": 1,
+  "e": "Paths: A-B-D = 15 days, A-C-D = 12 days, A-E-D = 16 days. The longest path, A-E-D, is critical at 16 days; adding B and E together (22) is wrong because they run in parallel."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "schedule",
+  "s": "A schedule shows 12 days of float on a task. The team uses 15 days. What is the effect?",
+  "o": [
+   "Nothing changes, because float is a buffer that resets at each monthly review",
+   "The extra 3 days are absorbed as new float by the successor activities",
+   "Only the task's own cost changes, and the successors' dates stay the same",
+   "Successors slip by 3 days, and the end date moves if the path turns critical"
+  ],
+  "c": 3,
+  "e": "Using more than the float delays successors and may change the critical path."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "quality",
+  "s": "A supplier's parts occasionally fail inspection. Inspecting every part would delay the schedule by a week and cost $20,000. Failures would cost about $5,000 each and occur roughly twice a year, and the project runs for one year. What should you recommend?",
+  "o": [
+   "Inspect every part, since any failure risks the whole project to save time",
+   "Switch suppliers now and absorb the re-procurement delay",
+   "Compare inspection cost to expected failure cost and consider sampling",
+   "Accept the failures and carry them as a risk without analysis"
+  ],
+  "c": 2,
+  "e": "Cost of quality analysis compares prevention and appraisal costs with failure costs. Here inspection ($20,000) exceeds expected failures (about $10,000 a year), so full inspection is not justified; sampling or supplier improvement is."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "finance",
+  "s": "A project's budget is $2M and the sponsor wants monthly cash flow reports to finance. Which data BEST supports this?",
+  "o": [
+   "The cost baseline spread by month, with the funding requirements",
+   "The work breakdown structure with cost accounts by deliverable now",
+   "The project budget total with the contingency reserve noted",
+   "The cost performance report showing actual spend to date"
+  ],
+  "c": 0,
+  "e": "A time-phased cost baseline and funding requirements show cash needs."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "change",
+  "s": "A change request is urgent: a security vulnerability must be fixed this week. The change control board meets monthly. What is the BEST approach?",
+  "o": [
+   "Wait for the monthly board and apply a temporary workaround",
+   "Use the emergency change process in governance, then take it for ratification",
+   "Fix it under the project manager's authority and report in the monthly pack now",
+   "Convene an unscheduled board by email with no formal record"
+  ],
+  "c": 1,
+  "e": "Governance should define an emergency path; use it and ratify afterwards."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "change",
+  "s": "A requested change would reduce risk but add $60,000 to a project with a $50,000 contingency reserve for identified risks. What should the project manager do?",
+  "o": [
+   "Draw on the $50,000 reserve and ask the sponsor for the other $10,000 to save time",
+   "Approve it under your authority because it lowers project risk",
+   "Reject it because the cost is greater than the available reserve",
+   "Send it through change control, as it exceeds the reserve and may need funding"
+  ],
+  "c": 3,
+  "e": "Changes beyond reserve authority go to the change control board and may require re-baselining."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "risk",
+  "s": "A risk owner says a risk is no longer relevant, but the trigger condition is still present. What should you do?",
+  "o": [
+   "Close it on the owner's word and record their reasoning in the log",
+   "Pass the decision to the sponsor to settle at the next review",
+   "Check the trigger and reasoning; keep the risk open if the trigger remains",
+   "Move it to a watch list and stop assigning response effort to it"
+  ],
+  "c": 2,
+  "e": "Check evidence before closing risks."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "risk",
+  "s": "After a risk response is implemented, a new risk of a similar size appears because of the response. What type is this?",
+  "o": [
+   "Residual risk, since it remains after the response",
+   "Secondary risk, since it arises from the response itself",
+   "Contingent risk, since it arises when a trigger occurs",
+   "Emergent risk, since it was unidentified before the response"
+  ],
+  "c": 1,
+  "e": "A secondary risk arises from implementing a response. A residual risk remains after a response, and a contingent risk is one whose plan fires on a trigger."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "external",
+  "s": "Interest rates rise sharply, raising the financing cost of a project funded by loans. Benefits are unchanged. What should you do FIRST?",
+  "o": [
+   "Assess the business case and budget impact, then take options to the sponsor",
+   "Renegotiate the loan terms with the lender on your own authority",
+   "Reduce scope straight away to keep the financing cost flat",
+   "Pause spending until the interest rate returns to its earlier level to save time"
+  ],
+  "c": 0,
+  "e": "Evaluate the external change against value and take options to governance."
+ }
+]

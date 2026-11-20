@@ -11,3 +11,6 @@ Rules the writers and the reviewer both follow. Each one traces to a mistake cau
 7. The explanation must say why the tempting wrong answer fails, not only why the right one works.
 8. Never copy or paraphrase real exam questions or commercial prep-book questions. Write from the outline's task list.
 9. Correct-answer positions vary; the simulator also shuffles at run time.
+
+## 7. Keep option lengths comparable
+The correct option must not be recognisable by length. Distractors get the same level of detail and plausibility as the key. Across any batch the correct option is strictly the longest in at most 30% of questions (check with a script before review). Origin: C-007.

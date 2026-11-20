@@ -1,422 +1,422 @@
 [
-{
-"d": "People",
-"l": 2,
-"t": "agile",
-"s": "A scrum team's daily stand-up has turned into a status report to the project manager. What should the PM do?",
-"o": [
-"Keep attending and keep collecting status",
-"Replace it with a written status report",
-"Make the stand-up weekly",
-"Step back, remind the team the stand-up is for them to coordinate, and let them run it"
-],
-"c": 3,
-"e": "The daily stand-up belongs to the team. A servant leader coaches the team to own it rather than using it for management reporting."
-},
-{
-"d": "People",
-"l": 3,
-"t": "conflict",
-"s": "Two stakeholders give you contradictory requirements for the same feature. Both are senior. What is the BEST action?",
-"o": [
-"Bring both together to clarify the underlying needs and agree a decision, using the sponsor to break a tie if needed",
-"Wait until one backs down",
-"Build both versions",
-"Build what the more senior stakeholder wants"
-],
-"c": 0,
-"e": "Resolve conflicting requirements through facilitation focused on needs and business value. Escalate to the sponsor only if they cannot agree."
-},
-{
-"d": "People",
-"l": 2,
-"t": "team",
-"s": "A new team member is productive but does not take part in team discussions. What is the BEST first step?",
-"o": [
-"Ask them to speak up in front of the team",
-"Record it in their performance review",
-"Ignore it while the work is good",
-"Talk to them privately to understand what would help them contribute"
-],
-"c": 3,
-"e": "Understand the reason privately first. Contributions can be limited by culture, confidence or team norms."
-},
-{
-"d": "People",
-"l": 3,
-"t": "stakeholders",
-"s": "A key user keeps saying the delivered increments do not match what they meant, though they approved the stories. What addresses the root cause BEST?",
-"o": [
-"Add a sign-off form for every story",
-"Involve the user in refinement and demos with working examples, and agree acceptance criteria before work starts",
-"Ask them to be more careful",
-"Stop sharing increments until the end"
-],
-"c": 1,
-"e": "Shared understanding comes from collaboration and clear acceptance criteria, not bureaucracy."
-},
-{
-"d": "People",
-"l": 2,
-"t": "leadership",
-"s": "A team lacks confidence after a failed release. Which action is MOST appropriate for the project leader?",
-"o": [
-"Reduce the scope of the next release without discussion",
-"Hold a blameless review, recognise what worked, and agree concrete improvements",
-"Replace the team lead",
-"Assign blame to the cause and move on"
-],
-"c": 1,
-"e": "A blameless retrospective rebuilds trust and turns failure into learning."
-},
-{
-"d": "People",
-"l": 3,
-"t": "resources",
-"s": "Your team is overloaded and you have been asked to add a feature. Team members say they cannot take on more. What do you do?",
-"o": [
-"Ask for overtime",
-"Add the feature and quietly slip the date",
-"Show the capacity data and options (scope trade-off, extend, add resources) to the product owner or sponsor to decide",
-"Cut testing to make room"
-],
-"c": 2,
-"e": "Make trade-offs visible and let the decision maker choose. Do not hide impact or cut quality silently."
-},
-{
-"d": "People",
-"l": 2,
-"t": "conflict",
-"s": "A team member complains that a colleague takes credit for shared work. What is the BEST response?",
-"o": [
-"Tell them to resolve it themselves",
-"Change the team structure",
-"Reprimand the colleague straight away",
-"Listen, gather the facts from both, and facilitate a conversation on recognition and contribution"
-],
-"c": 3,
-"e": "Hear both sides before acting, then facilitate. Immediate discipline without facts is unfair."
-},
-{
-"d": "People",
-"l": 1,
-"t": "team",
-"s": "Which is a characteristic of a high-performing team?",
-"o": [
-"Dependence on the project manager for decisions",
-"High trust and open communication",
-"Avoiding disagreement",
-"Clear separation of tasks with no overlap"
-],
-"c": 1,
-"e": "High-performing teams are interdependent, trust each other and communicate openly, including productive disagreement."
-},
-{
-"d": "People",
-"l": 3,
-"t": "ethics",
-"s": "You discover that a vendor's gift to a team member could look like an attempt to influence a procurement decision. What do you do?",
-"o": [
-"Accept it is harmless",
-"Cancel the contract",
-"Share the gift with the whole team",
-"Follow the conflict-of-interest policy: decline or report the gift and disclose it to the appropriate party"
-],
-"c": 3,
-"e": "PMI's code requires avoiding and disclosing conflicts of interest. Follow the organisation's policy and be transparent."
-},
-{
-"d": "People",
-"l": 2,
-"t": "stakeholders",
-"s": "The sponsor has stopped attending steering meetings and decisions are stalling. What do you do FIRST?",
-"o": [
-"Escalate to the CEO",
-"Meet the sponsor to understand the cause and agree how they want to stay involved",
-"Take the decisions yourself",
-"Cancel the steering meetings"
-],
-"c": 1,
-"e": "Talk to the sponsor first to find out why and agree an engagement approach."
-},
-{
-"d": "People",
-"l": 3,
-"t": "agile",
-"s": "A hybrid project has a predictive hardware phase and an agile software team. The two groups use different reporting. What do you do?",
-"o": [
-"Force the agile team to use the predictive plan",
-"Report separately and let the sponsor reconcile",
-"Switch everything to agile",
-"Tailor a common cadence and shared integration points and agree a combined set of measures with both groups"
-],
-"c": 3,
-"e": "Hybrid delivery calls for tailoring: shared milestones and integration points with metrics each side can feed."
-},
-{
-"d": "People",
-"l": 2,
-"t": "team",
-"s": "A virtual team member's camera is always off and they rarely respond. What should you do?",
-"o": [
-"Check in one-to-one on workload, tools and connection, and agree communication expectations",
-"Report them to HR",
-"Assign them less work",
-"Require camera use"
-],
-"c": 0,
-"e": "Find the cause. Agreements, not mandates, are the first step."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "evm",
-"s": "BAC is $800,000. At the status date PV is $400,000, EV is $360,000 and AC is $400,000. What is the TCPI to meet BAC?",
-"o": [
-"1.20",
-"0.90",
-"1.00",
-"1.10"
-],
-"c": 3,
-"e": "TCPI = (BAC \u2212 EV)/(BAC \u2212 AC) = (800 \u2212 360)/(800 \u2212 400) = 440/400 = 1.10."
-},
-{
-"d": "Process",
-"l": 2,
-"t": "evm",
-"s": "EV is $90,000 and PV is $100,000. What is the schedule variance?",
-"o": [
-"-0.10",
-"$10,000",
-"-$10,000",
-"0.90"
-],
-"c": 2,
-"e": "SV = EV \u2212 PV = \u2212$10,000. SPI is the ratio 0.90."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "risk",
-"s": "A threat is accepted passively. Where should it appear?",
-"o": [
-"In the lessons learned only",
-"Nowhere, since no action is taken",
-"In the risk register with a note that it is accepted, and a decision on contingency",
-"Only in the issue log"
-],
-"c": 2,
-"e": "Accepted risks stay in the register, and active acceptance may establish a contingency reserve."
-},
-{
-"d": "Business Environment",
-"l": 2,
-"t": "risk",
-"s": "The project team decides to buy insurance against a facility failure. Which response strategy is this?",
-"o": [
-"Accept",
-"Transfer",
-"Avoid",
-"Mitigate"
-],
-"c": 1,
-"e": "Insurance transfers the financial impact to a third party."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "change",
-"s": "The customer asks for an extra report that was not in the requirements. It is small and the team could do it in a day. What do you do?",
-"o": [
-"Refuse because it is out of scope",
-"Do it as a goodwill gesture",
-"Tell the team to do it in their own time",
-"Process it through change control even though it is small"
-],
-"c": 3,
-"e": "Even small additions are changes. Gold plating and unmanaged scope creep damage trust and the baseline."
-},
-{
-"d": "Process",
-"l": 2,
-"t": "schedule",
-"s": "Which technique shortens the schedule by doing sequential activities in parallel, increasing risk?",
-"o": [
-"Lead time reduction only",
-"Fast tracking",
-"Crashing",
-"Resource levelling"
-],
-"c": 1,
-"e": "Fast tracking overlaps activities and raises rework risk. Crashing adds resources and cost."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "schedule",
-"s": "Resource levelling extends the project end date. What is the effect on the critical path?",
-"o": [
-"None",
-"It removes float",
-"It becomes shorter",
-"It can create a new critical path (resource-constrained)"
-],
-"c": 3,
-"e": "Levelling can lengthen the schedule and alter the critical path to a resource critical path."
-},
-{
-"d": "Process",
-"l": 2,
-"t": "quality",
-"s": "A control chart shows seven consecutive points on one side of the mean, all within control limits. What does this suggest?",
-"o": [
-"Nothing, because it is inside the limits",
-"A non-random pattern: investigate for an assignable cause",
-"The limits are too wide",
-"The process is in control"
-],
-"c": 1,
-"e": "The rule of seven indicates a non-random trend even when points are within limits."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "procurement",
-"s": "A seller disputes a charge and the parties cannot agree. What is the PREFERRED order of resolution?",
-"o": [
-"Arbitration, negotiation, litigation",
-"Litigation, mediation, negotiation",
-"Negotiation, mediation, arbitration, litigation",
-"Escalate to the sponsor, then litigate"
-],
-"c": 2,
-"e": "Negotiate first, then mediation, then arbitration, with litigation as a last resort."
-},
-{
-"d": "Process",
-"l": 2,
-"t": "agile",
-"s": "A team's velocity averages 24 points. The backlog has 144 points. About how many iterations are needed?",
-"o": [
-"12",
-"4",
-"6",
-"8"
-],
-"c": 2,
-"e": "144 / 24 = 6 iterations, assuming stable velocity."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "agile",
-"s": "A product owner changes the order of backlog items every other day. The team complains about churn. What should the PM encourage?",
-"o": [
-"Let the team prioritise instead",
-"Freeze the backlog for the whole project",
-"Remove the product owner",
-"Agree that priorities change only between iterations and protect the iteration commitment"
-],
-"c": 3,
-"e": "Protecting the iteration commitment gives stability while keeping flexibility between iterations."
-},
-{
-"d": "Business Environment",
-"l": 2,
-"t": "change",
-"s": "A change was approved by the change control board. What is the next step?",
-"o": [
-"Update the baselines and plans, implement, and communicate to stakeholders",
-"Archive it in lessons learned",
-"Close the request",
-"Wait for the customer to ask"
-],
-"c": 0,
-"e": "Approved changes require updates to the affected baselines and communication."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "change",
-"s": "You realise a team member already implemented a change that was never approved. What do you do?",
-"o": [
-"Assess its impact, take it through change control, and address why the process was bypassed",
-"Report the team member to HR immediately",
-"Approve it retroactively",
-"Remove the change and say nothing"
-],
-"c": 0,
-"e": "Treat it transparently: assess impact, run change control, and fix the process gap."
-},
-{
-"d": "Process",
-"l": 2,
-"t": "stakeholders",
-"s": "Which document identifies stakeholders and records their requirements, expectations and classification?",
-"o": [
-"Issue log",
-"Stakeholder register",
-"Communications management plan",
-"Project charter"
-],
-"c": 1,
-"e": "The stakeholder register holds identification, assessment and classification."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "scope",
-"s": "At project close the customer refuses to formally accept a deliverable that meets the acceptance criteria, saying they want a new feature. What do you do?",
-"o": [
-"Escalate to legal at once",
-"Close without acceptance",
-"Add the feature to get acceptance",
-"Show that the criteria are met, document the new request as a change, and seek acceptance of the deliverable"
-],
-"c": 3,
-"e": "Hold to the agreed criteria. New wishes are changes, not a reason to withhold acceptance."
-},
-{
-"d": "Business Environment",
-"l": 2,
-"t": "benefits",
-"s": "The project is on time and budget, but the market has shifted and the benefits no longer justify it. What should the PM do?",
-"o": [
-"Report the change to the sponsor and governance so they can decide to continue, change or stop",
-"Stop the project",
-"Continue because the plan is on track",
-"Quietly reduce scope"
-],
-"c": 0,
-"e": "Business value drives continuation. Raise it with the sponsor and the steering committee."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "compliance",
-"s": "Your project must meet a security standard not in the original scope. The audit is in six weeks. What do you do?",
-"o": [
-"Assess the impact, raise a change request, and plan the compliance work with the security team",
-"Ask the auditor to waive it",
-"Ignore it until the audit",
-"Remove the feature that triggers it"
-],
-"c": 0,
-"e": "Compliance is a constraint. Assess, raise it through change control, and plan."
-},
-{
-"d": "Business Environment",
-"l": 2,
-"t": "benefits",
-"s": "Which is the BEST measure of project success after closure?",
-"o": [
-"Number of change requests",
-"Team satisfaction",
-"The project finished on time",
-"Whether the intended benefits and business value are realised"
-],
-"c": 3,
-"e": "Delivering business value is the ultimate measure. Time and cost are constraints."
-}
+ {
+  "d": "People",
+  "l": 2,
+  "t": "agile",
+  "s": "A scrum team's daily stand-up has turned into a status report to the project manager. What should the PM do?",
+  "o": [
+   "Keep attending to gather status for your own reports",
+   "Step back and coach the team to own the stand-up",
+   "Swap it for a written status report sent each morning",
+   "Move the stand-up to weekly so it takes less time"
+  ],
+  "c": 1,
+  "e": "The daily stand-up belongs to the team. A servant leader coaches the team to own it rather than using it for management reporting."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "conflict",
+  "s": "Two stakeholders give you contradictory requirements for the same feature. Both are senior. What is the BEST action?",
+  "o": [
+   "Wait for one of the two stakeholders to back down before you decide",
+   "Build what the more senior stakeholder asked for to avoid friction",
+   "Facilitate a needs-based discussion, with the sponsor as tiebreaker",
+   "Build both versions and let users choose after the first release"
+  ],
+  "c": 2,
+  "e": "Resolve conflicting requirements through facilitation focused on needs and business value. Escalate to the sponsor only if they cannot agree."
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "t": "team",
+  "s": "A new team member is productive but does not take part in team discussions. What is the BEST first step?",
+  "o": [
+   "Ask them to speak up during the next team discussion",
+   "Note the lack of participation in their performance review",
+   "Leave it alone while their individual output stays strong",
+   "Talk privately to learn what would help them contribute"
+  ],
+  "c": 3,
+  "e": "Understand the reason privately first. Contributions can be limited by culture, confidence or team norms."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "stakeholders",
+  "s": "A key user keeps saying the delivered increments do not match what they meant, though they approved the stories. What addresses the root cause BEST?",
+  "o": [
+   "Agree acceptance criteria early and demo working examples",
+   "Add a formal sign-off form that the user completes for every story",
+   "Ask the user to read each story more carefully before approving it",
+   "Hold increments back and demo everything only near the very end"
+  ],
+  "c": 0,
+  "e": "Shared understanding comes from collaboration and clear acceptance criteria, not bureaucracy."
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "t": "leadership",
+  "s": "A team lacks confidence after a failed release. Which action is MOST appropriate for the project leader?",
+  "o": [
+   "Cut the next release's scope without discussing it with the team",
+   "Run a blameless review, recognise wins and agree improvements",
+   "Replace the team lead who owned the failed release",
+   "Identify who caused the failure, document it and move on"
+  ],
+  "c": 1,
+  "e": "A blameless retrospective rebuilds trust and turns failure into learning."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "resources",
+  "s": "Your team is overloaded and you have been asked to add a feature. Team members say they cannot take on more. What do you do?",
+  "o": [
+   "Ask the team to work overtime to fit the new feature in",
+   "Add the feature and let the delivery date slip without comment",
+   "Show capacity data and trade-offs to the decision maker",
+   "Trim testing effort so the feature fits in the iteration"
+  ],
+  "c": 2,
+  "e": "Make trade-offs visible and let the decision maker choose. Do not hide impact or cut quality silently."
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "t": "conflict",
+  "s": "A team member complains that a colleague takes credit for shared work. What is the BEST response?",
+  "o": [
+   "Tell the two colleagues to sort it out between themselves",
+   "Restructure the team so their work no longer overlaps",
+   "Formally reprimand the colleague who is said to take credit",
+   "Hear both sides, then facilitate a talk about contribution"
+  ],
+  "c": 3,
+  "e": "Hear both sides before acting, then facilitate. Immediate discipline without facts is unfair."
+ },
+ {
+  "d": "People",
+  "l": 1,
+  "t": "team",
+  "s": "Which is a characteristic of a high-performing team?",
+  "o": [
+   "Strong reliance on the PM's decisions",
+   "High trust and open communication",
+   "Avoidance of open disagreement",
+   "Strict separation of individual tasks"
+  ],
+  "c": 1,
+  "e": "High-performing teams are interdependent, trust each other and communicate openly, including productive disagreement."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "ethics",
+  "s": "You discover that a vendor's gift to a team member could look like an attempt to influence a procurement decision. What do you do?",
+  "o": [
+   "Treat it as harmless because it was a small personal gift",
+   "Cancel the vendor's contract at once as a precaution",
+   "Share the gift out among the whole team to keep it fair",
+   "Follow the conflict policy, report the gift and disclose it"
+  ],
+  "c": 3,
+  "e": "PMI's code requires avoiding and disclosing conflicts of interest. Follow the organisation's policy and be transparent."
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "t": "stakeholders",
+  "s": "The sponsor has stopped attending steering meetings and decisions are stalling. What do you do FIRST?",
+  "o": [
+   "Escalate the absence to the CEO to restore sponsor attention",
+   "Meet the sponsor to learn why and agree how they stay involved",
+   "Take the stalled decisions yourself to keep the work moving",
+   "Cancel the steering meetings and report by email instead"
+  ],
+  "c": 1,
+  "e": "Talk to the sponsor first to find out why and agree an engagement approach."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "agile",
+  "s": "A hybrid project has a predictive hardware phase and an agile software team. The two groups use different reporting. What do you do?",
+  "o": [
+   "Tailor a shared cadence and integration points with joint measures",
+   "Make the agile team follow the predictive plan and reporting",
+   "Report each group separately and let the sponsor reconcile them",
+   "Move the whole project to agile delivery for consistency"
+  ],
+  "c": 0,
+  "e": "Hybrid delivery calls for tailoring: shared milestones and integration points with metrics each side can feed."
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "t": "team",
+  "s": "A virtual team member's camera is always off and they rarely respond. What should you do?",
+  "o": [
+   "Refer them to HR for failing to engage with the team",
+   "Give them less work until they become more responsive",
+   "Check in one-to-one and agree communication expectations",
+   "Require everyone to keep their camera on during meetings"
+  ],
+  "c": 2,
+  "e": "Find the cause. Agreements, not mandates, are the first step."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "evm",
+  "s": "BAC is $800,000. At the status date PV is $400,000, EV is $360,000 and AC is $400,000. What is the TCPI to meet BAC?",
+  "o": [
+   "1.20",
+   "1.10",
+   "0.90",
+   "1.00"
+  ],
+  "c": 1,
+  "e": "TCPI = (BAC − EV)/(BAC − AC) = (800 − 360)/(800 − 400) = 440/400 = 1.10."
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "t": "evm",
+  "s": "EV is $90,000 and PV is $100,000. What is the schedule variance?",
+  "o": [
+   "+$10,000",
+   "-$90,000",
+   "-$10,000",
+   "$190,000"
+  ],
+  "c": 2,
+  "e": "SV = EV − PV = −$10,000. SPI is the ratio 0.90."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "risk",
+  "s": "A threat is accepted passively. Where should it appear?",
+  "o": [
+   "Only in the lessons learned log for use on future projects",
+   "Nowhere, because passive acceptance involves no action",
+   "In the risk register, marked as accepted, with a reserve note",
+   "Only in the issue log until the risk actually occurs"
+  ],
+  "c": 2,
+  "e": "Accepted risks stay in the register, and active acceptance may establish a contingency reserve."
+ },
+ {
+  "d": "Business Environment",
+  "l": 2,
+  "t": "risk",
+  "s": "The project team decides to buy insurance against a facility failure. Which response strategy is this?",
+  "o": [
+   "Mitigate",
+   "Escalate",
+   "Accept",
+   "Transfer"
+  ],
+  "c": 3,
+  "e": "Insurance transfers the financial impact to a third party."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "change",
+  "s": "The customer asks for an extra report that was not in the requirements. It is small and the team could do it in a day. What do you do?",
+  "o": [
+   "Decline it because it was never part of the requirements",
+   "Add it as a goodwill gesture since it only takes a day",
+   "Have the team build it in their own time without logging it",
+   "Raise it through change control despite its small size"
+  ],
+  "c": 3,
+  "e": "Even small additions are changes. Gold plating and unmanaged scope creep damage trust and the baseline."
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "t": "schedule",
+  "s": "Which technique shortens the schedule by doing sequential activities in parallel, increasing risk?",
+  "o": [
+   "Fast tracking the activities",
+   "Crashing the critical activities",
+   "Levelling resources across tasks",
+   "Trimming critical path scope"
+  ],
+  "c": 0,
+  "e": "Fast tracking overlaps activities and raises rework risk. Crashing adds resources and cost."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "schedule",
+  "s": "Resource levelling extends the project end date. What is the effect on the critical path?",
+  "o": [
+   "No effect, since levelling only moves resource assignments",
+   "It can create a new resource-constrained critical path",
+   "It shortens the critical path by smoothing resource peaks",
+   "It removes all float from the non-critical activities"
+  ],
+  "c": 1,
+  "e": "Levelling can lengthen the schedule and alter the critical path to a resource critical path."
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "t": "quality",
+  "s": "A control chart shows seven consecutive points on one side of the mean, all within control limits. What does this suggest?",
+  "o": [
+   "A non-random pattern: look for an assignable cause",
+   "Nothing, since every point is inside the limits",
+   "The control limits are set too wide for this process",
+   "The process is stable and in statistical control"
+  ],
+  "c": 0,
+  "e": "The rule of seven indicates a non-random trend even when points are within limits."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "procurement",
+  "s": "A seller disputes a charge and the parties cannot agree. What is the PREFERRED order of resolution?",
+  "o": [
+   "Arbitration, then negotiation, then litigation",
+   "Litigation, then mediation, then negotiation",
+   "Negotiation, mediation, arbitration, litigation",
+   "Escalate to sponsor, then go to litigation"
+  ],
+  "c": 2,
+  "e": "Negotiate first, then mediation, then arbitration, with litigation as a last resort."
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "t": "agile",
+  "s": "A team's velocity averages 24 points. The backlog has 144 points. About how many iterations are needed?",
+  "o": [
+   "4 iterations",
+   "6 iterations",
+   "8 iterations",
+   "12 iterations"
+  ],
+  "c": 1,
+  "e": "144 / 24 = 6 iterations, assuming stable velocity."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "agile",
+  "s": "A product owner changes the order of backlog items every other day. The team complains about churn. What should the PM encourage?",
+  "o": [
+   "Hand backlog ordering to the team instead of the product owner",
+   "Freeze the backlog order for the entire life of the project",
+   "Ask the sponsor to replace the product owner with someone steadier",
+   "Agree priorities change between iterations, not during them"
+  ],
+  "c": 3,
+  "e": "Protecting the iteration commitment gives stability while keeping flexibility between iterations."
+ },
+ {
+  "d": "Business Environment",
+  "l": 2,
+  "t": "change",
+  "s": "A change was approved by the change control board. What is the next step?",
+  "o": [
+   "Update baselines and plans, implement it and tell stakeholders",
+   "Record it in lessons learned and move on to the next request",
+   "Mark the request closed in the log once the board has signed it",
+   "Hold off implementing until the customer asks for the change"
+  ],
+  "c": 0,
+  "e": "Approved changes require updates to the affected baselines and communication."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "change",
+  "s": "You realise a team member already implemented a change that was never approved. What do you do?",
+  "o": [
+   "Refer the team member to HR right away for bypassing control",
+   "Approve it retroactively so the records match the work done",
+   "Assess its impact and run it through change control",
+   "Reverse the change and leave the matter out of the reports"
+  ],
+  "c": 2,
+  "e": "Treat it transparently: assess impact, run change control, and fix the process gap."
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "t": "stakeholders",
+  "s": "Which document identifies stakeholders and records their requirements, expectations and classification?",
+  "o": [
+   "Project charter",
+   "Stakeholder register",
+   "Communication log",
+   "Lessons register"
+  ],
+  "c": 1,
+  "e": "The stakeholder register holds identification, assessment and classification."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "scope",
+  "s": "At project close the customer refuses to formally accept a deliverable that meets the acceptance criteria, saying they want a new feature. What do you do?",
+  "o": [
+   "Show the criteria are met and treat the new ask as a change",
+   "Take the dispute to legal straight away to force acceptance",
+   "Add the new feature so that the customer will finally accept",
+   "Close the project without formal acceptance of the deliverable"
+  ],
+  "c": 0,
+  "e": "Hold to the agreed criteria. New wishes are changes, not a reason to withhold acceptance."
+ },
+ {
+  "d": "Business Environment",
+  "l": 2,
+  "t": "benefits",
+  "s": "The project is on time and budget, but the market has shifted and the benefits no longer justify it. What should the PM do?",
+  "o": [
+   "Stop the project immediately because the benefits have gone",
+   "Carry on, since the project is on time and on budget",
+   "Trim scope quietly to bring the cost down to the new value",
+   "Tell the sponsor and governance so they can decide the path"
+  ],
+  "c": 3,
+  "e": "Business value drives continuation. Raise it with the sponsor and the steering committee."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "compliance",
+  "s": "Your project must meet a security standard not in the original scope. The audit is in six weeks. What do you do?",
+  "o": [
+   "Ask the auditor to waive the standard for this project",
+   "Assess impact, raise a change request and plan with security",
+   "Defer the work and deal with the findings after the audit",
+   "Drop the feature that triggers the standard from the scope"
+  ],
+  "c": 1,
+  "e": "Compliance is a constraint. Assess, raise it through change control, and plan."
+ },
+ {
+  "d": "Business Environment",
+  "l": 2,
+  "t": "benefits",
+  "s": "Which is the BEST measure of project success after closure?",
+  "o": [
+   "Whether intended benefits and value are realised",
+   "The count of change requests raised during the project",
+   "How satisfied the team was with the project experience",
+   "That the project was finished on or before the date"
+  ],
+  "c": 0,
+  "e": "Delivering business value is the ultimate measure. Time and cost are constraints."
+ }
 ]

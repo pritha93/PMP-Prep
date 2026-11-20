@@ -1,436 +1,436 @@
 [
-{
-"d": "People",
-"l": 2,
-"s": "Two Lodestar engineers disagree on an adapter design and the argument is slowing the iteration. Each has valid points. What should the project manager do FIRST?",
-"o": [
-"Ask them to settle it on their own and report back",
-"Bring them together to discuss the issues and look for a solution both can accept",
-"Ask their functional manager to decide",
-"Make the decision to keep the work moving"
-],
-"c": 1,
-"e": "Collaborating and problem solving is the preferred conflict approach. Forcing, withdrawing or escalating come only if that fails.",
-"t": "conflict"
-},
-{
-"d": "People",
-"l": 1,
-"s": "A new team member from a functional department is unsure what is expected of them. Which document BEST clarifies this?",
-"o": [
-"Quality management plan",
-"Responsibility assignment matrix",
-"Risk register",
-"Stakeholder register"
-],
-"c": 1,
-"e": "A RACI-style matrix assigns who does what, is accountable, consulted and informed.",
-"t": "team"
-},
-{
-"d": "People",
-"l": 3,
-"s": "Mid-project, a key stakeholder who was supportive becomes resistant after a reorganisation. Your engagement assessment matrix shows the change. What is the BEST next step?",
-"o": [
-"Update the stakeholder register only",
-"Meet them to understand the new concerns, then adjust the engagement plan",
-"Escalate to the sponsor so they can handle it",
-"Remove them from distribution to avoid noise"
-],
-"c": 1,
-"e": "Understand the cause directly, then revise the engagement approach. Escalation comes after you have tried within your own authority.",
-"t": "stakeholders"
-},
-{
-"d": "People",
-"l": 2,
-"s": "A team member keeps missing deadlines. You have not yet spoken to them. What should you do?",
-"o": [
-"Raise it in the retrospective",
-"Reassign the work and tell the functional manager",
-"Add a risk to the register",
-"Have a private conversation to find the cause and agree a plan"
-],
-"c": 3,
-"e": "Talk privately first. Understand the root cause before escalating or changing assignments.",
-"t": "team"
-},
-{
-"d": "People",
-"l": 3,
-"s": "In an agile team, the product owner and the project manager disagree on whether the team should take on an urgent item mid-iteration. As a servant leader, what do you do?",
-"o": [
-"Help the team assess the effect of the item on the iteration goal and let the product owner decide priority with that information",
-"Overrule the product owner because you own the schedule",
-"Tell the team to refuse any mid-iteration change",
-"Escalate to the steering committee"
-],
-"c": 0,
-"e": "Backlog priority belongs to the product owner. The PM or servant leader makes impact visible and protects the team.",
-"t": "agile"
-},
-{
-"d": "People",
-"l": 2,
-"s": "Your virtual team spans four time zones and decisions are being delayed. What is the BEST action?",
-"o": [
-"Move all decisions to you",
-"Reduce the team to one time zone",
-"Agree team working agreements: overlap hours, decision rules and an asynchronous channel",
-"Require everyone to attend a daily call at one time"
-],
-"c": 2,
-"e": "Working agreements built with the team address delays without imposing a single schedule.",
-"t": "team"
-},
-{
-"d": "People",
-"l": 3,
-"s": "A team member tells you privately that another member is making discriminatory remarks. What is your FIRST responsibility?",
-"o": [
-"Follow the organisation's code of conduct and escalate through the proper channel while protecting the reporter",
-"Wait to see whether it happens again",
-"Add it to the issue log and move on",
-"Confront the member publicly"
-],
-"c": 0,
-"e": "PMI's code requires fairness and respect. Act promptly through the defined process and protect confidentiality.",
-"t": "ethics"
-},
-{
-"d": "People",
-"l": 1,
-"s": "Which leadership style BEST fits an experienced, self-organising team?",
-"o": [
-"Transactional only",
-"Autocratic",
-"Directive",
-"Delegating"
-],
-"c": 3,
-"e": "Experienced, self-directed teams respond best to delegating and servant-style leadership.",
-"t": "leadership"
-},
-{
-"d": "People",
-"l": 2,
-"s": "During a retrospective, the team says the project manager's status meetings waste time. What should you do?",
-"o": [
-"Cancel all status meetings",
-"Ask the sponsor whether the meetings are needed",
-"Thank them, review what information is needed and by whom, and adjust the meetings",
-"Defend them, since they are part of the plan"
-],
-"c": 2,
-"e": "Retrospectives exist to improve how the team works. Adapt the process using the feedback.",
-"t": "team"
-},
-{
-"d": "People",
-"l": 3,
-"s": "A powerful stakeholder with low interest suddenly starts asking for daily detail. Your communication plan gives them a monthly summary. What is the BEST response?",
-"o": [
-"Keep to the plan so the team is not distracted",
-"Find out why their interest changed, then update the plan and their classification",
-"Give daily reports without changing anything",
-"Ask the team to answer the stakeholder directly"
-],
-"c": 1,
-"e": "Understand the cause, then update the stakeholder analysis and communication plan formally.",
-"t": "stakeholders"
-},
-{
-"d": "People",
-"l": 2,
-"s": "A team is in the storming stage. Which action fits BEST?",
-"o": [
-"Disband the team",
-"Give detailed instructions and close supervision only",
-"Facilitate conflict resolution, clarify roles and reinforce shared goals",
-"Wait for the stage to pass"
-],
-"c": 2,
-"e": "In storming, a leader helps manage conflict and clarify roles to move the team towards norming.",
-"t": "team"
-},
-{
-"d": "People",
-"l": 3,
-"s": "You are told your most effective team member is being pulled to another project by their functional manager next week. The work is on your critical path. What is the BEST first step?",
-"o": [
-"Negotiate with the functional manager, showing the impact, and agree options such as a handover or a later start",
-"Quietly shift the work to another team",
-"Accept it and re-plan",
-"Threaten to escalate immediately"
-],
-"c": 0,
-"e": "In a matrix you negotiate for resources using impact data before escalating.",
-"t": "resources"
-},
-{
-"d": "People",
-"l": 2,
-"s": "A stakeholder repeatedly attends demos and gives vague feedback. What technique BEST draws out useful input?",
-"o": [
-"Ask targeted questions and have them try the increment with defined scenarios",
-"Send a written survey after every demo",
-"Ask the sponsor to coach them",
-"Stop inviting them"
-],
-"c": 0,
-"e": "Structured, scenario-based feedback is more useful than open-ended invitations.",
-"t": "stakeholders"
-},
-{
-"d": "Business Environment",
-"l": 2,
-"s": "A change request arrives that would add two weeks and $40,000. The PM has authority up to $10,000 for contingency draws. What is the FIRST step?",
-"o": [
-"Approve it because the customer needs it",
-"Reject it because it exceeds your authority",
-"Evaluate the impact on scope, schedule, cost, quality and risk before it goes to the change control board",
-"Add it to the backlog without comment"
-],
-"c": 2,
-"e": "Impact analysis comes first. The change control board then decides.",
-"t": "change"
-},
-{
-"d": "Process",
-"l": 2,
-"s": "CPI is 0.88 and SPI is 1.05. Which is the BEST interpretation?",
-"o": [
-"Over budget and behind schedule",
-"Under budget and behind schedule",
-"Under budget and ahead of schedule",
-"Over budget and ahead of schedule"
-],
-"c": 3,
-"e": "CPI below 1 means over budget. SPI above 1 means ahead of schedule.",
-"t": "evm"
-},
-{
-"d": "Process",
-"l": 3,
-"s": "BAC is $500,000, EV $200,000, AC $250,000. Management expects future work at the budgeted rate. What is the EAC?",
-"o": [
-"$600,000",
-"$500,000",
-"$625,000",
-"$550,000"
-],
-"c": 3,
-"e": "Atypical variance: EAC = AC + (BAC \u2212 EV) = 250,000 + 300,000 = $550,000.",
-"t": "evm"
-},
-{
-"d": "Process",
-"l": 3,
-"s": "An activity has optimistic 4 days, most likely 6 days and pessimistic 14 days. What is its PERT estimate and standard deviation?",
-"o": [
-"6 days; 3.33 days",
-"7 days; 3.33 days",
-"7 days; 1.67 days",
-"8 days; 1.67 days"
-],
-"c": 2,
-"e": "PERT = (4 + 4\u00d76 + 14)/6 = 7. SD = (14 \u2212 4)/6 = 1.67.",
-"t": "schedule"
-},
-{
-"d": "Business Environment",
-"l": 2,
-"s": "A risk has a 30% chance of costing $50,000 and the response costs $20,000. What is the expected monetary value of the risk?",
-"o": [
-"$15,000",
-"$20,000",
-"$35,000",
-"$50,000"
-],
-"c": 0,
-"e": "EMV = 0.3 \u00d7 50,000 = $15,000. A $20,000 response costs more than the expected loss.",
-"t": "risk"
-},
-{
-"d": "Business Environment",
-"l": 3,
-"s": "A risk has been mitigated, but a new risk appears because of the mitigation. What is it called?",
-"o": [
-"Secondary risk",
-"Residual risk",
-"Contingent risk",
-"Trigger"
-],
-"c": 0,
-"e": "A secondary risk is created by implementing a risk response.",
-"t": "risk"
-},
-{
-"d": "Process",
-"l": 2,
-"s": "Which is the output of Validate Scope?",
-"o": [
-"Quality metrics",
-"Accepted deliverables",
-"Verified deliverables",
-"Work performance data"
-],
-"c": 1,
-"e": "Validate Scope is done with the customer and produces accepted deliverables. Verified deliverables come from quality control.",
-"t": "scope"
-},
-{
-"d": "Process",
-"l": 3,
-"s": "A sprint review shows the team completed 8 of 12 planned story points, and this has happened three iterations in a row. What should the PM encourage?",
-"o": [
-"Add overtime next sprint",
-"Use the actual velocity for planning and examine in the retrospective why commitments are too high",
-"Ask for more team members",
-"Reduce the story point value"
-],
-"c": 1,
-"e": "Plan from observed velocity and use retrospectives to find root causes.",
-"t": "agile"
-},
-{
-"d": "Process",
-"l": 2,
-"s": "Which contract type places the MOST cost risk on the seller?",
-"o": [
-"Firm fixed price",
-"Time and materials",
-"Cost plus fixed fee",
-"Fixed price with economic price adjustment"
-],
-"c": 0,
-"e": "Under a firm fixed price the seller absorbs cost overruns. Time and materials and cost-plus put more cost risk on the buyer.",
-"t": "procurement"
-},
-{
-"d": "Process",
-"l": 3,
-"s": "You find a defect in a deliverable that was already accepted by the customer. What do you do?",
-"o": [
-"Assess it, inform the customer, and handle the correction through change control",
-"Ignore it since it was accepted",
-"Fix it quietly",
-"Wait to see if the customer notices"
-],
-"c": 0,
-"e": "Ethics and process: be transparent and follow change control for the correction.",
-"t": "quality"
-},
-{
-"d": "Process",
-"l": 2,
-"s": "What does a Pareto chart show?",
-"o": [
-"Variation over time around a mean",
-"The few causes that produce most defects",
-"Relationships between two variables",
-"Process steps"
-],
-"c": 1,
-"e": "A Pareto chart ranks causes so effort goes to the vital few.",
-"t": "quality"
-},
-{
-"d": "Process",
-"l": 3,
-"s": "Activity A (3 days) precedes B (5 days) and C (4 days), and both precede D (2 days). What is the critical path duration and float on C?",
-"o": [
-"10 days; 0 days",
-"10 days; 1 day",
-"11 days; 2 days",
-"9 days; 0 days"
-],
-"c": 1,
-"e": "A\u2013B\u2013D = 3+5+2 = 10 days. A\u2013C\u2013D = 9 days, so C has 1 day of float.",
-"t": "schedule"
-},
-{
-"d": "Process",
-"l": 2,
-"s": "Which tool BEST shows how work is flowing and where bottlenecks appear in an agile team?",
-"o": [
-"Control chart of defect cost",
-"Pareto chart",
-"Stakeholder map",
-"Cumulative flow diagram"
-],
-"c": 3,
-"e": "A cumulative flow diagram shows work in each state and reveals bottlenecks.",
-"t": "agile"
-},
-{
-"d": "Process",
-"l": 3,
-"s": "The project is in execution and the sponsor asks to see the benefits the project will realise. Where are these recorded?",
-"o": [
-"Quality plan",
-"Procurement plan",
-"Benefits management plan",
-"Risk register"
-],
-"c": 2,
-"e": "The benefits management plan describes how and when benefits are delivered and measured.",
-"t": "benefits"
-},
-{
-"d": "Process",
-"l": 2,
-"s": "A vendor delivers late because of its own staffing problem. The contract has a late-delivery clause. What do you do?",
-"o": [
-"Waive the clause to keep the relationship",
-"Cancel the contract",
-"Follow the contract and apply the clause through procurement",
-"Hire another vendor"
-],
-"c": 2,
-"e": "Administer the contract as written; changes go through formal procurement channels.",
-"t": "procurement"
-},
-{
-"d": "Business Environment",
-"l": 3,
-"s": "Lessons learned meetings are usually held:",
-"o": [
-"Only when failures occur",
-"Only by the PMO",
-"Only at project close",
-"Throughout the project, at gates and iterations, as well as at close"
-],
-"c": 3,
-"e": "Lessons learned is continuous so later phases benefit.",
-"t": "lessons"
-},
-{
-"d": "Business Environment",
-"l": 2,
-"s": "A new regulation could affect your project's deliverable midway through. What should you do FIRST?",
-"o": [
-"Assess its impact on scope, schedule, cost and compliance and raise it through governance",
-"Stop the project",
-"Ignore it until it is final",
-"Tell the customer to handle it"
-],
-"c": 0,
-"e": "Compliance affects the project. Assess impact, then use change control and governance.",
-"t": "compliance"
-},
-{
-"d": "Business Environment",
-"l": 3,
-"s": "After launch, benefits are not being realised as in the business case. Who is ultimately responsible for ensuring they are realised?",
-"o": [
-"Vendor",
-"Team members",
-"Project manager",
-"Sponsor or benefit owner"
-],
-"c": 3,
-"e": "Benefit realisation continues after close and belongs to the sponsor or business owner.",
-"t": "benefits"
-}
+ {
+  "d": "People",
+  "l": 2,
+  "s": "Two Lodestar engineers disagree on an adapter design and the argument is slowing the iteration. Each has valid points. What should the project manager do FIRST?",
+  "o": [
+   "Let the two engineers work it out between themselves and report back",
+   "Ask their functional manager to choose the better design for them",
+   "Convene both engineers to explore the issues and find a joint fix",
+   "Pick the design yourself so the iteration keeps moving"
+  ],
+  "c": 2,
+  "e": "Collaborating and problem solving is the preferred conflict approach. Forcing, withdrawing or escalating come only if that fails.",
+  "t": "conflict"
+ },
+ {
+  "d": "People",
+  "l": 1,
+  "s": "A new team member from a functional department is unsure what is expected of them. Which document BEST clarifies this?",
+  "o": [
+   "Stakeholder engagement plan",
+   "Communications management plan",
+   "Work breakdown structure dictionary",
+   "Responsibility assignment matrix"
+  ],
+  "c": 3,
+  "e": "A RACI-style matrix assigns who does what, is accountable, consulted and informed.",
+  "t": "team"
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "s": "Mid-project, a key stakeholder who was supportive becomes resistant after a reorganisation. Your engagement assessment matrix shows the change. What is the BEST next step?",
+  "o": [
+   "Meet them to learn the new concerns, then revise the engagement plan",
+   "Update the stakeholder register to show the new stance and carry on",
+   "Ask the sponsor to win them back before you take any action yourself",
+   "Cut their communications to limit negative influence on the team"
+  ],
+  "c": 0,
+  "e": "Understand the cause directly, then revise the engagement approach. Escalation comes after you have tried within your own authority.",
+  "t": "stakeholders"
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "s": "A team member keeps missing deadlines. You have not yet spoken to them. What should you do?",
+  "o": [
+   "Raise the pattern openly at the next retrospective for the whole team",
+   "Hold a private conversation to find the cause and agree a plan",
+   "Reassign the late work and let the functional manager know",
+   "Log a schedule risk and monitor whether the delays continue"
+  ],
+  "c": 1,
+  "e": "Talk privately first. Understand the root cause before escalating or changing assignments.",
+  "t": "team"
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "s": "In an agile team, the product owner and the project manager disagree on whether the team should take on an urgent item mid-iteration. As a servant leader, what do you do?",
+  "o": [
+   "Overrule the product owner, since you are accountable for the schedule",
+   "Tell the team to decline mid-iteration changes to protect the iteration",
+   "Show the team's view of the impact so the product owner can decide",
+   "Send the disagreement to the steering committee for a ruling"
+  ],
+  "c": 2,
+  "e": "Backlog priority belongs to the product owner. The PM or servant leader makes impact visible and protects the team.",
+  "t": "agile"
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "s": "Your virtual team spans four time zones and decisions are being delayed. What is the BEST action?",
+  "o": [
+   "Agree working agreements: overlap hours, decision rules, async channel",
+   "Move every decision to the project manager so none wait on time zones",
+   "Schedule one daily call and require the full team to attend it live",
+   "Shrink the team to a single time zone so everyone overlaps fully"
+  ],
+  "c": 0,
+  "e": "Working agreements built with the team address delays without imposing a single schedule.",
+  "t": "team"
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "s": "A team member tells you privately that another member is making discriminatory remarks. What is your FIRST responsibility?",
+  "o": [
+   "Wait and see whether the remarks recur before involving anyone else",
+   "Note it in the issue log and raise it at the next team meeting",
+   "Speak to the accused member in front of the team to stop it at once",
+   "Use the conduct process to escalate it and protect the reporter"
+  ],
+  "c": 3,
+  "e": "PMI's code requires fairness and respect. Act promptly through the defined process and protect confidentiality.",
+  "t": "ethics"
+ },
+ {
+  "d": "People",
+  "l": 1,
+  "s": "Which leadership style BEST fits an experienced, self-organising team?",
+  "o": [
+   "Autocratic",
+   "Delegating",
+   "Directive",
+   "Prescriptive"
+  ],
+  "c": 1,
+  "e": "Experienced, self-directed teams respond best to delegating and servant-style leadership.",
+  "t": "leadership"
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "s": "During a retrospective, the team says the project manager's status meetings waste time. What should you do?",
+  "o": [
+   "Defend the meetings, since they are required by the communications plan",
+   "Cancel every status meeting and rely on the task board alone",
+   "Thank them, find who needs what information and adjust the meetings",
+   "Ask the sponsor to confirm whether the meetings are really required"
+  ],
+  "c": 2,
+  "e": "Retrospectives exist to improve how the team works. Adapt the process using the feedback.",
+  "t": "team"
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "s": "A powerful stakeholder with low interest suddenly starts asking for daily detail. Your communication plan gives them a monthly summary. What is the BEST response?",
+  "o": [
+   "Keep to the monthly summary so the team is not distracted by requests",
+   "Find out why interest changed, then update the plan and rating",
+   "Send daily reports now and leave the communication plan untouched",
+   "Have team members answer the stakeholder's questions directly each day"
+  ],
+  "c": 1,
+  "e": "Understand the cause, then update the stakeholder analysis and communication plan formally.",
+  "t": "stakeholders"
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "s": "A team is in the storming stage. Which action fits BEST?",
+  "o": [
+   "Help resolve conflict, clarify roles and reinforce the shared goals",
+   "Give detailed instructions and supervise closely until it passes",
+   "Step back and let the team sort itself out as the stage runs its course",
+   "Replace the most vocal members to restore calm quickly"
+  ],
+  "c": 0,
+  "e": "In storming, a leader helps manage conflict and clarify roles to move the team towards norming.",
+  "t": "team"
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "s": "You are told your most effective team member is being pulled to another project by their functional manager next week. The work is on your critical path. What is the BEST first step?",
+  "o": [
+   "Accept the reassignment and re-plan the critical path without that person",
+   "Quietly move the work to another team that has spare capacity",
+   "Warn that you will escalate to the sponsor unless the move is cancelled",
+   "Negotiate with the functional manager using impact data and options"
+  ],
+  "c": 3,
+  "e": "In a matrix you negotiate for resources using impact data before escalating.",
+  "t": "resources"
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "s": "A stakeholder repeatedly attends demos and gives vague feedback. What technique BEST draws out useful input?",
+  "o": [
+   "Send a written survey after every demo to capture structured comments",
+   "Ask pointed questions and let them try the increment on scenarios",
+   "Ask the sponsor to coach them on how to give useful feedback",
+   "Limit demo invitations to stakeholders who give detailed comments"
+  ],
+  "c": 1,
+  "e": "Structured, scenario-based feedback is more useful than open-ended invitations.",
+  "t": "stakeholders"
+ },
+ {
+  "d": "Business Environment",
+  "l": 2,
+  "s": "A change request arrives that would add two weeks and $40,000. The PM has authority up to $10,000 for contingency draws. What is the FIRST step?",
+  "o": [
+   "Approve it now because the customer clearly needs the extra scope",
+   "Reject it outright since the cost is beyond your approval authority",
+   "Assess the impact on all constraints before sending it to the CCB",
+   "Park it in the backlog and review it at the next planning session"
+  ],
+  "c": 2,
+  "e": "Impact analysis comes first. The change control board then decides.",
+  "t": "change"
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "s": "CPI is 0.88 and SPI is 1.05. Which is the BEST interpretation?",
+  "o": [
+   "Under budget and ahead of schedule",
+   "Over budget and ahead of schedule",
+   "Over budget and behind schedule",
+   "Under budget and behind schedule"
+  ],
+  "c": 1,
+  "e": "CPI below 1 means over budget. SPI above 1 means ahead of schedule.",
+  "t": "evm"
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "s": "BAC is $500,000, EV $200,000, AC $250,000. Management expects future work at the budgeted rate. What is the EAC?",
+  "o": [
+   "$550,000",
+   "$600,000",
+   "$500,000",
+   "$625,000"
+  ],
+  "c": 0,
+  "e": "Atypical variance: EAC = AC + (BAC − EV) = 250,000 + 300,000 = $550,000.",
+  "t": "evm"
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "s": "An activity has optimistic 4 days, most likely 6 days and pessimistic 14 days. What is its PERT estimate and standard deviation?",
+  "o": [
+   "7 days; 1.67 days",
+   "6 days; 3.33 days",
+   "7 days; 3.33 days",
+   "8 days; 1.67 days"
+  ],
+  "c": 0,
+  "e": "PERT = (4 + 4×6 + 14)/6 = 7. SD = (14 − 4)/6 = 1.67.",
+  "t": "schedule"
+ },
+ {
+  "d": "Business Environment",
+  "l": 2,
+  "s": "A risk has a 30% chance of costing $50,000 and the response costs $20,000. What is the expected monetary value of the risk?",
+  "o": [
+   "$20,000",
+   "$35,000",
+   "$15,000",
+   "$50,000"
+  ],
+  "c": 2,
+  "e": "EMV = 0.3 × 50,000 = $15,000. A $20,000 response costs more than the expected loss.",
+  "t": "risk"
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "s": "A risk has been mitigated, but a new risk appears because of the mitigation. What is it called?",
+  "o": [
+   "Residual risk",
+   "Secondary risk",
+   "Contingent risk",
+   "Dormant risk"
+  ],
+  "c": 1,
+  "e": "A secondary risk is created by implementing a risk response.",
+  "t": "risk"
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "s": "Which is the output of Validate Scope?",
+  "o": [
+   "Verified deliverables",
+   "Work performance reports",
+   "Accepted deliverables",
+   "Project scope statement"
+  ],
+  "c": 2,
+  "e": "Validate Scope is done with the customer and produces accepted deliverables. Verified deliverables come from quality control.",
+  "t": "scope"
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "s": "A sprint review shows the team completed 8 of 12 planned story points, and this has happened three iterations in a row. What should the PM encourage?",
+  "o": [
+   "Add overtime next sprint so the team reaches the planned 12 points",
+   "Request extra team members to lift the capacity to the planned level",
+   "Redefine the story point scale so the team appears to deliver more",
+   "Plan on actual velocity and probe over-commitment in retrospectives"
+  ],
+  "c": 3,
+  "e": "Plan from observed velocity and use retrospectives to find root causes.",
+  "t": "agile"
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "s": "Which contract type places the MOST cost risk on the seller?",
+  "o": [
+   "Time and materials",
+   "Firm fixed price",
+   "Cost plus fixed fee",
+   "Cost plus award fee"
+  ],
+  "c": 1,
+  "e": "Under a firm fixed price the seller absorbs cost overruns. Time and materials and cost-plus put more cost risk on the buyer.",
+  "t": "procurement"
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "s": "You find a defect in a deliverable that was already accepted by the customer. What do you do?",
+  "o": [
+   "Leave it alone, since the customer has already accepted the deliverable",
+   "Correct it in the next release as routine work without a formal record",
+   "Assess it, tell the customer and route the fix through change control",
+   "Wait for the customer to report it, then respond under the warranty"
+  ],
+  "c": 2,
+  "e": "Ethics and process: be transparent and follow change control for the correction.",
+  "t": "quality"
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "s": "What does a Pareto chart show?",
+  "o": [
+   "The few causes that account for most defects",
+   "Variation in a process over time around a mean",
+   "How two variables relate, plotted as points",
+   "The sequence of steps in a process and its decisions"
+  ],
+  "c": 0,
+  "e": "A Pareto chart ranks causes so effort goes to the vital few.",
+  "t": "quality"
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "s": "Activity A (3 days) precedes B (5 days) and C (4 days), and both precede D (2 days). What is the critical path duration and float on C?",
+  "o": [
+   "10 days; 0 days",
+   "11 days; 2 days",
+   "9 days; 0 days",
+   "10 days; 1 day"
+  ],
+  "c": 3,
+  "e": "A–B–D = 3+5+2 = 10 days. A–C–D = 9 days, so C has 1 day of float.",
+  "t": "schedule"
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "s": "Which tool BEST shows how work is flowing and where bottlenecks appear in an agile team?",
+  "o": [
+   "Cumulative flow diagram",
+   "Burn-up chart of total scope",
+   "Pareto chart of causes",
+   "Stakeholder power grid"
+  ],
+  "c": 0,
+  "e": "A cumulative flow diagram shows work in each state and reveals bottlenecks.",
+  "t": "agile"
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "s": "The project is in execution and the sponsor asks to see the benefits the project will realise. Where are these recorded?",
+  "o": [
+   "Quality management plan",
+   "Procurement management plan",
+   "Benefits management plan",
+   "Resource management plan"
+  ],
+  "c": 2,
+  "e": "The benefits management plan describes how and when benefits are delivered and measured.",
+  "t": "benefits"
+ },
+ {
+  "d": "Process",
+  "l": 2,
+  "s": "A vendor delivers late because of its own staffing problem. The contract has a late-delivery clause. What do you do?",
+  "o": [
+   "Waive the clause to protect the relationship with the vendor",
+   "Terminate the contract for default and rebid the work",
+   "Bring in a second vendor to recover the lost time and cost",
+   "Enforce the clause through the procurement process"
+  ],
+  "c": 3,
+  "e": "Administer the contract as written; changes go through formal procurement channels.",
+  "t": "procurement"
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "s": "Lessons learned meetings are usually held:",
+  "o": [
+   "Continuously, at gates and iterations as well as at close",
+   "Only when a serious failure has occurred on the project",
+   "Only at project close, once all the results are known",
+   "Only when the PMO schedules a review of the project"
+  ],
+  "c": 0,
+  "e": "Lessons learned is continuous so later phases benefit.",
+  "t": "lessons"
+ },
+ {
+  "d": "Business Environment",
+  "l": 2,
+  "s": "A new regulation could affect your project's deliverable midway through. What should you do FIRST?",
+  "o": [
+   "Wait until the regulation is final before acting",
+   "Assess its impact and raise it through governance",
+   "Stop the project until the rules are clear",
+   "Ask the customer to take on the compliance risk"
+  ],
+  "c": 1,
+  "e": "Compliance affects the project. Assess impact, then use change control and governance.",
+  "t": "compliance"
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "s": "After launch, benefits are not being realised as in the business case. Who is ultimately responsible for ensuring they are realised?",
+  "o": [
+   "Vendor account manager",
+   "Delivery team leads",
+   "Project manager and PMO",
+   "Sponsor or benefit owner"
+  ],
+  "c": 3,
+  "e": "Benefit realisation continues after close and belongs to the sponsor or business owner.",
+  "t": "benefits"
+ }
 ]

@@ -1,394 +1,394 @@
 [
-{
-"d": "Business Environment",
-"l": 3,
-"t": "governance",
-"s": "Your project's governance plan requires steering committee approval for scope changes. The committee has not met for six weeks because two members are travelling, and a customer-requested change needs a decision within a week. What should you do?",
-"o": [
-"Ask the governance chair for an interim decision path under the governance plan, such as a delegate or an out-of-cycle written vote",
-"Implement it and ask for ratification later",
-"Approve the change yourself since the customer is waiting",
-"Defer the change until the committee next meets"
-],
-"c": 0,
-"e": "Governance decision rights are not bypassed, but good governance plans define alternates. Use the defined path or ask the chair to invoke one. Self-approval and retroactive ratification bypass control."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "governance",
-"s": "The steering committee asks you to report only green status to a regulator-facing dashboard while the project is actually amber on schedule. What is the BEST response?",
-"o": [
-"Report accurate status, explain the recovery plan, and raise the concern with the committee and, if needed, the compliance function",
-"Comply, since the committee sets reporting",
-"Report amber only to the team",
-"Resign from the project"
-],
-"c": 0,
-"e": "Honesty and responsibility under PMI's code take precedence. Raise the concern through governance rather than comply with misleading reporting."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "compliance",
-"s": "Midway through delivery, a new data-protection rule makes one planned feature non-compliant in a market that accounts for 20% of expected revenue. The feature is already 60% built. What should you do FIRST?",
-"o": [
-"Assess the compliance impact and options (redesign, region-specific build, descope) and take them through change control with the sponsor",
-"Stop building the feature immediately",
-"Remove the market from the plan",
-"Finish the feature and decide later"
-],
-"c": 0,
-"e": "Compliance is a constraint, but the response is an assessed trade-off decided by the right authority. Stopping or continuing blindly are both premature."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "change",
-"s": "A change request is approved. Two weeks later you realise the approved cost impact was calculated using the old resource rate. What is the BEST action?",
-"o": [
-"Absorb the difference in contingency without telling anyone",
-"Re-assess the corrected impact, resubmit it to the change control board, and update the baselines accordingly",
-"Reject the change",
-"Ignore it since the change was approved"
-],
-"c": 1,
-"e": "The approval was based on wrong data. Transparency and the change process require resubmission."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "issues",
-"s": "A recurring impediment is slowing the team: a shared test environment is booked by another team for two days each week. The functional manager of that team will not release it. What do you do?",
-"o": [
-"Log the impediment as an issue, quantify its impact, and escalate to a decision maker who can resolve the conflict between the two teams",
-"Wait for the other team to finish",
-"Ask the team to work around it",
-"Buy a new environment from the project budget"
-],
-"c": 0,
-"e": "Impediments outside your authority are logged, quantified and escalated with impact data."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "risk",
-"s": "A risk was assessed at 10% probability and had no response planned. It now occurs. What should the project manager do FIRST?",
-"o": [
-"Update the risk register as a lesson learned",
-"Draw management reserve",
-"Treat it as an issue: assess the impact, apply a workaround, and update the issue log and the risk register",
-"Wait for the steering committee"
-],
-"c": 2,
-"e": "A risk that occurs becomes an issue. Unplanned responses are workarounds. Management reserve is drawn only with approval."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "risk",
-"s": "Two risks have equal expected monetary value, but one is a $2M loss at 5% and the other a $100K loss at 100%. The sponsor is highly risk-averse. How should you prioritise?",
-"o": [
-"Address the larger-impact, lower-probability risk first because of the sponsor's risk threshold",
-"Address the frequent one first because it will certainly happen",
-"Treat them as equal because the EMV is equal",
-"Accept both"
-],
-"c": 0,
-"e": "EMV ignores risk appetite. A risk-averse sponsor weights severe impact more heavily."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "change",
-"s": "A hybrid project's agile team adopts a new technical approach inside an iteration that affects an interface promised to another team in the predictive part. What is the BEST action?",
-"o": [
-"Proceed since the agile team owns its backlog",
-"Ask the other team to adapt",
-"Wait until the end of the project to integrate",
-"Raise it as a change to the integration baseline and agree the impact with the other team through the agreed integration governance"
-],
-"c": 3,
-"e": "In hybrid delivery, interface commitments are controlled across approaches. Coordinate through the agreed governance."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "external",
-"s": "A competitor announces a feature that makes part of your project's planned value obsolete. The project is on schedule. What should you do?",
-"o": [
-"Continue since the plan is approved",
-"Cancel the project",
-"Add the competitor's feature to the scope",
-"Assess the effect on the business case and benefits and bring options to the sponsor for a continue, adjust or stop decision"
-],
-"c": 3,
-"e": "External changes must be evaluated against value. The decision belongs to the sponsor and governance."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "org change",
-"s": "The project will change how 200 staff do their daily work. Training is planned but resistance is building. What would BEST support the organisational change?",
-"o": [
-"Engage the impacted groups early, identify change champions, and align expectations and benefits with leaders",
-"Increase the training hours",
-"Delay until resistance fades",
-"Mandate adoption through policy"
-],
-"c": 0,
-"e": "Organisational change depends on engagement, sponsorship and champions, not only training or mandate."
-},
-{
-"d": "Business Environment",
-"l": 2,
-"t": "improvement",
-"s": "At the end of each iteration the team finds the same integration problem. What is the BEST way to drive continuous improvement?",
-"o": [
-"Agree an experiment in the retrospective, assign an owner and check the result at the next retrospective",
-"Note it in lessons learned at the end of the project",
-"Add an integration phase at the end",
-"Assign a person to monitor it"
-],
-"c": 0,
-"e": "Continuous improvement uses small experiments with owners and checks, not deferred lessons."
-},
-{
-"d": "Business Environment",
-"l": 3,
-"t": "governance",
-"s": "A project manager in a matrix organisation realises that two functional managers have conflicting priorities for the same resource and no governance group exists to arbitrate. What should you do?",
-"o": [
-"Hire contractors",
-"Choose whichever manager is more senior",
-"Pause the project",
-"Propose defining a decision forum and escalate the conflict to the common sponsor or portfolio owner"
-],
-"c": 3,
-"e": "Governance defines who decides. When it is missing, establish or escalate to the authority that can decide."
-},
-{
-"d": "People",
-"l": 3,
-"t": "conflict",
-"s": "Two team members from different cultures keep misreading each other's direct and indirect communication styles. The work is slipping. What is the BEST approach?",
-"o": [
-"Facilitate a discussion about communication preferences and agree working norms, with cultural awareness",
-"Report it to HR",
-"Separate them permanently",
-"Ask both to adapt to the project manager's style"
-],
-"c": 0,
-"e": "Build shared norms and cultural awareness. Separation or escalation skips the simplest fix."
-},
-{
-"d": "People",
-"l": 3,
-"t": "stakeholders",
-"s": "A stakeholder you have classified as high power, low interest begins publicly criticising the project on social media. What is the BEST action?",
-"o": [
-"Issue a public rebuttal",
-"Ignore it",
-"Ask the sponsor to silence them",
-"Meet the stakeholder privately to understand the concern, address what can be addressed, and adjust the engagement plan"
-],
-"c": 3,
-"e": "Engage directly to understand and resolve the concern. Suppression or public rebuttal escalates the problem."
-},
-{
-"d": "People",
-"l": 3,
-"t": "knowledge",
-"s": "A critical team member will leave in two weeks and holds undocumented knowledge. What is the MOST effective way to help ensure knowledge transfer?",
-"o": [
-"Plan pairing, recorded walkthroughs and a handover with the successor, starting now",
-"Hire an external consultant",
-"Ask them to write a long document in their last week",
-"Accept the risk"
-],
-"c": 0,
-"e": "Knowledge transfer works best through active pairing and walkthroughs planned early, not a late document."
-},
-{
-"d": "People",
-"l": 2,
-"t": "communication",
-"s": "The communications management plan says weekly status email, but stakeholders say they never read it. What should you do?",
-"o": [
-"Stop sending status",
-"Send it twice a week",
-"Ask the stakeholders how they want to receive information and update the plan",
-"Keep sending it as planned"
-],
-"c": 2,
-"e": "Communication is effective only when received. Update the plan from stakeholder feedback."
-},
-{
-"d": "People",
-"l": 3,
-"t": "agile",
-"s": "A self-organising team makes a decision you believe is wrong but which is within their authority and not a risk to compliance. What do you do?",
-"o": [
-"Escalate to the sponsor",
-"Overrule them",
-"Share your concern and data, then let the team decide and review the result",
-"Ignore it"
-],
-"c": 2,
-"e": "A servant leader informs but respects the team's decision rights, then learns from the result."
-},
-{
-"d": "People",
-"l": 3,
-"t": "vision",
-"s": "Team members describe the project goal in three different ways. What should you do?",
-"o": [
-"Send them the charter",
-"Ignore the differences",
-"Choose the best description yourself",
-"Facilitate a session to build a shared vision linked to the business case and confirm it with the sponsor"
-],
-"c": 3,
-"e": "A common vision is built with the team and tied to the value the project delivers."
-},
-{
-"d": "People",
-"l": 3,
-"t": "expectations",
-"s": "A stakeholder expects a feature to be delivered at no extra cost, but it is not in the agreed scope. What is the BEST step?",
-"o": [
-"Explain what is in scope, discuss the need behind the request and process it as a change if justified",
-"Refuse without discussion",
-"Ask the team to deliver it quietly",
-"Deliver it to preserve the relationship"
-],
-"c": 0,
-"e": "Align expectations by clarifying scope and the need, then use change control."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "evm",
-"s": "CPI is 0.80. The sponsor confirms the overspend came from a one-time supplier problem that is now resolved, and the remaining work will be done at the budgeted rate. Which EAC formula is MOST appropriate?",
-"o": [
-"BAC \u2212 EV",
-"AC + (BAC \u2212 EV) / (CPI \u00d7 SPI)",
-"BAC / CPI",
-"AC + (BAC \u2212 EV)"
-],
-"c": 3,
-"e": "When variance is atypical and future work proceeds at the budgeted rate, use EAC = AC + (BAC \u2212 EV). BAC / CPI assumes the inefficiency continues."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "schedule",
-"s": "Activity D has a duration of 6 days, an early start of day 10 and a late finish of day 20. What is its total float?",
-"o": [
-"0 days",
-"4 days",
-"6 days",
-"10 days"
-],
-"c": 1,
-"e": "Early finish = 16. Float = late finish \u2212 early finish = 20 \u2212 16 = 4 days."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "procurement",
-"s": "A fixed-price contract has a scope that the seller says is incomplete. The seller wants more money. The buyer's requirements document was unclear. What should you do?",
-"o": [
-"Review the contract and requirements with procurement and legal, and handle a justified increase through a formal change order",
-"Cancel the contract",
-"Refuse any increase",
-"Pay it to keep the relationship"
-],
-"c": 0,
-"e": "Unclear buyer requirements may justify a change. Follow the contract and use a formal change order."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "scope",
-"s": "A requirement in the traceability matrix has no linked test case. What should you do?",
-"o": [
-"Mark it as verified because the team built it",
-"Delete the requirement from the matrix",
-"Leave it, since tests are optional",
-"Add a test for it, or confirm through change control that the requirement is no longer needed"
-],
-"c": 3,
-"e": "Traceability exposes verification gaps. Close the gap with a test, or remove the requirement through change control, never quietly."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "quality",
-"s": "Defects found by customers are rising while internal testing shows few. What is the BEST first action?",
-"o": [
-"Add more testers",
-"Analyse the cause: compare test coverage with customer usage and fix the gap",
-"Increase the warranty",
-"Ask customers to report fewer defects"
-],
-"c": 1,
-"e": "Find the root cause (a coverage gap) before adding effort."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "agile",
-"s": "A team's burn-up chart shows scope rising at the same rate as work completed, so the finish line never gets closer. What is the BEST response?",
-"o": [
-"Bring it to the product owner to prioritise and agree what is out for this release",
-"Ask the team to work faster",
-"Extend the deadline",
-"Stop adding to the backlog silently"
-],
-"c": 0,
-"e": "Rising scope shown on a burn-up is a prioritisation conversation with the product owner."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "closure",
-"s": "The customer will not sign off at closure because the support team has not been trained. What should you do?",
-"o": [
-"Close without signature",
-"Archive the project",
-"Check whether training is in scope, agree a plan with the customer and get conditional acceptance or complete it",
-"Sign yourself"
-],
-"c": 2,
-"e": "Closure needs acceptance and transition. Confirm scope and agree a path to acceptance."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "value",
-"s": "An item on the backlog has a high effort and low value. The team enjoys working on it. What should the PM encourage?",
-"o": [
-"Re-rank by value with the product owner and focus on the highest-value items first",
-"Let the team do it",
-"Remove all low-value items",
-"Assign it to a contractor"
-],
-"c": 0,
-"e": "Value-based delivery prioritises business value over team preference."
-},
-{
-"d": "Process",
-"l": 3,
-"t": "finance",
-"s": "The project is under budget but the sponsor wants to reallocate the unspent money to another project. Funds were approved for this project's cost baseline. What do you do?",
-"o": [
-"Refuse",
-"Transfer it quietly",
-"Follow the funding and change procedures: request the reallocation through governance",
-"Spend it on extras"
-],
-"c": 2,
-"e": "Reallocating approved funds is a governance decision, not a PM discretion."
-}
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "governance",
+  "s": "Your project's governance plan requires steering committee approval for scope changes. The committee has not met for six weeks because two members are travelling, and a customer-requested change needs a decision within a week. What should you do?",
+  "o": [
+   "Get verbal agreement from the available members and proceed on their word alone",
+   "Pass the decision to the customer's executive sponsor so it is not delayed",
+   "Ask the governance chair to invoke a delegate or an out-of-cycle written vote",
+   "Tell the customer to wait and re-plan around the next scheduled meeting date"
+  ],
+  "c": 2,
+  "e": "Governance decision rights are not bypassed, but good governance plans define alternates. Use the plan's own interim path or ask the chair to invoke one. Informal verbal agreement, going around the committee and simply waiting all fail the control or the deadline."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "governance",
+  "s": "The steering committee asks you to report only green status to a regulator-facing dashboard while the project is actually amber on schedule. What is the BEST response?",
+  "o": [
+   "Show green on the dashboard but brief the regulator verbally on the schedule slip",
+   "Report green now and correct it next period if the schedule does not recover",
+   "Report amber only in internal documents, leaving the regulator dashboard as requested",
+   "Report accurate amber status with the recovery plan and raise it through governance"
+  ],
+  "c": 3,
+  "e": "Honesty and responsibility under PMI's code take precedence. Raise the concern through governance rather than comply with misleading reporting."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "compliance",
+  "s": "Midway through delivery, a new data-protection rule makes one planned feature non-compliant in a market that accounts for 20% of expected revenue. The feature is already 60% built. What should you do FIRST?",
+  "o": [
+   "Pause the feature and ask legal to confirm the rule applies before any further work is done",
+   "Assess the compliance impact and options, then take a decision through change control",
+   "Finish the remaining 40% as planned and add a compliance patch after release",
+   "Withdraw the affected market from scope and update the business case accordingly"
+  ],
+  "c": 1,
+  "e": "Compliance is a constraint, but the response is an assessed trade-off decided by the right authority. Stopping or continuing blindly are both premature."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "change",
+  "s": "A change request is approved. Two weeks later you realise the approved cost impact was calculated using the old resource rate. What is the BEST action?",
+  "o": [
+   "Reassess the corrected impact, resubmit it to the CCB and update the baselines",
+   "Record the rate error in the change log and cover the gap from contingency reserve",
+   "Notify the sponsor informally and let the approved baseline stand as it is",
+   "Withdraw the approval and ask the requester to raise a fresh change from scratch"
+  ],
+  "c": 0,
+  "e": "The approval was based on wrong data. Transparency and the change process require resubmission."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "issues",
+  "s": "A recurring impediment is slowing the team: a shared test environment is booked by another team for two days each week. The functional manager of that team will not release it. What do you do?",
+  "o": [
+   "Ask the team to reschedule their testing around the booked days and track the delay",
+   "Request budget for a second test environment so the team no longer shares one",
+   "Raise it at the next retrospective and let the team find a workaround themselves",
+   "Log the issue, quantify its impact and escalate it to a decision maker who can arbitrate"
+  ],
+  "c": 3,
+  "e": "Impediments outside your authority are logged, quantified and escalated with impact data."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "risk",
+  "s": "A risk was assessed at 10% probability and had no response planned. It now occurs. What should the project manager do FIRST?",
+  "o": [
+   "Record it as a lesson learned, revise the probability upward and move on with the plan",
+   "Request management reserve at once to fund a full recovery response",
+   "Treat it as an issue: assess impact, apply a workaround and update the logs",
+   "Report it to the steering committee and hold work until they decide"
+  ],
+  "c": 2,
+  "e": "A risk that occurs becomes an issue. Unplanned responses are workarounds. Management reserve is drawn only with approval."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "risk",
+  "s": "Two risks have equal expected monetary value, but one is a $2M loss at 5% and the other a $100K loss at 100%. The sponsor is highly risk-averse. How should you prioritise?",
+  "o": [
+   "Address the certain risk first, since a guaranteed loss outranks a possible one",
+   "Treat them as equal priority because the expected monetary values match",
+   "Address the severe, unlikely risk first because the sponsor is risk-averse",
+   "Accept both and cover them from a single shared contingency reserve"
+  ],
+  "c": 2,
+  "e": "EMV ignores risk appetite. A risk-averse sponsor weights severe impact more heavily."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "change",
+  "s": "A hybrid project's agile team adopts a new technical approach inside an iteration that affects an interface promised to another team in the predictive part. What is the BEST action?",
+  "o": [
+   "Proceed inside the iteration, since the agile team owns its own backlog and approach",
+   "Raise a change against the integration baseline and agree the impact with the other team",
+   "Ask the predictive team to adapt its side and confirm after the iteration ends",
+   "Hold the new approach until final integration testing and then reconcile the interface"
+  ],
+  "c": 1,
+  "e": "In hybrid delivery, interface commitments are controlled across approaches. Coordinate through the agreed governance."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "external",
+  "s": "A competitor announces a feature that makes part of your project's planned value obsolete. The project is on schedule. What should you do?",
+  "o": [
+   "Assess the impact on the business case and bring options to the sponsor",
+   "Keep to the approved plan, since the project is still on schedule",
+   "Add an equivalent feature to scope straight away to match the competitor",
+   "Pause delivery spend until the market settles, then reassess later in the year"
+  ],
+  "c": 0,
+  "e": "External changes must be evaluated against value. The decision belongs to the sponsor and governance."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "org change",
+  "s": "The project will change how 200 staff do their daily work. Training is planned but resistance is building. What would BEST support the organisational change?",
+  "o": [
+   "Extend the training programme with extra hours and refresher sessions for all 200 staff",
+   "Postpone go-live until resistance has settled, then resume the planned rollout",
+   "Engage impacted groups early, use champions and align leaders on benefits",
+   "Have leadership mandate use of the new process through a formal policy notice"
+  ],
+  "c": 2,
+  "e": "Organisational change depends on engagement, sponsorship and champions, not only training or mandate."
+ },
+ {
+  "d": "Business Environment",
+  "l": 2,
+  "t": "improvement",
+  "s": "At the end of each iteration the team finds the same integration problem. What is the BEST way to drive continuous improvement?",
+  "o": [
+   "Agree an experiment at the retrospective with an owner and check the result next time",
+   "Record the problem as a lesson learned and review it with the sponsor at project close",
+   "Add an integration phase at the end of the release to catch such problems",
+   "Assign one person to monitor integration and report issues to the manager each week"
+  ],
+  "c": 0,
+  "e": "Continuous improvement uses small experiments with owners and checks, not deferred lessons."
+ },
+ {
+  "d": "Business Environment",
+  "l": 3,
+  "t": "governance",
+  "s": "A project manager in a matrix organisation realises that two functional managers have conflicting priorities for the same resource and no governance group exists to arbitrate. What should you do?",
+  "o": [
+   "Escalate to the common sponsor or portfolio owner and propose a decision forum",
+   "Allocate the resource to whichever manager has the more senior position",
+   "Bring in contractors to cover both managers' demands and log the extra cost as a risk",
+   "Pause the project until the two managers settle their priorities themselves"
+  ],
+  "c": 0,
+  "e": "Governance defines who decides. When it is missing, establish or escalate to the authority that can decide."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "conflict",
+  "s": "Two team members from different cultures keep misreading each other's direct and indirect communication styles. The work is slipping. What is the BEST approach?",
+  "o": [
+   "Refer the matter to HR to coach both people on cross-cultural communication",
+   "Facilitate a talk on communication styles and agree working norms",
+   "Move one of them to a different workstream so they stop interacting",
+   "Ask both to follow the project manager's communication style for all exchanges"
+  ],
+  "c": 1,
+  "e": "Build shared norms and cultural awareness. Separation or escalation skips the simplest fix."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "stakeholders",
+  "s": "A stakeholder you have classified as high power, low interest begins publicly criticising the project on social media. What is the BEST action?",
+  "o": [
+   "Publish a factual rebuttal of the criticism on the project's own channels",
+   "Take no action, since low interest means the comments will probably fade soon",
+   "Meet them privately to understand the concern and adjust the engagement plan",
+   "Ask the sponsor to tell the stakeholder to stop commenting on the project"
+  ],
+  "c": 2,
+  "e": "Engage directly to understand and resolve the concern. Suppression or public rebuttal escalates the problem."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "knowledge",
+  "s": "A critical team member will leave in two weeks and holds undocumented knowledge. What is the MOST effective way to help ensure knowledge transfer?",
+  "o": [
+   "Bring in an outside consultant to rebuild the knowledge after the person leaves",
+   "Ask them to write a detailed handover document during their final week",
+   "Log the departure as a risk and accept it, since two weeks is too short",
+   "Start now with pairing, recorded walkthroughs and a successor handover"
+  ],
+  "c": 3,
+  "e": "Knowledge transfer works best through active pairing and walkthroughs planned early, not a late document."
+ },
+ {
+  "d": "People",
+  "l": 2,
+  "t": "communication",
+  "s": "The communications management plan says weekly status email, but stakeholders say they never read it. What should you do?",
+  "o": [
+   "Move to a twice-weekly email so the status is harder for people to miss",
+   "Ask stakeholders how they want to receive information and update the plan",
+   "Keep the weekly email as planned, since the stakeholders approved the plan",
+   "Replace the weekly email with a monthly summary to reduce reader fatigue"
+  ],
+  "c": 1,
+  "e": "Communication is effective only when received. Update the plan from stakeholder feedback."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "agile",
+  "s": "A self-organising team makes a decision you believe is wrong but which is within their authority and not a risk to compliance. What do you do?",
+  "o": [
+   "Share your concern and data, let the team decide and review the result",
+   "Take the issue to the sponsor and ask for a ruling on the team's decision",
+   "Overrule the decision and direct the team to the approach you prefer",
+   "Say nothing and let the team learn from the outcome without any input"
+  ],
+  "c": 0,
+  "e": "A servant leader informs but respects the team's decision rights, then learns from the result."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "vision",
+  "s": "Team members describe the project goal in three different ways. What should you do?",
+  "o": [
+   "Circulate the charter and ask each member to restate the goal in writing",
+   "Choose the clearest of the three versions and publish it as the project goal",
+   "Facilitate a session to build a shared vision linked to the business case",
+   "Let the descriptions stand, as long as everyone delivers their own tasks on time"
+  ],
+  "c": 2,
+  "e": "A common vision is built with the team and tied to the value the project delivers."
+ },
+ {
+  "d": "People",
+  "l": 3,
+  "t": "expectations",
+  "s": "A stakeholder expects a feature to be delivered at no extra cost, but it is not in the agreed scope. What is the BEST step?",
+  "o": [
+   "Decline the request and point to the signed scope without further discussion",
+   "Have the team fit it in within existing capacity without raising a cost",
+   "Deliver it as a goodwill gesture and recover the cost on a later change",
+   "Clarify the scope, explore the need and process it as a change if justified"
+  ],
+  "c": 3,
+  "e": "Align expectations by clarifying scope and the need, then use change control."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "evm",
+  "s": "CPI is 0.80. The sponsor confirms the overspend came from a one-time supplier problem that is now resolved, and the remaining work will be done at the budgeted rate. Which EAC formula is MOST appropriate?",
+  "o": [
+   "BAC − EV",
+   "AC + (BAC − EV) / (CPI × SPI)",
+   "BAC / CPI",
+   "AC + (BAC − EV)"
+  ],
+  "c": 3,
+  "e": "When variance is atypical and future work proceeds at the budgeted rate, use EAC = AC + (BAC − EV). BAC / CPI assumes the inefficiency continues."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "schedule",
+  "s": "Activity D has a duration of 6 days, an early start of day 10 and a late finish of day 20. What is its total float?",
+  "o": [
+   "0 days",
+   "4 days",
+   "6 days",
+   "10 days"
+  ],
+  "c": 1,
+  "e": "Early finish = 16. Float = late finish − early finish = 20 − 16 = 4 days."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "procurement",
+  "s": "A fixed-price contract has a scope that the seller says is incomplete. The seller wants more money. The buyer's requirements document was unclear. What should you do?",
+  "o": [
+   "Reject the claim outright, since a fixed price puts all scope risk on the seller",
+   "Offer a partial payment now and settle the rest of the dispute in final negotiations",
+   "Review with procurement and legal and issue a change order if the increase is justified",
+   "Terminate for default and re-tender the work with a clearer scope statement"
+  ],
+  "c": 2,
+  "e": "Unclear buyer requirements may justify a change. Follow the contract and use a formal change order."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "scope",
+  "s": "A requirement in the traceability matrix has no linked test case. What should you do?",
+  "o": [
+   "Mark it verified on the basis of the developer's demonstration of the feature",
+   "Add a test for it or confirm through change control that it is no longer needed",
+   "Remove the row from the matrix so the traceability record stays complete",
+   "Leave the gap and note it in the register, as the matrix is a guide and not a gate"
+  ],
+  "c": 1,
+  "e": "Traceability exposes verification gaps. Close the gap with a test, or remove the requirement through change control, never quietly."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "quality",
+  "s": "Defects found by customers are rising while internal testing shows few. What is the BEST first action?",
+  "o": [
+   "Analyse the cause by comparing test coverage with customer usage and close the gap",
+   "Add more testers to the internal test cycle to raise the number of defects found",
+   "Extend the warranty period so customers feel covered while defects are fixed",
+   "Ask support to triage incoming customer defect reports and cap how many reach the team"
+  ],
+  "c": 0,
+  "e": "Find the root cause (a coverage gap) before adding effort."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "agile",
+  "s": "A team's burn-up chart shows scope rising at the same rate as work completed, so the finish line never gets closer. What is the BEST response?",
+  "o": [
+   "Ask the team to raise its velocity so the work catches up with the scope",
+   "Extend the release date to absorb the added scope and keep all items",
+   "Freeze the backlog and refuse any new items without consulting the product owner",
+   "Take it to the product owner to prioritise and agree what is out of the release"
+  ],
+  "c": 3,
+  "e": "Rising scope shown on a burn-up is a prioritisation conversation with the product owner."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "closure",
+  "s": "The customer will not sign off at closure because the support team has not been trained. What should you do?",
+  "o": [
+   "Check whether training is in scope and agree a path to acceptance with the customer",
+   "Ask the sponsor to sign off on the customer's behalf so closure can proceed",
+   "Close the project on the delivery date and record the training gap as a follow-up",
+   "Archive the project records and hand the training issue over to the support team lead"
+  ],
+  "c": 0,
+  "e": "Closure needs acceptance and transition. Confirm scope and agree a path to acceptance."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "value",
+  "s": "An item on the backlog has a high effort and low value. The team enjoys working on it. What should the PM encourage?",
+  "o": [
+   "Re-rank with the product owner by value and do the highest-value items first",
+   "Let the team finish the item, since motivation drives the quality of delivery",
+   "Remove all low-value items from the backlog to keep it short and focused",
+   "Outsource the item to a contractor so the team can move on to other work"
+  ],
+  "c": 0,
+  "e": "Value-based delivery prioritises business value over team preference."
+ },
+ {
+  "d": "Process",
+  "l": 3,
+  "t": "finance",
+  "s": "The project is under budget but the sponsor wants to reallocate the unspent money to another project. Funds were approved for this project's cost baseline. What do you do?",
+  "o": [
+   "Refuse the request, since the funds were approved for this project only",
+   "Move the funds yourself and record it as a forecast adjustment next month",
+   "Release the funds to the sponsor once the team confirms no further spend is needed",
+   "Request the reallocation through governance and funding procedures"
+  ],
+  "c": 3,
+  "e": "Reallocating approved funds is a governance decision, not a PM discretion."
+ }
 ]
